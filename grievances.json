@@ -1,0 +1,627 @@
+[
+  {
+    "ticket_id": "GRV-2026-7089",
+    "created_at": "2026-09-10 01:18",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-10 01:18",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-7089 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-10 01:23",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-3183",
+    "created_at": "2026-09-10 01:17",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-10 01:17",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-3183 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-10 01:22",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-5353",
+    "created_at": "2026-09-09 23:30",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-09 23:30",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-5353 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-09 23:35",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-7674",
+    "created_at": "2026-09-09 01:12",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-09 01:12",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-7674 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-09 01:17",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-1515",
+    "created_at": "2026-09-09 01:11",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-09 01:11",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-1515 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-09 01:16",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-4467",
+    "created_at": "2026-09-09 01:11",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-09 01:11",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-4467 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-09 01:16",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-6732",
+    "created_at": "2026-09-08 01:08",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-08 01:08",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-6732 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-08 01:13",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-3758",
+    "created_at": "2026-09-08 01:06",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-08 01:06",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-3758 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-08 01:11",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-9555",
+    "created_at": "2026-09-08 01:00",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-08 01:00",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-9555 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-08 01:05",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-6475",
+    "created_at": "2026-09-08 01:00",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-08 01:00",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-6475 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-08 01:05",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-6456",
+    "created_at": "2026-09-07 01:31",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-07 01:31",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-6456 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-07 01:36",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-5749",
+    "created_at": "2026-09-07 01:19",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-07 01:19",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-5749 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-07 01:24",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-7102",
+    "created_at": "2026-09-07 01:10",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-07 01:10",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-7102 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-07 01:15",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-7084",
+    "created_at": "2026-09-04 01:09",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-04 01:09",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-7084 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-04 01:14",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "GRV-2026-9017",
+    "created_at": "2026-09-04 01:09",
+    "farmer_name": "K. Ramanjaneyulu",
+    "phone": "9848011223",
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "Delay in sanctioning 0% interest crop loan despite prompt repayment.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-04 01:09",
+        "stage": "Grievance Lodged",
+        "note": "Ticket GRV-2026-9017 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-04 01:14",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur, Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "ticket_id": "AP-GRV-2026-6702",
+    "created_at": "2026-09-03 01:11",
+    "farmer_name": "R. Venkat Rao",
+    "phone": "9848011223",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "PACS Secretary delaying KCC crop loan sanction without reason.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-03 01:11",
+        "stage": "Grievance Lodged",
+        "note": "Ticket AP-GRV-2026-6702 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-03 01:16",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur & Registrar."
+      }
+    ]
+  },
+  {
+    "ticket_id": "AP-GRV-2026-7840",
+    "created_at": "2026-09-02 01:23",
+    "farmer_name": "R. Venkat Rao",
+    "phone": "9848011223",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "PACS Secretary delaying KCC crop loan sanction without reason.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-02 01:23",
+        "stage": "Grievance Lodged",
+        "note": "Ticket AP-GRV-2026-7840 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-02 01:28",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur & Registrar."
+      }
+    ]
+  },
+  {
+    "ticket_id": "AP-GRV-2026-7574",
+    "created_at": "2026-09-02 01:23",
+    "farmer_name": "R. Venkat Rao",
+    "phone": "9848011223",
+    "district": "Guntur",
+    "mandal": "Tenali",
+    "village_pacs": "Kolakaluru PACS",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay / Rejection",
+      "te": "పిఎసిఎస్ పంట రుణాల జాప్యం / తిరస్కరణ",
+      "hi": "पैक्स फसल ऋण वितरण में देरी / अस्वीकृति"
+    },
+    "description": "PACS Secretary delaying KCC crop loan sanction without reason.",
+    "status": "Registered",
+    "priority": "Standard",
+    "timeline": [
+      {
+        "date": "2026-09-02 01:23",
+        "stage": "Grievance Lodged",
+        "note": "Ticket AP-GRV-2026-7574 created successfully via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-09-02 01:28",
+        "stage": "Automated Routing",
+        "note": "Assigned to District Cooperative Officer (DCO) - Guntur & Registrar."
+      }
+    ]
+  },
+  {
+    "ticket_id": "AP-GRV-2026-1042",
+    "created_at": "2026-08-28 10:15:00",
+    "farmer_name": "K. Venkata Subba Rao (వెంకట సుబ్బారావు)",
+    "phone": "9848012345",
+    "district": "Guntur (గుంటూరు)",
+    "mandal": "Tenali (తెనాలి)",
+    "village_pacs": "Kolakaluru PACS (కొలకలూరు పిఎసిఎస్)",
+    "category": "pacs_loan",
+    "category_name": {
+      "en": "PACS Crop Loan Disbursal Delay",
+      "te": "పిఎసిఎస్ పంట రుణాల చెల్లింపులో జాప్యం",
+      "hi": "पैक्स फसल ऋण वितरण में देरी"
+    },
+    "description": "Applied for Kharif Paddy Scale of Finance loan of Rs. 65,000 with CCRC card 30 days ago. Passbook verified but loan disbursement pending.",
+    "status": "In Progress",
+    "priority": "High",
+    "timeline": [
+      {
+        "date": "2026-08-28 10:15",
+        "stage": "Grievance Lodged",
+        "note": "Ticket generated via Sahakara Mitra Portal."
+      },
+      {
+        "date": "2026-08-29 14:30",
+        "stage": "Assigned to DCO",
+        "note": "Forwarded to District Cooperative Officer, Guntur."
+      },
+      {
+        "date": "2026-08-31 11:00",
+        "stage": "Field Verification",
+        "note": "Cooperative Sub-Registrar visited PACS; bank sanction pending."
+      }
+    ]
+  },
+  {
+    "ticket_id": "AP-GRV-2026-2189",
+    "created_at": "2026-08-30 15:40:00",
+    "farmer_name": "S. Lakshmi Devi (ఎస్. లక్ష్మీ దేవి)",
+    "phone": "9440198765",
+    "district": "Krishna (కృష్ణా)",
+    "mandal": "Gudivada (గుడివాడ)",
+    "village_pacs": "Mallayapalem PACS (మల్లయ్యపాలెం)",
+    "category": "fertilizer_shortage",
+    "category_name": {
+      "en": "Fertilizer Stock & Pricing Issue",
+      "te": "ఆర్బీకేలో ఎరువుల నిల్వ & ధర సమస్య",
+      "hi": "उर्वरक उपलब्धता और मूल्य समस्या"
+    },
+    "description": "Local dealer demanding extra Rs. 70 per bag of DAP above statutory MRP.",
+    "status": "Resolved",
+    "priority": "Urgent",
+    "timeline": [
+      {
+        "date": "2026-08-30 15:40",
+        "stage": "Grievance Lodged",
+        "note": "Urgent ticket created."
+      },
+      {
+        "date": "2026-08-31 09:15",
+        "stage": "Inspection Ordered",
+        "note": "Agriculture Officer inspected store."
+      },
+      {
+        "date": "2026-09-01 16:00",
+        "stage": "Resolved",
+        "note": "Overcharging stopped, correct MRP restored, and warning letter issued."
+      }
+    ]
+  }
+]

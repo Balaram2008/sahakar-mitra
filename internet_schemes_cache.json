@@ -1,0 +1,897 @@
+[
+  {
+    "id": "internet-pradhan-mantri-kisan-urja-suraksha-",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Yojana (Live Web Scheme)",
+      "te": "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Yojana (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Yojana (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM) Yojana was launched in March 2019 by the Government of India to...",
+      "te": "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Yojana వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Yojana कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM) Yojana was launched in March 2019 by the Government of India to increase the income of farmers and provide sources of irrigation and de-dieselization the agricultural sector. To receive the benefit of this scheme farmers need to install solar irrigation pumps for cultivation. Under this scheme, the government of...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM) Yojana was launched in March 2019 by the Government of India to increase the income of farmers and provide sources of irrigation and de-dieselization the agricultural sector. To receive the benefit of this scheme farmers need to install solar irrigation pumps for cultivation. Under this scheme, the government of...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM) Yojana was launched in March 2019 by the Government of India to increase the income of farmers and provide sources of irrigation and de-dieselization the agricultural sector. To receive the benefit of this scheme farmers need to install solar irrigation pumps for cultivation. Under this scheme, the government of...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Yojana guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Yojana or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Yojana అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Yojana के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Pradhan%20Mantri%20Kisan%20Urja%20Suraksha%20Evam%20Utthan%20Mahabhiyan%20Yojana"
+  },
+  {
+    "id": "internet-solar-power-in-india",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Solar power in India (Live Web Scheme)",
+      "te": "Solar power in India (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Solar power in India (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Solar power is an important source of electricity in India. \nSince the mid-2010s, India has increased its solar power significantl...",
+      "te": "Solar power in India వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Solar power in India कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "Solar power is an important source of electricity in India. \nSince the mid-2010s, India has increased its solar power significantly with the help of various government initiatives. By July 2026, India's solar power installed capacity reached 164.59 GWAC. \nThe nation is one of the world's fastest adopters of solar power, making it the third-largest producer of solar power global...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "Solar power is an important source of electricity in India. \nSince the mid-2010s, India has increased its solar power significantly with the help of various government initiatives. By July 2026, India's solar power installed capacity reached 164.59 GWAC. \nThe nation is one of the world's fastest adopters of solar power, making it the third-largest producer of solar power global...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "Solar power is an important source of electricity in India. \nSince the mid-2010s, India has increased its solar power significantly with the help of various government initiatives. By July 2026, India's solar power installed capacity reached 164.59 GWAC. \nThe nation is one of the world's fastest adopters of solar power, making it the third-largest producer of solar power global...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Solar power in India guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Solar power in India or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Solar power in India అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Solar power in India के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Solar%20power%20in%20India"
+  },
+  {
+    "id": "internet-dr-rajendra-prasad-central-agricult",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Dr. Rajendra Prasad Central Agriculture University (Live Web Scheme)",
+      "te": "Dr. Rajendra Prasad Central Agriculture University (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Dr. Rajendra Prasad Central Agriculture University (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Dr. Rajendra Prasad Central Agricultural University, formerly known as Rajendra Agricultural University, is a public central agric...",
+      "te": "Dr. Rajendra Prasad Central Agriculture University వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Dr. Rajendra Prasad Central Agriculture University कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "Dr. Rajendra Prasad Central Agricultural University, formerly known as Rajendra Agricultural University, is a public central agriculture university under the Department of Agricultural Research and Education of Ministry of Agriculture and Farmers Welfare and is recognised as Institute of National Importance by government of India. It is located in Pusa, Samastipur district, Bih...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "Dr. Rajendra Prasad Central Agricultural University, formerly known as Rajendra Agricultural University, is a public central agriculture university under the Department of Agricultural Research and Education of Ministry of Agriculture and Farmers Welfare and is recognised as Institute of National Importance by government of India. It is located in Pusa, Samastipur district, Bih...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "Dr. Rajendra Prasad Central Agricultural University, formerly known as Rajendra Agricultural University, is a public central agriculture university under the Department of Agricultural Research and Education of Ministry of Agriculture and Farmers Welfare and is recognised as Institute of National Importance by government of India. It is located in Pusa, Samastipur district, Bih...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Dr. Rajendra Prasad Central Agriculture University guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Dr. Rajendra Prasad Central Agriculture University or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Dr. Rajendra Prasad Central Agriculture University అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Dr. Rajendra Prasad Central Agriculture University के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Dr.%20Rajendra%20Prasad%20Central%20Agriculture%20University",
+    "is_internet": true
+  },
+  {
+    "id": "internet-polytunnel",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Polytunnel (Live Web Scheme)",
+      "te": "Polytunnel (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Polytunnel (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "A polytunnel (also known as a polyhouse, hoop greenhouse, or hoophouse, grow tunnel or high tunnel) is a tunnel typically made fro...",
+      "te": "Polytunnel వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Polytunnel कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "A polytunnel (also known as a polyhouse, hoop greenhouse, or hoophouse, grow tunnel or high tunnel) is a tunnel typically made from steel and covered in polyethylene, usually semi-circular, square or elongated in shape. The interior heats up because incoming solar radiation from the sun warms plants, soil, and other things inside the building faster than heat can escape the str...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "A polytunnel (also known as a polyhouse, hoop greenhouse, or hoophouse, grow tunnel or high tunnel) is a tunnel typically made from steel and covered in polyethylene, usually semi-circular, square or elongated in shape. The interior heats up because incoming solar radiation from the sun warms plants, soil, and other things inside the building faster than heat can escape the str...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "A polytunnel (also known as a polyhouse, hoop greenhouse, or hoophouse, grow tunnel or high tunnel) is a tunnel typically made from steel and covered in polyethylene, usually semi-circular, square or elongated in shape. The interior heats up because incoming solar radiation from the sun warms plants, soil, and other things inside the building faster than heat can escape the str...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Polytunnel guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Polytunnel or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Polytunnel అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Polytunnel के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Polytunnel",
+    "is_internet": true
+  },
+  {
+    "id": "internet-indian-institute-of-horticultural-r",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Indian Institute of Horticultural Research (Live Web Scheme)",
+      "te": "Indian Institute of Horticultural Research (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Indian Institute of Horticultural Research (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "The Indian Institute of Horticultural Research (IIHR) is an autonomous organization acting as a nodal agency for basic, strategic,...",
+      "te": "Indian Institute of Horticultural Research వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Indian Institute of Horticultural Research कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "The Indian Institute of Horticultural Research (IIHR) is an autonomous organization acting as a nodal agency for basic, strategic, anticipatory and applied research on various aspects of horticulture such as fruits, vegetable, ornamental, medicinal and aromatic plants and mushrooms in India. The institute has its headquarters in Bengaluru, Karnataka, India and is a subsidiary o...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "The Indian Institute of Horticultural Research (IIHR) is an autonomous organization acting as a nodal agency for basic, strategic, anticipatory and applied research on various aspects of horticulture such as fruits, vegetable, ornamental, medicinal and aromatic plants and mushrooms in India. The institute has its headquarters in Bengaluru, Karnataka, India and is a subsidiary o...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "The Indian Institute of Horticultural Research (IIHR) is an autonomous organization acting as a nodal agency for basic, strategic, anticipatory and applied research on various aspects of horticulture such as fruits, vegetable, ornamental, medicinal and aromatic plants and mushrooms in India. The institute has its headquarters in Bengaluru, Karnataka, India and is a subsidiary o...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Indian Institute of Horticultural Research guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Indian Institute of Horticultural Research or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Indian Institute of Horticultural Research అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Indian Institute of Horticultural Research के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Indian%20Institute%20of%20Horticultural%20Research",
+    "is_internet": true
+  },
+  {
+    "id": "internet-ministry-of-micro-small-and-medium-",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Ministry of Micro, Small and Medium Enterprises (Live Web Scheme)",
+      "te": "Ministry of Micro, Small and Medium Enterprises (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Ministry of Micro, Small and Medium Enterprises (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "The Ministry of Micro, Small and Medium Enterprises is the ministry in the Government of India. It is the apex executive body for ...",
+      "te": "Ministry of Micro, Small and Medium Enterprises వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Ministry of Micro, Small and Medium Enterprises कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "The Ministry of Micro, Small and Medium Enterprises is the ministry in the Government of India. It is the apex executive body for the formulation and administration of rules, regulations and laws relating to micro, small and medium enterprises in India. The Minister of Micro, Small and Medium Enterprises is Jitan Ram Manjhi.\nThe statistics provided by the annual reports of the ...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "The Ministry of Micro, Small and Medium Enterprises is the ministry in the Government of India. It is the apex executive body for the formulation and administration of rules, regulations and laws relating to micro, small and medium enterprises in India. The Minister of Micro, Small and Medium Enterprises is Jitan Ram Manjhi.\nThe statistics provided by the annual reports of the ...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "The Ministry of Micro, Small and Medium Enterprises is the ministry in the Government of India. It is the apex executive body for the formulation and administration of rules, regulations and laws relating to micro, small and medium enterprises in India. The Minister of Micro, Small and Medium Enterprises is Jitan Ram Manjhi.\nThe statistics provided by the annual reports of the ...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Ministry of Micro, Small and Medium Enterprises guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Ministry of Micro, Small and Medium Enterprises or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Ministry of Micro, Small and Medium Enterprises అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Ministry of Micro, Small and Medium Enterprises के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Ministry%20of%20Micro%2C%20Small%20and%20Medium%20Enterprises",
+    "is_internet": true
+  },
+  {
+    "id": "internet-khadi-and-village-industries-commis",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Khadi and Village Industries Commission (Live Web Scheme)",
+      "te": "Khadi and Village Industries Commission (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Khadi and Village Industries Commission (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "The Khadi and Village Industries Commission (KVIC) is a statutory body formed in April 1957  by the Government of India, under the...",
+      "te": "Khadi and Village Industries Commission వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Khadi and Village Industries Commission कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "The Khadi and Village Industries Commission (KVIC) is a statutory body formed in April 1957  by the Government of India, under the Act of Parliament, 'Khadi and Village Industries Commission Act of 1956'. It is an apex organisation under the Ministry of Micro, Small and Medium Enterprises, with regard to khadi and village industries within India, which seeks to — \"plan, promote...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "The Khadi and Village Industries Commission (KVIC) is a statutory body formed in April 1957  by the Government of India, under the Act of Parliament, 'Khadi and Village Industries Commission Act of 1956'. It is an apex organisation under the Ministry of Micro, Small and Medium Enterprises, with regard to khadi and village industries within India, which seeks to — \"plan, promote...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "The Khadi and Village Industries Commission (KVIC) is a statutory body formed in April 1957  by the Government of India, under the Act of Parliament, 'Khadi and Village Industries Commission Act of 1956'. It is an apex organisation under the Ministry of Micro, Small and Medium Enterprises, with regard to khadi and village industries within India, which seeks to — \"plan, promote...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Khadi and Village Industries Commission guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Khadi and Village Industries Commission or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Khadi and Village Industries Commission అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Khadi and Village Industries Commission के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Khadi%20and%20Village%20Industries%20Commission",
+    "is_internet": true
+  },
+  {
+    "id": "internet-ayushman-bharat-yojana",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Ayushman Bharat Yojana (Live Web Scheme)",
+      "te": "Ayushman Bharat Yojana (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Ayushman Bharat Yojana (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) is a national public health insurance scheme of the Government of Ind...",
+      "te": "Ayushman Bharat Yojana వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Ayushman Bharat Yojana कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) is a national public health insurance scheme of the Government of India that aims to provide\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) is a national public health insurance scheme of the Government of India that aims to provide\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) is a national public health insurance scheme of the Government of India that aims to provide\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Ayushman Bharat Yojana guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Ayushman Bharat Yojana or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Ayushman Bharat Yojana అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Ayushman Bharat Yojana के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Ayushman%20Bharat%20Yojana",
+    "is_internet": true
+  },
+  {
+    "id": "internet-list-of-schemes-of-the-government-o",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "List of schemes of the government of India (Live Web Scheme)",
+      "te": "List of schemes of the government of India (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "List of schemes of the government of India (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Standard India. Retrieved 10 April 2022. \"Mamata accuses Modi of taking credit for Ayushman Bharat, WB quits scheme\". Business Sta...",
+      "te": "List of schemes of the government of India వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "List of schemes of the government of India कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "Standard India. Retrieved 10 April 2022. \"Mamata accuses Modi of taking credit for Ayushman Bharat, WB quits scheme\". Business Standard India. Press Trust\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "Standard India. Retrieved 10 April 2022. \"Mamata accuses Modi of taking credit for Ayushman Bharat, WB quits scheme\". Business Standard India. Press Trust\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "Standard India. Retrieved 10 April 2022. \"Mamata accuses Modi of taking credit for Ayushman Bharat, WB quits scheme\". Business Standard India. Press Trust\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under List of schemes of the government of India guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for List of schemes of the government of India or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "List of schemes of the government of India అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "List of schemes of the government of India के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/List%20of%20schemes%20of%20the%20government%20of%20India",
+    "is_internet": true
+  },
+  {
+    "id": "internet-pune-metropolitan-region",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Pune Metropolitan Region (Live Web Scheme)",
+      "te": "Pune Metropolitan Region (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Pune Metropolitan Region (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Pune Metropolitan Region (PMR) is the metropolitan region around the city of Pune, Maharashtra, India. According to practical purp...",
+      "te": "Pune Metropolitan Region వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Pune Metropolitan Region कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "Pune Metropolitan Region (PMR) is the metropolitan region around the city of Pune, Maharashtra, India. According to practical purposes, PMR comprises two Municipal Corporations of PMC, PCMC and three Cantonment Boards, spread over an area of 7,256.46 km2. The population of the region as per 2011 census was 7,541,946. It Contributes 80% GDP to Pune District and 9.2% GDP to Mahar...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "Pune Metropolitan Region (PMR) is the metropolitan region around the city of Pune, Maharashtra, India. According to practical purposes, PMR comprises two Municipal Corporations of PMC, PCMC and three Cantonment Boards, spread over an area of 7,256.46 km2. The population of the region as per 2011 census was 7,541,946. It Contributes 80% GDP to Pune District and 9.2% GDP to Mahar...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "Pune Metropolitan Region (PMR) is the metropolitan region around the city of Pune, Maharashtra, India. According to practical purposes, PMR comprises two Municipal Corporations of PMC, PCMC and three Cantonment Boards, spread over an area of 7,256.46 km2. The population of the region as per 2011 census was 7,541,946. It Contributes 80% GDP to Pune District and 9.2% GDP to Mahar...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Pune Metropolitan Region guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Pune Metropolitan Region or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Pune Metropolitan Region అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Pune Metropolitan Region के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Pune%20Metropolitan%20Region",
+    "is_internet": true
+  },
+  {
+    "id": "internet-pune",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Pune (Live Web Scheme)",
+      "te": "Pune (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Pune (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Pune (Marathi: Puṇē, pronounced [ˈpuɳe] ), previously spelled in English as Poona (the official name until 1978), is a city in the...",
+      "te": "Pune వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Pune कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "Pune (Marathi: Puṇē, pronounced [ˈpuɳe] ), previously spelled in English as Poona (the official name until 1978), is a city in the state of Maharashtra in the Deccan Plateau in Western India. It is the administrative headquarters of the Pune district, and of Pune division. In terms of the total amount of land under its jurisdiction, Pune is the largest city in Maharashtra by ar...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "Pune (Marathi: Puṇē, pronounced [ˈpuɳe] ), previously spelled in English as Poona (the official name until 1978), is a city in the state of Maharashtra in the Deccan Plateau in Western India. It is the administrative headquarters of the Pune district, and of Pune division. In terms of the total amount of land under its jurisdiction, Pune is the largest city in Maharashtra by ar...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "Pune (Marathi: Puṇē, pronounced [ˈpuɳe] ), previously spelled in English as Poona (the official name until 1978), is a city in the state of Maharashtra in the Deccan Plateau in Western India. It is the administrative headquarters of the Pune district, and of Pune division. In terms of the total amount of land under its jurisdiction, Pune is the largest city in Maharashtra by ar...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Pune guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Pune or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Pune అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Pune के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Pune",
+    "is_internet": true
+  },
+  {
+    "id": "internet-transnistria",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Transnistria (Live Web Scheme)",
+      "te": "Transnistria (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Transnistria (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Transnistria, officially known as the Pridnestrovian Moldavian Republic (PMR) and locally as Pridnestrovie, is a landlocked breaka...",
+      "te": "Transnistria వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Transnistria कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "Transnistria, officially known as the Pridnestrovian Moldavian Republic (PMR) and locally as Pridnestrovie, is a landlocked breakaway state internationally recognised as part of Moldova. Transnistria controls most of the narrow strip of land between the Dniester river and the Moldova–Ukraine border, as well as some land on the other side of the river's bank. Its capital and lar...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "Transnistria, officially known as the Pridnestrovian Moldavian Republic (PMR) and locally as Pridnestrovie, is a landlocked breakaway state internationally recognised as part of Moldova. Transnistria controls most of the narrow strip of land between the Dniester river and the Moldova–Ukraine border, as well as some land on the other side of the river's bank. Its capital and lar...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "Transnistria, officially known as the Pridnestrovian Moldavian Republic (PMR) and locally as Pridnestrovie, is a landlocked breakaway state internationally recognised as part of Moldova. Transnistria controls most of the narrow strip of land between the Dniester river and the Moldova–Ukraine border, as well as some land on the other side of the river's bank. Its capital and lar...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Transnistria guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Transnistria or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Transnistria అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Transnistria के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Transnistria",
+    "is_internet": true
+  },
+  {
+    "id": "internet-galina-antyufeyeva",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Galina Antyufeyeva (Live Web Scheme)",
+      "te": "Galina Antyufeyeva (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Galina Antyufeyeva (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Galina Mikhailovna Antyufeyeva (Russian: Галина Михайловна Антюфеева, Romanian: Galina Mihailovna Antiufeeva; born January 6, 1960...",
+      "te": "Galina Antyufeyeva వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Galina Antyufeyeva कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "Galina Mikhailovna Antyufeyeva (Russian: Галина Михайловна Антюфеева, Romanian: Galina Mihailovna Antiufeeva; born January 6, 1960) is a Transnistrian politician and the wife of the breakaway state's former Minister for National Security, Vladimir Antyufeyev.\nShe was born on 6 January 1960 in Belogorsk, Amur Oblast, in Russia. In 1989 she graduated from Chișinău agricultural in...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "Galina Mikhailovna Antyufeyeva (Russian: Галина Михайловна Антюфеева, Romanian: Galina Mihailovna Antiufeeva; born January 6, 1960) is a Transnistrian politician and the wife of the breakaway state's former Minister for National Security, Vladimir Antyufeyev.\nShe was born on 6 January 1960 in Belogorsk, Amur Oblast, in Russia. In 1989 she graduated from Chișinău agricultural in...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "Galina Mikhailovna Antyufeyeva (Russian: Галина Михайловна Антюфеева, Romanian: Galina Mihailovna Antiufeeva; born January 6, 1960) is a Transnistrian politician and the wife of the breakaway state's former Minister for National Security, Vladimir Antyufeyev.\nShe was born on 6 January 1960 in Belogorsk, Amur Oblast, in Russia. In 1989 she graduated from Chișinău agricultural in...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Galina Antyufeyeva guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Galina Antyufeyeva or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Galina Antyufeyeva అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Galina Antyufeyeva के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Galina%20Antyufeyeva",
+    "is_internet": true
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "apcs-act-1964",
+    "act_name": {
+      "en": "Andhra Pradesh Co-operative Societies Act, 1964 (APCS Act)",
+      "te": "ఆంధ్రప్రదేశ్ సహకార సంఘాల చట్టం, 1964 (APCS చట్టం)",
+      "hi": "आंध्र प्रदेश सहकारी समिति अधिनियम, 1964"
+    },
+    "jurisdiction": {
+      "en": "All Primary, Central, and Apex Cooperative Societies in Andhra Pradesh",
+      "te": "ఆంధ్రప్రదేశ్‌లోని అన్ని ప్రాథమిక, జిల్లా మరియు రాష్ట్ర స్థాయి సహకార సంఘాలు",
+      "hi": "आंध्र प्रदेश की सभी प्राथमिक, केंद्रीय और शीर्ष सहकारी समितियां"
+    },
+    "sections": [
+      {
+        "section_no": "Section 19 & 21",
+        "title": {
+          "en": "Membership Eligibility, Rights & Disqualification",
+          "te": "సభ్యత్వ అర్హతలు, హక్కులు మరియు అనర్హతలు",
+          "hi": "सदस्यता पात्रता, अधिकार और अयोग्यता"
+        },
+        "summary": {
+          "en": "Any individual cultivating land within the area of operation is entitled to PACS membership. No eligible farmer can be refused membership without written valid grounds. Expulsion requires a 2/3rd majority resolution approved by the Registrar.",
+          "te": "సహకార సంఘ పరిధిలోని రైతులందరికీ సభ్యత్వం పొందే హక్కు ఉంది. సరైన కారణం లేకుండా ఏ రైతుకూ సభ్యత్వం నిరాకరించరాదు. సభ్యుడిని తొలగించాలంటే సాధారణ సభలో 2/3 వంతు మెజారిటీ మరియు రిజిస్ట్రార్ అనుమతి తప్పనిసరి.",
+          "hi": "समिति के कार्यक्षेत्र का कोई भी किसान सदस्य बनने का पात्र है। बिना वैध कारण के सदस्यता से इनकार नहीं किया जा सकता।"
+        }
+      },
+      {
+        "section_no": "Section 25",
+        "title": {
+          "en": "Voting Rights - One Member One Vote Principle",
+          "te": "ఓటు హక్కు - ఒక సభ్యుడు ఒకే ఓటు సూత్రం",
+          "hi": "मतदान का अधिकार - एक सदस्य एक वोट सिद्धांत"
+        },
+        "summary": {
+          "en": "Every member has exactly one vote, irrespective of share capital owned. Proxy voting is strictly prohibited. Members must attend at least 2 general body meetings within 5 years to retain active voting status.",
+          "te": "వాటా మూలధనంతో సంబంధం లేకుండా ప్రతి సభ్యునికి ఒకే ఓటు హక్కు ఉంటుంది. ప్రాక్సీ (బినామీ) ఓటింగ్ పూర్తిగా నిషేధం. ఓటు హక్కు నిలబడాలంటే 5 సంవత్సరాలలో కనీసం 2 సర్వసభ్య సమావేశాలకు హాజరు కావాలి.",
+          "hi": "शेयर पूंजी की परवाह किए बिना प्रत्येक सदस्य को केवल एक वोट का अधिकार है। प्रॉक्सी वोटिंग प्रतिबंधित है।"
+        }
+      },
+      {
+        "section_no": "Section 31 & 32",
+        "title": {
+          "en": "Managing Committee Elections, Quorum & Reservations",
+          "te": "పాలకవర్గం ఎన్నికలు, కోరం మరియు రిజర్వేషన్లు",
+          "hi": "प्रबंध समिति चुनाव, कोरम और आरक्षण"
+        },
+        "summary": {
+          "en": "Committee members are elected for a 5-year tenure through transparent secret ballot. Mandatory reservation seats for Small/Marginal Farmers, SC/ST, and Women members on every PACS board.",
+          "te": "సహకార సంఘ పాలకవర్గ పదవీకాలం 5 సంవత్సరాలు. పారదర్శక రహస్య బ్యాలెట్ ద్వారా ఎన్నికలు జరుగుతాయి. చిన్న/సన్నకారు రైతులు, ఎస్సీ/ఎస్టీ మరియు మహిళలకు పాలకవర్గంలో తప్పనిసరి రిజర్వేషన్లు ఉంటాయి.",
+          "hi": "समिति का कार्यकाल 5 वर्ष का होता है। छोटे किसानों, एससी/एसटी और महिलाओं के लिए अनिवार्य आरक्षण सीटें निर्धारित हैं।"
+        }
+      },
+      {
+        "section_no": "Section 50 & 51",
+        "title": {
+          "en": "Statutory Audit and Official Inquiry into Malpractices",
+          "te": "చట్టబద్ధమైన ఆడిట్ మరియు అక్రమాలపై సెక్షన్ 51 విచారణ",
+          "hi": "सांविधिक ऑडिट और कदाचार की धारा 51 के तहत जांच"
+        },
+        "summary": {
+          "en": "Registrar of Cooperative Societies (RCS) conducts mandatory annual auditing. If at least 1/3rd members or Committee requests, an inquiry under Section 51 is ordered into misappropriation or governance failure.",
+          "te": "ప్రతి సంవత్సరం తప్పనిసరిగా ప్రభుత్వ ఆడిట్ నిర్వహించాలి. సంఘంలో నిధుల దుర్వినియోగం జరిగితే 1/3 వంతు సభ్యుల వినతిపై సెక్షన్ 51 కింద జిల్లా సహకార అధికారి అధికారిక విచారణ జరుపుతారు.",
+          "hi": "वार्षिक ऑडिट अनिवार्य है। वित्तीय गबन की स्थिति में 1/3 सदस्यों के अनुरोध पर धारा 51 के तहत जांच का प्रावधान है।"
+        }
+      },
+      {
+        "section_no": "Section 60 & 61",
+        "title": {
+          "en": "Surcharge Proceedings & Cooperative Dispute Redressal",
+          "te": "సెక్షన్ 60 రికవరీ (సర్ఛార్జ్) మరియు సెక్షన్ 61 వివాద పరిష్కారం",
+          "hi": "सरचार्ज कार्यवाही और धारा 61 विवाद निवारण"
+        },
+        "summary": {
+          "en": "Persons guilty of defalcation or unauthorized spending face recovery surcharge under Sec 60 with interest. All internal disputes (loans, elections, management) are adjudicated under Sec 61 by Cooperative Tribunal.",
+          "te": "సంఘం నిధులు దుర్వినియోగం చేసిన వారి నుండి సెక్షన్ 60 కింద వడ్డీతో సహా రికవరీ చేస్తారు. సభ్యుల మధ్య లేదా పాలకవర్గ వివాదాలు కో-ఆపరేటివ్ ట్రిబ్యునల్ (Sec 61) ద్వారా పరిష్కరించబడతాయి.",
+          "hi": "वित्तीय हानि पहुंचाने वाले अधिकारियों/सदस्यों से धारा 60 के तहत वसूली की जाती है और विवाद ट्रिब्यूनल सुलझाता है।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "model-pacs-bylaws",
+    "act_name": {
+      "en": "Model By-Laws for Multipurpose PACS (Ministry of Cooperation, 2022-2024)",
+      "te": "బహుళ ప్రయోజన పిఎసిఎస్ (PACS) మోడల్ బై-లాస్ (కేంద్ర సహకార మంత్రిత్వ శాఖ)",
+      "hi": "बहुउद्देशीय पैक्स (PACS) हेतु मॉडल उप-नियम (सहकारिता मंत्रालय)"
+    },
+    "jurisdiction": {
+      "en": "Adoptable by all Primary Agricultural Credit Societies across India",
+      "te": "దేశవ్యాప్తంగా అన్ని ప్రాథమిక వ్యవసాయ సహకార పరపతి సంఘాలకు వర్తింపు",
+      "hi": "देशभर की सभी प्राथमिक कृषि साख समितियों द्वारा अंगीकार योग्य"
+    },
+    "sections": [
+      {
+        "section_no": "By-Law 4",
+        "title": {
+          "en": "25+ Diversified Business Activities for PACS",
+          "te": "పిఎసిఎస్‌ల కోసం 25+ బహుముఖ వ్యాపార కార్యకలాపాలు",
+          "hi": "पैक्स के लिए 25+ विविधीकृत व्यावसायिक गतिविधियां"
+        },
+        "summary": {
+          "en": "PACS can now operate as Common Service Centres (CSCs), Jan Aushadhi generic drug stores, LPG gas distributors, retail petrol pumps, water supply providers, and Custom Hiring Centres for drone/harvester rentals.",
+          "te": "PACS కేవలం రుణాలు ఇవ్వడమే కాకుండా కామన్ సర్వీస్ సెంటర్లు (CSC), జన్ ఔషధి మందుల దుకాణాలు, పెట్రోల్ బంకులు, గ్యాస్ ఏజెన్సీలు, వ్యవసాయ డ్రోన్లు/ట్రాక్టర్ల అద్దె కేంద్రాలుగా మారవచ్చు.",
+          "hi": "पैक्स अब सीएससी केंद्र, जन औषधि केंद्र, पेट्रोल पंप, गैस वितरण और कृषि ड्रोन किराए पर देने जैसे व्यवसाय कर सकती हैं।"
+        }
+      },
+      {
+        "section_no": "By-Law 12",
+        "title": {
+          "en": "Transparent Loan Appraisal & Maximum Borrowing Limit (MBL)",
+          "te": "పారదర్శక రుణ మంజూరు & గరిష్ట రుణ పరిమితి",
+          "hi": "पारदर्शी ऋण मूल्यांकन और अधिकतम ऋण सीमा"
+        },
+        "summary": {
+          "en": "Loans are evaluated based on Scale of Finance determined by District Level Technical Committee (DLTC). Timely release of funds directly to beneficiary accounts with digital acknowledgments.",
+          "te": "జిల్లా స్థాయి సాంకేతిక కమిటీ (DLTC) నిర్ణయించిన స్కేల్ ఆఫ్ ఫైనాన్స్ ఆధారంగా పంట రుణాలు మంజూరు. నిధులు నేరుగా సభ్యుల ఖాతాలోనే జమవుతాయి.",
+          "hi": "जिले की तकनीकी समिति द्वारा निर्धारित स्केल ऑफ फाइनेंस के आधार पर सीधा बैंक खाते में ऋण वितरण।"
+        }
+      },
+      {
+        "section_no": "By-Law 28",
+        "title": {
+          "en": "Dividend Distribution & Reserve Fund Allocations",
+          "te": "డివిడెండ్ పంపిణీ మరియు రిజర్వ్ నిధి నిబంధనలు",
+          "hi": "लाभांश वितरण और आरक्षित निधि आवंटन"
+        },
+        "summary": {
+          "en": "Minimum 25% of annual net profits transferred to statutory Reserve Fund. Maximum dividend payable to members on share capital is capped at 15% per annum.",
+          "te": "సంవత్సర నికర లాభంలో కనీసం 25% రిజర్వ్ ఫండ్‌కు కేటాయించాలి. సభ్యుల వాటాపై గరిష్టంగా 15% వరకు వార్షిక డివిడెండ్ చెల్లించవచ్చు.",
+          "hi": "वार्षिक शुद्ध लाभ का न्यूनतम 25% रिजर्व फंड में जाता है। सदस्यों को शेयर पर अधिकतम 15% लाभांश दिया जा सकता है।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "farmer-rights-charter",
+    "act_name": {
+      "en": "Cooperative Member Rights & Citizen Charter (రైతుల హక్కులు)",
+      "te": "సహకార సంఘ సభ్యుల హక్కుల పత్రం & సిటిజన్ చార్టర్",
+      "hi": "सहकारी सदस्य अधिकार एवं नागरिक चार्टर"
+    },
+    "jurisdiction": {
+      "en": "Guaranteed Rights for every Farmer & Cooperative Society Member",
+      "te": "ప్రతి రైతు మరియు సహకార సభ్యునికి చట్టబద్ధమైన హక్కులు",
+      "hi": "प्रत्येक किसान एवं सहकारी सदस्य के सुनिश्चित अधिकार"
+    },
+    "sections": [
+      {
+        "section_no": "Right 1",
+        "title": {
+          "en": "Right to Fair Loan Access & No Discrimination",
+          "te": "సమాన రుణ హక్కు & వివక్ష లేని సేవలు",
+          "hi": "समान ऋण प्राप्ति का अधिकार"
+        },
+        "summary": {
+          "en": "Every member with valid land records or tenant CCRC has the right to crop loans based on eligibility without political, caste, or personal bias.",
+          "te": "సరైన రికార్డులు లేదా కౌలు CCRC ఉన్న ఏ సభ్యునికైనా రాజకీయ లేదా కుల వివక్ష లేకుండా పంట రుణాలు పొందే పూర్తి హక్కు ఉంది.",
+          "hi": "पात्रता रखने वाले प्रत्येक सदस्य को बिना किसी भेदभाव के फसल ऋण पाने का पूर्ण अधिकार है।"
+        }
+      },
+      {
+        "section_no": "Right 2",
+        "title": {
+          "en": "Right to Inspect Books of Accounts and Society Passbook",
+          "te": "ఖాతా పుస్తకాలు, ఆడిట్ నివేదికలను పరిశీలించే హక్కు",
+          "hi": "लेखा बहियों एवं ऑडिट रिपोर्ट निरीक्षण का अधिकार"
+        },
+        "summary": {
+          "en": "Members can request inspection of the society balance sheet, share ledger, and profit-loss statement during regular working hours.",
+          "te": "సభ్యులు సంఘం కార్యాలయ పనివేళల్లో లెక్కల పుస్తకాలు, లాభనష్టాల నివేదికలు, ఆడిట్ వివరాలను చూసే హక్కు కలిగి ఉంటారు.",
+          "hi": "सदस्यों को कार्य समय में बैलेंस शीट, ऑडिट रिपोर्ट और बहीखाते देखने का अधिकार है।"
+        }
+      },
+      {
+        "section_no": "Right 3",
+        "title": {
+          "en": "Right to Grievance Redressal within 15-30 Days",
+          "te": "15-30 రోజుల్లో ఫిర్యాదు పరిష్కారం పొందే హక్కు",
+          "hi": "15-30 दिनों में शिकायत निवारण का अधिकार"
+        },
+        "summary": {
+          "en": "Grievances filed with the Secretary or District Cooperative Officer (DCO) must be acknowledged within 48 hours and settled within 30 days under Spandana guidelines.",
+          "te": "సహకార సంఘ కార్యదర్శి లేదా జిల్లా సహకార అధికారికి సమర్పించిన ఫిర్యాదులు 48 గంటల్లో నమోదు చేయబడి, 30 రోజుల్లో పరిష్కరించబడాలి.",
+          "hi": "शिकायतों की 48 घंटे में पावती और 30 दिनों के भीतर समाधान सुनिश्चित किया जाना आवश्यक है।"
+        }
+      }
+    ]
+  }
+]

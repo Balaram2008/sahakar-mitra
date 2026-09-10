@@ -1,0 +1,20 @@
+{
+  "name": "sahakara-mitra",
+  "version": "3.0.0",
+  "description": "Sahakara Mitra All-India Cooperative Governance & Schemes Web Portal",
+  "main": "server.py",
+  "scripts": {
+    "start": "python server.py",
+    "test": "python test_server.py"
+  },
+  "keywords": [
+    "flask",
+    "cooperative",
+    "agriculture",
+    "schemes",
+    "india",
+    "multilingual"
+  ],
+  "author": "Sahakara Mitra Team",
+  "license": "MIT"
+}

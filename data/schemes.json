@@ -1,0 +1,2122 @@
+[
+  {
+    "id": "ap-annadata-sukhibhava",
+    "state_id": "ap",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri N. Chandrababu Naidu",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ నారా చంద్రబాబు నాయుడు",
+      "hi": "माननीय मुख्यमंत्री श्री एन. चंद्रबाबू नायडू"
+    },
+    "leader_image": "/static/images/cms/cm_ap.jpg",
+    "title": {
+      "en": "Annadata Sukhibhava / Rythu Bharosa (₹20,000/Year)",
+      "te": "అన్నదాత సుఖీభవ / రైతు భరోసా (ఏడాదికి ₹20,000)",
+      "hi": "अन्नदाता सुखीभव / रायथू भरोसा (₹20,000/वर्ष)"
+    },
+    "tagline": {
+      "en": "₹20,000 Annual Direct Aid (₹14,000 State + ₹6,000 PM-KISAN)",
+      "te": "రైతులకు ఏడాదికి ₹20,000 ఆర్థిక సాయం (రాష్ట్రం ₹14,000 + పీఎం కిసాన్ ₹6,000)",
+      "hi": "किसानों को ₹20,000 वार्षिक सहायता (राज्य ₹14,000 + केंद्र ₹6,000)"
+    },
+    "authority": {
+      "en": "Govt. of Andhra Pradesh",
+      "te": "ఆంధ్రప్రదేశ్ ప్రభుత్వం",
+      "hi": "आंध्र प्रदेश सरकार"
+    },
+    "benefits": {
+      "en": "Direct bank transfer in 3 installments (Kharif, Rabi, Sankranti). Covers CCRC tenant farmers.",
+      "te": "ఖరీఫ్, రబీ, సంక్రాంతి విడతల్లో జమ. CCRC కౌలు రైతులకు వర్తింపు.",
+      "hi": "3 किस्तों में बैंक खाते में सीधा भुगतान।"
+    },
+    "eligibility": {
+      "en": "Landowning and registered tenant farmers in AP.",
+      "te": "ఏపీలోని పట్టాదారు మరియు కౌలు రైతులు.",
+      "hi": "आंध्र प्रदेश के सभी पात्र किसान व बटाईदार।"
+    },
+    "documents": {
+      "en": [
+        "Pattadar Passbook / 1B",
+        "Aadhaar Card",
+        "Bank Account",
+        "CCRC Card"
+      ],
+      "te": [
+        "పట్టాదారు పాస్‌బుక్ / 1B",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా",
+        "CCRC కార్డు"
+      ],
+      "hi": [
+        "पट्टा पासबुक",
+        "आधार कार्ड",
+        "बैंक खाता",
+        "सीसीआरसी कार्ड"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register at village Rythu Seva Kendra (RSK / RBK).",
+      "te": "గ్రామ ఆర్బీకే (RSK) లో నమోదు చేసుకోండి.",
+      "hi": "ग्राम आरबीके (RSK) में पंजीकरण कराएं।"
+    },
+    "icon": "fa-hand-holding-dollar",
+    "color": "#16a34a",
+    "badge": "AP State Flagship",
+    "scheme_image": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "ap-free-crop-insurance",
+    "state_id": "ap",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri N. Chandrababu Naidu",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ నారా చంద్రబాబు నాయుడు",
+      "hi": "माननीय मुख्यमंत्री श्री एन. चंद्रबाबू नायडू"
+    },
+    "leader_image": "/static/images/cms/cm_ap.jpg",
+    "title": {
+      "en": "AP 100% Free Crop Insurance (Uchitha Vyavasaya Bima)",
+      "te": "ఆంధ్రప్రదేశ్ 100% ఉచిత పంటల బీమా పథకం",
+      "hi": "आंध्र प्रदेश 100% मुफ्त फसल बीमा योजना"
+    },
+    "tagline": {
+      "en": "Zero Premium on Farmers - AP Govt pays 100% premium for e-Crop registered acreage",
+      "te": "రైతులపై సున్నా భారం - ఇ-పంట నమోదుకు ప్రభుత్వమే 100% ప్రీమియం చెల్లింపు",
+      "hi": "किसानों पर 0% प्रीमियम - 100% बीमा प्रीमियम राज्य सरकार द्वारा वहन"
+    },
+    "authority": {
+      "en": "APGICL & Dept of Agriculture, AP",
+      "te": "వ్యవసాయ శాఖ & APGICL, ఆంధ్రప్రదేశ్",
+      "hi": "कृषि विभाग, आंध्र प्रदेश सरकार"
+    },
+    "benefits": {
+      "en": "Full automatic compensation for crop damage without farmer premium contribution.",
+      "te": "పంట నష్టానికి ఆటోమేటిక్ పూర్తి పరిహారం.",
+      "hi": "फसल क्षति पर स्वतः शत-प्रतिशत मुआवजा।"
+    },
+    "eligibility": {
+      "en": "All farmers with notified crops booked on e-Crop.",
+      "te": "ఇ-పంటలో నమోదైన రైతులందరూ.",
+      "hi": "ई-क्रॉप में पंजीकृत सभी किसान।"
+    },
+    "documents": {
+      "en": [
+        "e-Crop Digital Sowing Receipt",
+        "Aadhaar Card",
+        "Bank Details"
+      ],
+      "te": [
+        "ఇ-పంట రసీదు",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "ई-क्रॉप रसीद",
+        "आधार कार्ड",
+        "बैंक विवरण"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete physical verification at RSK during sowing season.",
+      "te": "విత్తనం నాటిన వెంటనే ఆర్బీకేలో ఇ-పంట నమోదు చేయించుకోండి.",
+      "hi": "बुआई के समय ग्राम आरबीके में ई-क्रॉप सत्यापन कराएं।"
+    },
+    "icon": "fa-shield-halved",
+    "color": "#0284c7",
+    "badge": "100% Free Insurance",
+    "scheme_image": "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "ap-vaddi-leni-runalu",
+    "state_id": "ap",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri N. Chandrababu Naidu",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ నారా చంద్రబాబు నాయుడు",
+      "hi": "माननीय मुख्यमंत्री श्री एन. चंद्रबाबू नायडू"
+    },
+    "leader_image": "/static/images/cms/cm_ap.jpg",
+    "title": {
+      "en": "AP Vaddi Leni Runalu (0% Interest Loans up to ₹1 Lakh)",
+      "te": "ఆంధ్రప్రదేశ్ వడ్డీ లేని రుణాలు (0% సున్నా వడ్డీ పంట రుణాలు)",
+      "hi": "आंध्र प्रदेश 0% ब्याज फसल ऋण (₹1 लाख तक)"
+    },
+    "tagline": {
+      "en": "0% Net Interest on PACS & Cooperative Bank loans repaid within 12 months",
+      "te": "12 నెలల్లోపు రుణం తీర్చే రైతులకు పిఎసిఎస్ ద్వారా ₹1 లక్ష వరకు 0% వడ్డీ రుణాలు",
+      "hi": "पैक्स एवं सहकारी बैंकों से ₹1 लाख तक समय पर चुकाने पर 0% शुद्ध ब्याज"
+    },
+    "authority": {
+      "en": "APCOB, DCCBs & PACS, Govt. of AP",
+      "te": "ఆప్కాబ్, డిసిసిబి, పిఎసిఎస్ & ఏపీ ప్రభుత్వం",
+      "hi": "अपकॉब, डीसीसीबी, पैक्स एवं आंध्र सरकार"
+    },
+    "benefits": {
+      "en": "100% of interest charged by banks is reimbursed directly into farmer accounts.",
+      "te": "బ్యాంకు వసూలు చేసిన పూర్తి వడ్డీని ప్రభుత్వమే రీయింబర్స్ చేస్తుంది.",
+      "hi": "बैंक द्वारा लिए गए पूरे ब्याज की प्रतिपूर्ति सीधे किसान खाते में।"
+    },
+    "eligibility": {
+      "en": "Farmers availing crop loans up to ₹1.00 Lakh from PACS/DCCBs.",
+      "te": "పిఎసిఎస్ నుండి ₹1 లక్ష వరకు పంట రుణం పొందిన రైతులు.",
+      "hi": "पैक्स से ₹1 लाख तक फसल ऋण लेने वाले किसान।"
+    },
+    "documents": {
+      "en": [
+        "PACS Loan Passbook",
+        "Repayment Receipt",
+        "Aadhaar Card"
+      ],
+      "te": [
+        "పిఎసిఎస్ పాస్‌బుక్",
+        "చెల్లింపు రసీదు",
+        "ఆధార్ కార్డు"
+      ],
+      "hi": [
+        "पैक्स पासबुक",
+        "भुगतान रसीद",
+        "आधार कार्ड"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your village Primary Agricultural Credit Society (PACS).",
+      "te": "మీ గ్రామ ప్రాథమిక వ్యవసాయ సహకార సంఘం (PACS) ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "अपनी ग्राम प्राथमिक कृषि ऋण समिति (PACS) द्वारा आवेदन करें।"
+    },
+    "icon": "fa-coins",
+    "color": "#ea580c",
+    "badge": "0% Interest Credit",
+    "scheme_image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "tg-rythu-bharosa",
+    "state_id": "tg",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Revanth Reddy",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ ఎ. రేవంత్ రెడ్డి",
+      "hi": "माननीय मुख्यमंत्री श्री ए. रेवंत रेड्डी"
+    },
+    "title": {
+      "en": "Telangana Rythu Bharosa (₹15,000/Acre/Year)",
+      "te": "తెలంగాణ రైతు భరోసా (ఎకరాకు ఏడాదికి ₹15,000)",
+      "hi": "तेलंगाना रायथू भरोसा (₹15,000/एकड़/वर्ष)"
+    },
+    "tagline": {
+      "en": "Direct Investment Support of ₹15,000 per acre per year for crop inputs",
+      "te": "వ్యవసాయ పెట్టుబడి సాయంగా ఎకరాకు ఏడాదికి ₹15,000 నేరుగా రైతుల ఖాతాల్లో జమ",
+      "hi": "कृषि निवेश सहायता के रूप में ₹15,000 प्रति एकड़ प्रति वर्ष प्रत्यक्ष लाभ"
+    },
+    "authority": {
+      "en": "Agriculture & Cooperation Dept, Telangana",
+      "te": "వ్యవసాయ శాఖ, తెలంగాణ ప్రభుత్వం",
+      "hi": "कृषि विभाग, तेलंगाना सरकार"
+    },
+    "benefits": {
+      "en": "Disbursed per acre for Kharif & Rabi seasons; covers small, marginal, and tenant farmers.",
+      "te": "ఖరీఫ్, రబీ సీజన్లకు ఎకరాకు చొప్పున నిధుల బదిలీ.",
+      "hi": "खरीफ एवं रबी सीजन के लिए प्रति एकड़ भुगतान।"
+    },
+    "eligibility": {
+      "en": "Landowning farmers with Dharani passbooks and registered tenant farmers.",
+      "te": "ధరణి పాస్‌బుక్ కలిగిన రైతులు మరియు కౌలు రైతులు.",
+      "hi": "धरणी पासबुक धारक एवं पंजीकृत बटाईदार किसान।"
+    },
+    "documents": {
+      "en": [
+        "Dharani Passbook",
+        "Aadhaar Card",
+        "Bank Passbook"
+      ],
+      "te": [
+        "ధరణి పాస్‌బుక్",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "धरणी पासबुक",
+        "आधार कार्ड",
+        "बैंक खाता"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Auto-credited based on Dharani portal records and Rythu Vedika registration.",
+      "te": "ధరణి పోర్టల్ మరియు రైతు వేదికల ద్వారా స్వయంచాలకంగా జమ.",
+      "hi": "धरणी पोर्टल एवं रायथू वेदिका के माध्यम से स्वतः वितरण।"
+    },
+    "icon": "fa-seedling",
+    "color": "#059669",
+    "badge": "Telangana State",
+    "leader_image": "/static/images/cms/cm_tg.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "ka-krishi-bhagya",
+    "state_id": "ka",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Siddaramaiah",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ సిద్ధరామయ్య",
+      "hi": "माननीय मुख्यमंत्री श्री सिद्धारमैया"
+    },
+    "title": {
+      "en": "Karnataka Krishi Bhagya & Farm Ponds Scheme",
+      "te": "కర్ణాటక కృషి భాగ్య & వ్యవసాయ కుంటల పథకం",
+      "hi": "कर्नाटक कृषि भाग्य एवं खेत तालाब योजना"
+    },
+    "tagline": {
+      "en": "Up to 90% Subsidy for Farm Ponds, Polythene Lining & Micro-Irrigation in Drylands",
+      "te": "వర్షాధార ప్రాంతాల్లో వ్యవసాయ కుంటలు మరియు బిందు సేద్యం కోసం 90% వరకు సబ్సిడీ",
+      "hi": "शुष्क क्षेत्रों में खेत तालाबों और ड्रिप सिंचाई हेतु 90% तक सब्सिडी"
+    },
+    "authority": {
+      "en": "Department of Agriculture, Karnataka",
+      "te": "వ్యవసాయ శాఖ, కర్ణాటక ప్రభుత్వం",
+      "hi": "कृषि विभाग, कर्नाटक सरकार"
+    },
+    "benefits": {
+      "en": "80% to 90% financial assistance for digging farm ponds, diesel pump sets, and sprinklers.",
+      "te": "వ్యవసాయ కుంటలు, పంపుసెట్లు, స్ప్రింక్లర్లపై 80-90% ఆర్థిక సహాయం.",
+      "hi": "खेत तालाब निर्माण और स्प्रिंकलर प्रणाली पर 80-90% अनुदान।"
+    },
+    "eligibility": {
+      "en": "Dryland farmers in Karnataka registered on FRUITS portal.",
+      "te": "కర్ణాటక ఫ్రూట్స్ (FRUITS) పోర్టల్‌లో నమోదైన రైతులు.",
+      "hi": "कर्नाटक फ्रूट्स (FRUITS) पोर्टल पर पंजीकृत किसान।"
+    },
+    "documents": {
+      "en": [
+        "FRUITS FID Number",
+        "RTC / Pahani",
+        "Aadhaar Card"
+      ],
+      "te": [
+        "ఫ్రూట్స్ (FRUITS) ఐడీ",
+        "ఆర్టీసీ / పహానీ",
+        "ఆధార్ కార్డు"
+      ],
+      "hi": [
+        "फ्रूट्स एफआईडी",
+        "आरटीसी/खतौनी",
+        "आधार कार्ड"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Raitha Samparka Kendras (RSK) or Seva Sindhu.",
+      "te": "రైత సంపర్క కేంద్రాలు (RSK) లేదా సేవా సింధు ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "रैथ संपर्क केंद्र या सेवा सिंधु द्वारा आवेदन करें।"
+    },
+    "icon": "fa-water",
+    "color": "#0891b2",
+    "badge": "Karnataka State",
+    "leader_image": "/static/images/cms/cm_ka.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "tn-kalaignar-agri",
+    "state_id": "tn",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri C. Joseph Vijay",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ సి. జోసెఫ్ విజయ్",
+      "hi": "माननीय मुख्यमंत्री श्री सी. जोसेफ विजय"
+    },
+    "title": {
+      "en": "TN Kalaignar All Village Integrated Agri Development",
+      "te": "తమిళనాడు కలైంజర్ సమగ్ర గ్రామీణ వ్యవసాయ అభివృద్ధి పథకం",
+      "hi": "तमिलनाडु कलैग्नार समग्र ग्रामीण कृषि विकास योजना"
+    },
+    "tagline": {
+      "en": "Transforming fallow lands into cultivable farmlands with solar pumps & input kits",
+      "te": "బీడు భూములను సాగు భూములుగా మార్చడం, సోలార్ పంపులు, విత్తనాల కిట్ల పంపిణీ",
+      "hi": "परती भूमि को कृषि योग्य बनाना, सोलर पंप एवं मुफ्त बीज किट वितरण"
+    },
+    "authority": {
+      "en": "Agriculture & Farmers Welfare Dept, Tamil Nadu",
+      "te": "వ్యవసాయ శాఖ, తమిళనాడు ప్రభుత్వం",
+      "hi": "कृषि विभाग, तमिलनाडु सरकार"
+    },
+    "benefits": {
+      "en": "Free saplings, seed kits, 70% solar pump set subsidies, and community drip irrigation.",
+      "te": "ఉచిత పండ్ల మొక్కలు, విత్తనాల కిట్లు, 70% సబ్సిడీతో సోలార్ పంపుసెట్లు.",
+      "hi": "मुफ्त बीज किट और 70% सब्सिडी पर सोलर पंप सेट।"
+    },
+    "eligibility": {
+      "en": "Farmers in Tamil Nadu registered on Uzhavan mobile app.",
+      "te": "ఉళవన్ (Uzhavan) యాప్‌లో నమోదైన తమిళనాడు రైతులు.",
+      "hi": "उझावन (Uzhavan) ऐप में पंजीकृत तमिलनाडु के किसान।"
+    },
+    "documents": {
+      "en": [
+        "Patta / Chitta",
+        "Aadhaar Card",
+        "Uzhavan ID"
+      ],
+      "te": [
+        "పట్టా / చిట్టా",
+        "ఆధార్ కార్డు",
+        "ఉళవన్ ఐడీ"
+      ],
+      "hi": [
+        "पट्टा/चिट्टा",
+        "आधार कार्ड",
+        "उझावन आईडी"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Uzhavan Mobile App or through Assistant Agri Officer.",
+      "te": "ఉళవన్ యాప్ లేదా స్థానిక వ్యవసాయ అధికారి ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "उझावन ऐप या सहायक कृषि अधिकारी द्वारा आवेदन करें।"
+    },
+    "icon": "fa-wheat-awn-circle-exclamation",
+    "color": "#d97706",
+    "badge": "Tamil Nadu State",
+    "leader_image": "/static/images/cms/cm_tn.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "kl-subhiksha-keralam",
+    "state_id": "kl",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri V.D. Satheesan",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ వి.డి. సతీశన్",
+      "hi": "माननीय मुख्यमंत्री श्री वी.डी. सतीशन"
+    },
+    "title": {
+      "en": "Kerala Subhiksha Keralam & Paddy Royalty Scheme",
+      "te": "కేరళ సుభిక్ష కేరళం & వరి సాగు రాయల్టీ పథకం",
+      "hi": "केरल सुभिक्षा केरलम एवं धान रॉयल्टी योजना"
+    },
+    "tagline": {
+      "en": "₹5,500/Hectare Annual Royalty for Paddy Cultivators & Integrated Farming Subsidies",
+      "te": "వరి సాగుదారులకు హెక్టారుకు ₹5,500 వార్షిక రాయల్టీ & సమగ్ర వ్యవసాయ సబ్సిడీలు",
+      "hi": "धान उत्पादक किसानों को ₹5,500 प्रति हेक्टेयर वार्षिक रॉयल्टी"
+    },
+    "authority": {
+      "en": "Department of Agriculture Development, Kerala",
+      "te": "వ్యవసాయ శాఖ, కేరళ ప్రభుత్వం",
+      "hi": "कृषि विभाग, केरल सरकार"
+    },
+    "benefits": {
+      "en": "Direct bank transfer of ₹5,500/ha annually to protect wetland paddy fields and Milma dairying.",
+      "te": "వరి పొలాల రక్షణకు ఏటా హెక్టారుకు ₹5,500 నేరుగా బ్యాంక్ ఖాతాలో జమ.",
+      "hi": "धान संरक्षण हेतु ₹5,500/हेक्टेयर वार्षिक प्रत्यक्ष सहायता।"
+    },
+    "eligibility": {
+      "en": "All paddy farmers cultivating in Kerala registered on AIMSKER.",
+      "te": "కేరళలో వరి సాగు చేసే నమోదిత రైతులందరూ.",
+      "hi": "केरल के पंजीकृत धान उत्पादक किसान।"
+    },
+    "documents": {
+      "en": [
+        "Thandapper Certificate",
+        "Aadhaar Card",
+        "Bank Passbook"
+      ],
+      "te": [
+        "తాండప్పేర్ ధృవీకరణ",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "थंडपेर प्रमाण पत्र",
+        "आधार कार्ड",
+        "बैंक पासबुक"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register at AIMS Kerala portal (aims.kerala.gov.in) or visit Krishi Bhavan.",
+      "te": "AIMS కేరళ పోర్టల్ లేదా కృషి భవన్ ద్వారా నమోదు చేసుకోండి.",
+      "hi": "एआईएमएस पोर्टल या कृषि भवन द्वारा आवेदन करें।"
+    },
+    "icon": "fa-leaf",
+    "color": "#15803d",
+    "badge": "Kerala State",
+    "leader_image": "/static/images/cms/cm_kl.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "mh-namo-shetkari",
+    "state_id": "mh",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Devendra Fadnavis",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ దేవేంద్ర ఫడ్నవీస్",
+      "hi": "माननीय मुख्यमंत्री श्री देवेंद्र फडणवीस"
+    },
+    "title": {
+      "en": "Maharashtra Namo Shetkari Mahasanman Nidhi (₹12,000/Year)",
+      "te": "మహారాష్ట్ర నమో శేత్కరి మహాసన్మాన్ నిధి (ఏడాదికి ₹12,000)",
+      "hi": "महाराष्ट्र नमो शेतकरी महासम्मान निधि (₹12,000/वर्ष)"
+    },
+    "tagline": {
+      "en": "₹6,000 State Top-Up + ₹6,000 PM-KISAN = ₹12,000 Annual Aid & ₹1 Crop Insurance",
+      "te": "మహారాష్ట్ర రైతుల కోసం ఏడాదికి ₹12,000 నగదు సాయం మరియు ₹1కే పంటల బీమా",
+      "hi": "किसानों को ₹6,000 राज्य + ₹6,000 केंद्र = ₹12,000 एवं ₹1 में फसल बीमा"
+    },
+    "authority": {
+      "en": "Department of Agriculture, Maharashtra",
+      "te": "వ్యవసాయ శాఖ, మహారాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि विभाग, महाराष्ट्र सरकार"
+    },
+    "benefits": {
+      "en": "₹12,000 total annual income support and full crop insurance coverage by paying just ₹1.",
+      "te": "రైతులకు ₹12,000 వార్షిక సాయం & కేవలం ₹1తో పూర్తి పంటల బీమా రక్షణ.",
+      "hi": "₹12,000 वार्षिक सहायता और मात्र ₹1 में फसल बीमा सुरक्षा।"
+    },
+    "eligibility": {
+      "en": "PM-KISAN beneficiary farmers in Maharashtra with active 7/12 land records.",
+      "te": "మహారాష్ట్రలో 7/12 రికార్డులు గల పీఎం కిసాన్ రైతులందరూ.",
+      "hi": "7/12 खतौनी वाले महाराष्ट्र के किसान।"
+    },
+    "documents": {
+      "en": [
+        "7/12 Extract",
+        "Aadhaar Card",
+        "Bank Account"
+      ],
+      "te": [
+        "7/12 రికార్డు",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "7/12 नकल",
+        "आधार कार्ड",
+        "बैंक खाता"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Auto-disbursed via MahaDBT portal linked with PM-KISAN database.",
+      "te": "మహాడీబీటీ (MahaDBT) పోర్టల్ ద్వారా నేరుగా జమ.",
+      "hi": "महाडीबीटी पोर्टल द्वारा सीधे बैंक खाते में भुगतान।"
+    },
+    "icon": "fa-indian-rupee-sign",
+    "color": "#f59e0b",
+    "badge": "Maharashtra State",
+    "leader_image": "/static/images/cms/cm_mh.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "gj-kisan-sahay",
+    "state_id": "gj",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Bhupendra bhai Patel",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ భూపేంద్ర పటేల్",
+      "hi": "माननीय मुख्यमंत्री श्री भूपेंद्र भाई पटेल"
+    },
+    "title": {
+      "en": "Gujarat Mukhya Mantri Kisan Sahay Yojana (MMKSY)",
+      "te": "గుజరాత్ ముఖ్యమంత్రి కిసాన్ సహాయ యోజన (MMKSY)",
+      "hi": "गुजरात मुख्यमंत्री किसान सहाय योजना (MMKSY)"
+    },
+    "tagline": {
+      "en": "Zero-Premium Crop Calamity Compensation up to ₹25,000/Hectare for Weather Losses",
+      "te": "రైతులపై సున్నా ప్రీమియం - కరువు, అతివృష్టి నష్టాలకు హెక్టారుకు ₹25,000 వరకు పరిహారం",
+      "hi": "शून्य प्रीमियम फसल आपदा योजना - सूखा या अतिवृष्टि पर ₹25,000/हेक्टेयर तक सहायता"
+    },
+    "authority": {
+      "en": "Agriculture Dept, Govt. of Gujarat",
+      "te": "వ్యవసాయ శాఖ, గుజరాత్ ప్రభుత్వం",
+      "hi": "कृषि विभाग, गुजरात सरकार"
+    },
+    "benefits": {
+      "en": "100% state-funded compensation for >33% crop loss (₹20,000 to ₹25,000/ha).",
+      "te": "పంట నష్టంపై హెక్టారుకు ₹20,000 నుండి ₹25,000 వరకు పూర్తి పరిహారం.",
+      "hi": "फसल नुकसान पर ₹20,000 से ₹25,000 प्रति हेक्टेयर तक सीधा मुआवजा।"
+    },
+    "eligibility": {
+      "en": "All landholding farmers registered in 8-A khata / i-Khedut portal.",
+      "te": "8-A ఖాతా / ఐ-ఖేడుత్ పోర్టల్‌లో నమోదైన గుజరాత్ రైతులందరూ.",
+      "hi": "8-A खाता धारक एवं आई-खेडुत पोर्टल पर पंजीकृत किसान।"
+    },
+    "documents": {
+      "en": [
+        "8-A Land Record",
+        "7/12 Extract",
+        "Aadhaar Card",
+        "Bank Passbook"
+      ],
+      "te": [
+        "8-A రికార్డు",
+        "7/12 పత్రం",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "8-A खतौनी",
+        "7/12 नकल",
+        "आधार कार्ड",
+        "बैंक पासबुक"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through E-Gram centers or online via i-Khedut portal (ikhedut.gujarat.gov.in).",
+      "te": "ఇ-గ్రామ్ కేంద్రాలు లేదా ఐ-ఖేడుత్ పోర్టల్ ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "ई-ग्राम केंद्र या आई-खेडुत पोर्टल द्वारा आवेदन करें।"
+    },
+    "icon": "fa-cloud-sun-rain",
+    "color": "#0284c7",
+    "badge": "Gujarat State",
+    "leader_image": "/static/images/cms/cm_gj.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1628352081506-83c43123ed6d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "ga-shetkari-samruddhi",
+    "state_id": "ga",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Dr. Pramod Sawant",
+      "te": "గౌరవ ముఖ్యమంత్రి డా. ప్రమోద్ సావంత్",
+      "hi": "माननीय मुख्यमंत्री डॉ. प्रमोद सावंत"
+    },
+    "title": {
+      "en": "Goa Shetkari Samruddhi & Dairy Incentives",
+      "te": "గోవా శేత్కరి సమృద్ధి & పాడి ప్రోత్సాహక పథకం",
+      "hi": "गोवा शेतकरी समृद्धि एवं दुग्ध प्रोत्साहन योजना"
+    },
+    "tagline": {
+      "en": "Price Support for Cashew, Arecanut, Paddy & ₹4/Litre Direct Milk Subsidy",
+      "te": "జీడిమామిడి, పోకచెక్క, వరి పంటలకు మద్దతు ధర & లీటరు పాలకు ₹4 ప్రోత్సాహకం",
+      "hi": "काजू, सुपारी, धान हेतु मूल्य समर्थन एवं दूध पर ₹4/लीटर प्रोत्साहन"
+    },
+    "authority": {
+      "en": "Directorate of Agriculture, Goa",
+      "te": "వ్యవసాయ శాఖ, గోవా ప్రభుత్వం",
+      "hi": "कृषि निदेशालय, गोवा सरकार"
+    },
+    "benefits": {
+      "en": "Guaranteed minimum prices for Goan crops and direct milk producer cash subsidies.",
+      "te": "సాంప్రదాయ పంటలకు మద్దతు ధర & పాల ఉత్పత్తిదారులకు ప్రత్యక్ష నగదు బదిలీ.",
+      "hi": "काजू और सुपारी पर समर्थन मूल्य तथा दूध उत्पादकों को सीधा लाभ।"
+    },
+    "eligibility": {
+      "en": "Krishi Card holding farmers and Goa Dairy cooperative members.",
+      "te": "కృషి కార్డు గల గోవా రైతులు మరియు డైరీ సొసైటీ సభ్యులు.",
+      "hi": "कृषि कार्ड धारक किसान एवं दुग्ध सहकारी सदस्य।"
+    },
+    "documents": {
+      "en": [
+        "Goa Krishi Card",
+        "Aadhaar Card",
+        "Bank Account"
+      ],
+      "te": [
+        "గోవా కృషి కార్డు",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "कृषि कार्ड",
+        "आधार कार्ड",
+        "बैंक खाता"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Zonal Agriculture Offices (ZAO) across Goa.",
+      "te": "జోనల్ వ్యవసాయ కార్యాలయాలు (ZAO) ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "जोनल कृषि कार्यालय (ZAO) के माध्यम से आवेदन करें।"
+    },
+    "icon": "fa-cow",
+    "color": "#059669",
+    "badge": "Goa State",
+    "leader_image": "/static/images/cms/cm_ga.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1527153857715-3908f2ae5e81?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "mp-kisan-kalyan",
+    "state_id": "mp",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Dr. Mohan Yadav",
+      "te": "గౌరవ ముఖ్యమంత్రి డా. మోహన్ యాదవ్",
+      "hi": "माननीय मुख्यमंत्री डॉ. मोहन यादव"
+    },
+    "title": {
+      "en": "MP Mukhya Mantri Kisan Kalyan Yojana (₹12,000/Year)",
+      "te": "మధ్యప్రదేశ్ ముఖ్యమంత్రి కిసాన్ కళ్యాణ్ యోజన (ఏడాదికి ₹12,000)",
+      "hi": "मध्य प्रदेश मुख्यमंत्री किसान कल्याण योजना (₹12,000/वर्ष)"
+    },
+    "tagline": {
+      "en": "₹6,000 State Transfer + ₹6,000 PM-KISAN & 0% PACS Crop Loans",
+      "te": "రైతులకు ₹6,000 రాష్ట్ర సాయం + ₹6,000 పీఎం కిసాన్ = ₹12,000 వార్షిక సాయం & 0% సహకార రుణాలు",
+      "hi": "किसानों को ₹6,000 राज्य + ₹6,000 केंद्र = ₹12,000 एवं 0% पैक्स ऋण"
+    },
+    "authority": {
+      "en": "Farmer Welfare & Agri Dept, MP",
+      "te": "రైతు సంక్షేమ శాఖ, మధ్యప్రదేశ్",
+      "hi": "किसान कल्याण विभाग, मध्य प्रदेश"
+    },
+    "benefits": {
+      "en": "₹12,000 total annual income support and interest-free loans via Primary Cooperative Banks.",
+      "te": "ఏడాదికి ₹12,000 నగదు సాయం & సహకార బ్యాంకుల ద్వారా 0% వడ్డీ రుణాలు.",
+      "hi": "₹12,000 वार्षिक सहायता एवं प्राथमिक समितियों से 0% ब्याज पर ऋण।"
+    },
+    "eligibility": {
+      "en": "All landholding farmers in MP registered under SAARA portal.",
+      "te": "సారా (SAARA) పోర్టల్‌లో నమోదైన మధ్యప్రదేశ్ రైతులు.",
+      "hi": "सारा पोर्टल पर पंजीकृत मध्य प्रदेश के किसान।"
+    },
+    "documents": {
+      "en": [
+        "Khasra / Khatauni",
+        "Aadhaar Card",
+        "Samagra ID",
+        "Bank Details"
+      ],
+      "te": [
+        "ఖస్రా / ఖతౌనీ",
+        "ఆధార్ కార్డు",
+        "సమగ్ర ఐడీ",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "खसरा/खतौनी",
+        "आधार कार्ड",
+        "समग्र आईडी",
+        "बैंक विवरण"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Patwari or via SAARA MP portal.",
+      "te": "గ్రామ పట్వారీ లేదా సారా (SAARA) పోర్టల్ ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "पटवारी या सारा पोर्टल द्वारा आवेदन करें।"
+    },
+    "icon": "fa-hand-holding-heart",
+    "color": "#16a34a",
+    "badge": "Madhya Pradesh",
+    "leader_image": "/static/images/cms/cm_mp.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "cg-kisan-nyay",
+    "state_id": "cg",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Vishnu Deo Sai",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ విష్ణు దేవ్ సాయ్",
+      "hi": "माननीय मुख्यमंत्री श्री विष्णु देव साय"
+    },
+    "title": {
+      "en": "Chhattisgarh Rajiv Gandhi Kisan Nyay Yojana (RGKNY)",
+      "te": "ఛత్తీస్‌గఢ్ కిసాన్ న్యాయ్ యోజన",
+      "hi": "छत्तीसगढ़ किसान न्याय योजना"
+    },
+    "tagline": {
+      "en": "Input Subsidy of ₹9,000 to ₹10,000 per acre for Paddy & Millets",
+      "te": "వరి, చిరుధాన్యాల సాగుదారులకు ఎకరాకు ₹9,000 నుండి ₹10,000 వరకు పెట్టుబడి రాయితీ",
+      "hi": "धान व मिलेट्स उत्पादकों को ₹9,000 से ₹10,000 प्रति एकड़ इनपुट सब्सिडी"
+    },
+    "authority": {
+      "en": "Department of Agriculture, Chhattisgarh",
+      "te": "వ్యవసాయ శాఖ, ఛత్తీస్‌గఢ్",
+      "hi": "कृषि विभाग, छत्तीसगढ़"
+    },
+    "benefits": {
+      "en": "Direct bank transfer in 4 installments with guaranteed support pricing for paddy.",
+      "te": "4 విడతల్లో నేరుగా రైతుల ఖాతాల్లో పెట్టుబడి సాయం జమ.",
+      "hi": "4 किस्तों में सीधे बैंक खाते में इनपुट सब्सिडी का भुगतान।"
+    },
+    "eligibility": {
+      "en": "All registered farmers growing paddy/millets on RGKNY portal.",
+      "te": "ఛత్తీస్‌గఢ్‌లో నమోదైన వరి, చిరుధాన్యాల సాగు రైతులు.",
+      "hi": "पंजीकृत धान व मिलेट उत्पादक किसान।"
+    },
+    "documents": {
+      "en": [
+        "B1 / Khasra Record",
+        "Aadhaar Card",
+        "PACS Registration"
+      ],
+      "te": [
+        "B1 / ఖస్రా రికార్డు",
+        "ఆధార్ కార్డు",
+        "సొసైటీ సభ్యత్వ పత్రం"
+      ],
+      "hi": [
+        "B1/खसरा नकल",
+        "आधार कार्ड",
+        "पैक्स पंजीयन"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register through village Primary Agricultural Credit Society (PACS).",
+      "te": "గ్రామ సహకార సంఘం (PACS) ద్వారా నమోదు చేసుకోండి.",
+      "hi": "अपनी प्राथमिक कृषि साख समिति (पैक्स) द्वारा पंजीयन कराएं।"
+    },
+    "icon": "fa-sack-dollar",
+    "color": "#15803d",
+    "badge": "Chhattisgarh",
+    "leader_image": "/static/images/cms/cm_cg.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "up-kisan-rin-mafi",
+    "state_id": "up",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Yogi Adityanath",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ యోగి ఆదిత్యనాథ్",
+      "hi": "माननीय मुख्यमंत्री श्री योगी आदित्यनाथ"
+    },
+    "title": {
+      "en": "UP Kisan Karj Rahat & Solar Pump Subsidy (PM-KUSUM)",
+      "te": "ఉత్తరప్రదేశ్ కిసాన్ రుణ విముక్తి & సోలార్ పంపు సబ్సిడీ",
+      "hi": "उत्तर प्रदेश किसान कर्ज राहत एवं सोलर पंप सब्सिडी"
+    },
+    "tagline": {
+      "en": "Waiver of Crop Loans up to ₹1 Lakh & up to 60% Solar Tubewell Subsidies",
+      "te": "రైతులకు ₹1 లక్ష వరకు పంట రుణాల మాఫీ & 60% వరకు సోలార్ పంపుల సబ్సిడీ",
+      "hi": "किसानों का ₹1 लाख तक ऋण मोचन एवं 60% तक सोलर पंप सब्सिडी"
+    },
+    "authority": {
+      "en": "Department of Agriculture, Uttar Pradesh",
+      "te": "వ్యవసాయ శాఖ, ఉత్తరప్రదేశ్",
+      "hi": "कृषि विभाग, उत्तर प्रदेश"
+    },
+    "benefits": {
+      "en": "Cooperative debt relief and 60% subsidy on solar-powered tubewells.",
+      "te": "సహకార రుణాల నుండి విముక్తి మరియు సోలార్ బోరుబావులపై 60% రాయితీ.",
+      "hi": "ऋणों से राहत और सोलर सिंचाई पंपों पर 60% तक भारी अनुदान।"
+    },
+    "eligibility": {
+      "en": "Small and marginal farmers registered on upagriculture.com.",
+      "te": "యూపీ వ్యవసాయ పోర్టల్‌లో నమోదైన చిన్న రైతులు.",
+      "hi": "upagriculture.com पर पंजीकृत लघु व सीमांत किसान।"
+    },
+    "documents": {
+      "en": [
+        "Khatauni Record",
+        "Aadhaar Card",
+        "Bank Passbook"
+      ],
+      "te": [
+        "ఖతౌనీ రికార్డు",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ పాస్‌బుక్"
+      ],
+      "hi": [
+        "खतौनी नकल",
+        "आधार कार्ड",
+        "बैंक पासबुक"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at upagriculture.com or visit District Agriculture Office.",
+      "te": "upagriculture.com పోర్టల్ ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "upagriculture.com पोर्टल द्वारा आवेदन करें।"
+    },
+    "icon": "fa-solar-panel",
+    "color": "#ea580c",
+    "badge": "Uttar Pradesh",
+    "leader_image": "/static/images/cms/cm_up.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "rj-kisan-mitra-urja",
+    "state_id": "rj",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Bhajan Lal Sharma",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ భజన్ లాల్ శర్మ",
+      "hi": "माननीय मुख्यमंत्री श्री भजन लाल शर्मा"
+    },
+    "title": {
+      "en": "Rajasthan Kisan Mitra Urja & 0% Sahakarita Loans",
+      "te": "రాజస్థాన్ కిసాన్ మిత్ర ఉర్జా & 0% సహకార పంట రుణాలు",
+      "hi": "राजस्थान किसान मित्र ऊर्जा एवं 0% सहकारिता ऋण"
+    },
+    "tagline": {
+      "en": "Free Agri Electricity up to 2000 Units/Month & Interest-Free Crop Loans",
+      "te": "రైతులకు నెలకు 2000 యూనిట్ల వరకు ఉచిత వ్యవసాయ విద్యుత్ & 0% వడ్డీ రుణాలు",
+      "hi": "किसानों को प्रति माह 2000 यूनिट तक मुफ्त बिजली एवं 0% ब्याज ऋण"
+    },
+    "authority": {
+      "en": "Cooperative & Energy Dept, Rajasthan",
+      "te": "సహకార శాఖ, రాజస్థాన్ ప్రభుత్వం",
+      "hi": "सहकारिता विभाग, राजस्थान सरकार"
+    },
+    "benefits": {
+      "en": "Zero electricity bills up to 2000 units and interest-free short-term crop loans via PACS.",
+      "te": "వ్యవసాయ మోటార్లకు నెలకు 2000 యూనిట్ల వరకు కరెంట్ బిల్లు ఉచితం.",
+      "hi": "2000 यूनिट/माह तक बिजली बिल शून्य एवं पैक्स से 0% ब्याज ऋण।"
+    },
+    "eligibility": {
+      "en": "Agricultural power consumers and cooperative members in Rajasthan.",
+      "te": "రాజస్థాన్‌లోని వ్యవసాయ విద్యుత్ కనెక్షన్ గల రైతులు.",
+      "hi": "राजस्थान के कृषि विद्युत उपभोक्ता किसान।"
+    },
+    "documents": {
+      "en": [
+        "Jan Aadhaar Card",
+        "Electricity K-Number",
+        "Khasra Copy"
+      ],
+      "te": [
+        "జన్ ఆధార్ కార్డు",
+        "కరెంట్ బిల్లు కే-నంబర్",
+        "ఖస్రా పత్రాలు"
+      ],
+      "hi": [
+        "जन आधार कार्ड",
+        "बिजली के-नंबर",
+        "खसरा नकल"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Automatic bill waiver via Jan Aadhaar; loan application at local PACS.",
+      "te": "జన్ ఆధార్ ద్వారా ఆటోమేటిక్ సబ్సిడీ; పిఎసిఎస్‌లో రుణ దరఖాస్తు.",
+      "hi": "जन आधार पोर्टल से स्वतः छूट; ऋण हेतु पैक्स में आवेदन करें।"
+    },
+    "icon": "fa-bolt-lightning",
+    "color": "#ca8a04",
+    "badge": "Rajasthan State",
+    "leader_image": "/static/images/cms/cm_rj.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1508873696983-2df5293cb32b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "pb-pani-bachao",
+    "state_id": "pb",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Bhagwant Mann",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ భగవంత్ మాన్",
+      "hi": "माननीय मुख्यमंत्री श्री भगवंत मान"
+    },
+    "title": {
+      "en": "Punjab Paani Bachao Paise Kamao & Machinery Subsidy",
+      "te": "పంజాబ్ పానీ బచావో పైసే కమావో & యంత్ర సబ్సిడీ పథకం",
+      "hi": "पंजाब पानी बचाओ पैसे कमाओ एवं मशीनरी सब्सिडी"
+    },
+    "tagline": {
+      "en": "Direct Cash of ₹4/Unit for Saving Groundwater & 80% Super Seeder Subsidy",
+      "te": "భూగర్భ జలాలు ఆదా చేసిన రైతులకు యూనిట్‌కు ₹4 నగదు & 80% యంత్ర రాయితీలు",
+      "hi": "भूजल बिजली बचाने पर ₹4/यूनिट नकद प्रोत्साहन एवं 80% तक मशीनरी अनुदान"
+    },
+    "authority": {
+      "en": "PSPCL & Dept of Agriculture, Punjab",
+      "te": "వ్యవసాయ శాఖ & పిఎస్‌పిసిఎల్, పంజాబ్",
+      "hi": "कृषि विभाग, पंजाब सरकार"
+    },
+    "benefits": {
+      "en": "Earn bank money by saving tubewell electricity + 80% subsidy on crop residue management machines.",
+      "te": "కరెంట్ ఆదా చేసి డబ్బు సంపాదించే అవకాశం మరియు యంత్రాలపై 80% సబ్సిడీ.",
+      "hi": "बिजली बचाकर बैंक खाते में आय एवं पराली मशीनों पर 80% तक छूट।"
+    },
+    "eligibility": {
+      "en": "Farmers in Punjab with agricultural tubewell connections.",
+      "te": "బోరుబావుల కనెక్షన్ గల పంజాబ్ రైతులు.",
+      "hi": "पंजाब के कृषि नलकूप उपभोक्ता किसान।"
+    },
+    "documents": {
+      "en": [
+        "Tubewell Account Number",
+        "Aadhaar Card",
+        "Bank Account Details"
+      ],
+      "te": [
+        "బోరుబావి ఖాతా నంబర్",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "नलकूप खाता संख्या",
+        "आधार कार्ड",
+        "बैंक खाता"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through PSPCL office or online via agrimachinerypb.com.",
+      "te": "PSPCL కార్యాలయం లేదా agrimachinerypb.com ద్వారా దరఖాస్తు.",
+      "hi": "पीएसपीसीएल या agrimachinerypb.com द्वारा आवेदन करें।"
+    },
+    "icon": "fa-tractor",
+    "color": "#2563eb",
+    "badge": "Punjab State",
+    "leader_image": "/static/images/cms/cm_pb.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "hr-bhavantar-bharpai",
+    "state_id": "hr",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Nayab Singh Saini",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ నయాబ్ సింగ్ సైనీ",
+      "hi": "माननीय मुख्यमंत्री श्री नायब सिंह सैनी"
+    },
+    "title": {
+      "en": "Haryana Bhavantar Bharpai & Meri Fasal Mera Byora",
+      "te": "హర్యానా భావాంతర్ భర్పాయ్ & మేరీ ఫసల్ మేరా బ్యోరా",
+      "hi": "हरियाणा भावांतर भरपाई एवं मेरी फसल मेरा ब्यौरा"
+    },
+    "tagline": {
+      "en": "Guaranteed Price Deficit Compensation for Vegetables, Fruits & Millets",
+      "te": "మార్కెట్ ధరలు తగ్గినప్పుడు కూరగాయలు, ఉద్యానవన పంటలకు వ్యత్యాస నగదు చెల్లింపు",
+      "hi": "सब्जियों, फलों और बाजरा की बाजार कीमत कम होने पर अंतर राशि की भरपाई"
+    },
+    "authority": {
+      "en": "Haryana State Agri Marketing Board",
+      "te": "హర్యానా మార్కెటింగ్ బోర్డు",
+      "hi": "हरियाणा कृषि विपणन बोर्ड"
+    },
+    "benefits": {
+      "en": "Compensates the difference between market price and base price for 20+ crops.",
+      "te": "కూరగాయలు, పండ్ల మార్కెట్ ధర తగ్గినప్పుడు వ్యత్యాస నగదు ప్రభుత్వమే చెల్లిస్తుంది.",
+      "hi": "बाजार भाव कम होने पर निर्धारित आधार मूल्य के अंतर का सीधा भुगतान।"
+    },
+    "eligibility": {
+      "en": "Farmers registered on fasal.haryana.gov.in.",
+      "te": "మేరీ ఫసల్ మేరా బ్యోరాలో నమోదైన రైతులు.",
+      "hi": "fasal.haryana.gov.in पर पंजीकृत किसान।"
+    },
+    "documents": {
+      "en": [
+        "Parivar Pehchan Patra (PPP)",
+        "Khasra Number",
+        "Aadhaar Card"
+      ],
+      "te": [
+        "కుటుంబ గుర్తింపు కార్డు (PPP)",
+        "ఖస్రా నంబర్",
+        "ఆధార్ కార్డు"
+      ],
+      "hi": [
+        "परिवार पहचान पत्र",
+        "खसरा नंबर",
+        "आधार कार्ड"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register on Meri Fasal Mera Byora portal (fasal.haryana.gov.in).",
+      "te": "fasal.haryana.gov.in పోర్టల్ ద్వారా నమోదు చేసుకోండి.",
+      "hi": "मेरी फसल मेरा ब्यौरा पोर्टल पर ऑनलाइन पंजीयन कराएं।"
+    },
+    "icon": "fa-scale-balanced",
+    "color": "#16a34a",
+    "badge": "Haryana State",
+    "leader_image": "/static/images/cms/cm_hr.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1508873696983-2df5293cb32b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "br-fasal-sahayata",
+    "state_id": "br",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Samrat Choudhary",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ సామ్రాట్ చౌదరి",
+      "hi": "माननीय मुख्यमंत्री श्री सम्राट चौधरी"
+    },
+    "title": {
+      "en": "Bihar Rajya Fasal Sahayata Yojana (BRFSY)",
+      "te": "బీహార్ రాజ్య ఫసల్ సహాయత యోజన (BRFSY)",
+      "hi": "बिहार राज्य फसल सहायता योजना (BRFSY)"
+    },
+    "tagline": {
+      "en": "Zero Premium Crop Loss Assistance up to ₹10,000/Hectare directly from State Fund",
+      "te": "రైతులపై సున్నా ప్రీమియం - పంట దిగుబడి తగ్గితే హెక్టారుకు ₹10,000 వరకు పరిహారం",
+      "hi": "बिना किसी प्रीमियम के फसल क्षति पर ₹10,000 प्रति हेक्टेयर तक सीधी सहायता"
+    },
+    "authority": {
+      "en": "Cooperative Department, Bihar",
+      "te": "సహకార శాఖ, బీహార్ ప్రభుత్వం",
+      "hi": "सहकारिता विभाग, बिहार सरकार"
+    },
+    "benefits": {
+      "en": "₹7,500/ha for loss up to 20% and ₹10,000/ha for loss >20% for landholders & sharecroppers.",
+      "te": "20% కంటే ఎక్కువ పంట నష్టం జరిగితే హెక్టారుకు ₹10,000 నేరుగా బ్యాంక్ ఖాతాలో జమ.",
+      "hi": "20% से अधिक फसल नुकसान पर ₹10,000/हेक्टेयर सीधा भुगतान।"
+    },
+    "eligibility": {
+      "en": "All landholders and sharecroppers cultivating in Bihar.",
+      "te": "బీహార్‌లోని సొంత భూమి గల రైతులు మరియు కౌలు సాగుదారులు.",
+      "hi": "बिहार के सभी रैयत एवं गैर-रैयत (बटाईदार) किसान।"
+    },
+    "documents": {
+      "en": [
+        "Land Possession Certificate (LPC) / Self Declaration",
+        "Aadhaar Card",
+        "Bank Details"
+      ],
+      "te": [
+        "భూమి పత్రం / స్వయం ప్రకటన",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "एलपीसी / स्व-घोषणा",
+        "आधार कार्ड",
+        "बैंक विवरण"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at pacsonline.bih.nic.in.",
+      "te": "pacsonline.bih.nic.in పోర్టల్ ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "pacsonline.bih.nic.in पोर्टल पर ऑनलाइन आवेदन करें।"
+    },
+    "icon": "fa-handshake-angle",
+    "color": "#0d9488",
+    "badge": "Bihar State Co-op",
+    "leader_image": "/static/images/cms/cm_br.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "wb-krishak-bandhu",
+    "state_id": "wb",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Suvendu Adhikari",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ సువేందు అధికారి",
+      "hi": "माननीय मुख्यमंत्री श्री शुभेंदु अधिकारी"
+    },
+    "title": {
+      "en": "West Bengal Krishak Bandhu (Assured Income & Life Cover)",
+      "te": "పశ్చిమ బెంగాల్ కృషక్ బంధు పథకం",
+      "hi": "पश्चिम बंगाल कृषक बंधु योजना"
+    },
+    "tagline": {
+      "en": "₹10,000/Year Direct Assistance per Acre & ₹2 Lakh Death Benefit",
+      "te": "ఎకరాకు ఏడాదికి ₹10,000 పెట్టుబడి సాయం & రైతు మరణిస్తే ₹2 లక్షల జీవిత బీమా",
+      "hi": "किसानों को ₹10,000 प्रति एकड़ वार्षिक सहायता एवं ₹2 लाख बीमा"
+    },
+    "authority": {
+      "en": "Department of Agriculture, West Bengal",
+      "te": "వ్యవసాయ శాఖ, పశ్చిమ బెంగాల్",
+      "hi": "कृषि विभाग, पश्चिम बंगाल"
+    },
+    "benefits": {
+      "en": "Guaranteed financial aid of ₹10,000/acre/year and ₹2,00,000 grant on farmer death.",
+      "te": "ఎకరాకు ₹10,000 సాయం మరియు రైతు మరణిస్తే కుటుంబానికి ₹2,00,000 పరిహారం.",
+      "hi": "₹10,000/एकड़/वर्ष की निश्चित सहायता तथा मृत्यु पर ₹2,00,000 का अनुदान।"
+    },
+    "eligibility": {
+      "en": "Landowners and recorded Bhagchasis (sharecroppers) in West Bengal.",
+      "te": "పశ్చిమ బెంగాల్‌లోని పట్టాదారు రైతులు మరియు కౌలుదారులు.",
+      "hi": "पश्चिम बंगाल के सभी भू-स्वामी किसान एवं पंजीकृत बटाईदार।"
+    },
+    "documents": {
+      "en": [
+        "RoR / Khatian Record",
+        "Aadhaar Card",
+        "Bank Passbook"
+      ],
+      "te": [
+        "ఖతియాన్ రికార్డు",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "खतियान नकल",
+        "आधार कार्ड",
+        "बैंक पासबुक"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Duare Sarkar camps or Block Agriculture Office.",
+      "te": "దువారే సర్కార్ శిబిరాలు లేదా వ్యవసాయ కార్యాలయం ద్వారా దరఖాస్తు.",
+      "hi": "द्वारे सरकार शिविरों या ब्लॉक कृषि कार्यालय द्वारा आवेदन करें।"
+    },
+    "icon": "fa-umbrella",
+    "color": "#059669",
+    "badge": "West Bengal State",
+    "leader_image": "/static/images/cms/cm_wb.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "or-kalia-scheme",
+    "state_id": "or",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Mohan Charan Majhi",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ మోహన్ చరణ్ మాఝీ",
+      "hi": "माननीय मुख्यमंत्री श्री मोहन चरण माझी"
+    },
+    "title": {
+      "en": "Odisha KALIA Scheme (Livelihood & Income Augmentation)",
+      "te": "ఒడిశా కాలియా (KALIA) పథకం",
+      "hi": "ओडिशा कालिया (KALIA) योजना"
+    },
+    "tagline": {
+      "en": "₹10,000 Annual Assistance for Farmers & ₹12,500 for Landless Labourers",
+      "te": "రైతులకు ఏడాదికి ₹10,000 & భూమిలేని కూలీలకు ₹12,500 జీవనోపాధి నిధి",
+      "hi": "छोटे किसानों को ₹10,000/वर्ष एवं भूमिहीन मजदूरों को ₹12,500 अनुदान"
+    },
+    "authority": {
+      "en": "Agriculture & Farmers' Empowerment Dept, Odisha",
+      "te": "వ్యవసాయ శాఖ, ఒడిశా ప్రభుత్వం",
+      "hi": "कृषि विभाग, ओडिशा सरकार"
+    },
+    "benefits": {
+      "en": "Direct financial aid for 5 cropping seasons, 0% crop loans up to ₹1 Lakh, and life cover.",
+      "te": "పెట్టుబడి సాయం, ₹1 లక్ష వరకు 0% వడ్డీ రుణాలు & ₹2 లక్షల జీవిత బీమా.",
+      "hi": "प्रत्यक्ष सहायता, ₹1 लाख तक 0% ऋण एवं ₹2 लाख का जीवन बीमा।"
+    },
+    "eligibility": {
+      "en": "Small/marginal farmers and landless agricultural households in Odisha.",
+      "te": "ఒడిశాలోని చిన్న రైతులు మరియు భూమిలేని కూలీలు.",
+      "hi": "ओडिशा के लघु/सीमांत किसान एवं भूमिहीन ग्रामीण परिवार।"
+    },
+    "documents": {
+      "en": [
+        "Land Record (RoR)",
+        "Aadhaar Card",
+        "Ration Card",
+        "Bank Account"
+      ],
+      "te": [
+        "భూమి రికార్డు",
+        "ఆధార్ కార్డు",
+        "రేషన్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "जमीन का पर्चा (RoR)",
+        "आधार कार्ड",
+        "राशन कार्ड",
+        "बैंक खाता"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through KALIA portal (kalia.odisha.gov.in) or Mo Seva Kendras.",
+      "te": "కాలియా పోర్టల్ లేదా మో సేవా కేంద్రాల ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "कालिया पोर्टल (kalia.odisha.gov.in) द्वारा आवेदन करें।"
+    },
+    "icon": "fa-hands-holding-circle",
+    "color": "#0284c7",
+    "badge": "Odisha State",
+    "leader_image": "/static/images/cms/cm_or.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "jh-krishi-rin-mafi",
+    "state_id": "jh",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Hemant Soren",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ హేమంత్ సోరెన్",
+      "hi": "माननीय मुख्यमंत्री श्री हेमंत सोरेन"
+    },
+    "title": {
+      "en": "Jharkhand Krishi Rin Mafi & Birsa Fasal Bima",
+      "te": "జార్ఖండ్ కృషి రుణ మాఫీ పథకం",
+      "hi": "झारखंड कृषि ऋण माफी योजना"
+    },
+    "tagline": {
+      "en": "Loan Waiver up to ₹2 Lakh for Farmers & 100% Free Crop Insurance",
+      "te": "రైతులకు ₹2 లక్షల వరకు పంట రుణాల మాఫీ మరియు ఉచిత పంటల బీమా",
+      "hi": "किसानों का ₹2 लाख तक फसल ऋण माफ एवं 100% मुफ्त फसल बीमा"
+    },
+    "authority": {
+      "en": "Department of Agriculture, Jharkhand",
+      "te": "వ్యవసాయ శాఖ, జార్ఖండ్",
+      "hi": "कृषि विभाग, झारखंड"
+    },
+    "benefits": {
+      "en": "Settlement of standard KCC crop loans up to ₹2,00,000 on paying ₹1 token fee.",
+      "te": "రైతులకు ₹2,00,000 వరకు రుణ విముక్తి & ₹1 టోకెన్ రుసుముతో పూర్తి క్లియరెన్స్.",
+      "hi": "मात्र ₹1 के टोकन शुल्क पर ₹2 लाख तक का बैंक फसल ऋण चुकता।"
+    },
+    "eligibility": {
+      "en": "KCC cardholder farmers in Jharkhand with Aadhaar-seeded accounts.",
+      "te": "ఆధార్ అనుసంధానమైన కేసీసీ ఖాతాలు గల జార్ఖండ్ రైతులు.",
+      "hi": "आधार से जुड़े केसीसी खाता धारक झारखंड के किसान।"
+    },
+    "documents": {
+      "en": [
+        "KCC Loan Account Passbook",
+        "Aadhaar Card",
+        "Ration Card"
+      ],
+      "te": [
+        "కేసీసీ లోన్ పాస్‌బుక్",
+        "ఆధార్ కార్డు",
+        "రేషన్ కార్డు"
+      ],
+      "hi": [
+        "केसीसी ऋण पासबुक",
+        "आधार कार्ड",
+        "राशन कार्ड"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Pragya Kendras (CSC) or online at jkrmy.jharkhand.gov.in.",
+      "te": "ప్రగ్యా కేంద్రాలు లేదా jkrmy.jharkhand.gov.in ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "प्रज्ञा केंद्रों या jkrmy.jharkhand.gov.in पर आवेदन करें।"
+    },
+    "icon": "fa-file-invoice-dollar",
+    "color": "#0891b2",
+    "badge": "Jharkhand State",
+    "leader_image": "/static/images/cms/cm_jh.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "hp-prakritik-kheti",
+    "state_id": "hp",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Sukhvinder Singh Sukhu",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ సుఖ్విందర్ సింగ్ సుఖు",
+      "hi": "माननीय मुख्यमंत्री श्री सुखविंदर सिंह सुक्खू"
+    },
+    "title": {
+      "en": "HP Prakritik Kheti Khushhal Kisan & Apple Mission",
+      "te": "హిమాచల్ ప్రదేశ్ ప్రకృతి వ్యవసాయం పథకం",
+      "hi": "हिमाचल प्रदेश प्राकृतिक खेती खुशहाल किसान"
+    },
+    "tagline": {
+      "en": "₹25,000 Assistance for Indigenous Cows & 80% Anti-Hail Net Subsidy",
+      "te": "దేశవాళీ ఆవుల కొనుగోలుకు ₹25,000 గ్రాంట్ & యాంటీ-హెయిల్ నెట్లపై 80% సబ్సిడీ",
+      "hi": "देशी गाय पर ₹25,000 अनुदान एवं ओला जाली पर 80% छूट"
+    },
+    "authority": {
+      "en": "Department of Agriculture & Horticulture, HP",
+      "te": "వ్యవసాయ శాఖ, హిమాచల్ ప్రదేశ్",
+      "hi": "कृषि एवं बागवानी विभाग, हिमाचल प्रदेश"
+    },
+    "benefits": {
+      "en": "Natural farming input kit grants, cow subsidies, and hail net protection for apple orchards.",
+      "te": "సేంద్రీయ వ్యవసాయ కిట్లు మరియు ఆపిల్ తోటల యాంటీ-హెయిల్ నెట్లపై 80% సబ్సిడీ.",
+      "hi": "प्राकृतिक खेती किट एवं सेब बागानों में ओला सुरक्षा जाली पर 80% छूट।"
+    },
+    "eligibility": {
+      "en": "Farmers and orchardists in Himachal Pradesh practicing organic farming.",
+      "te": "హిమాచల్ ప్రదేశ్‌లోని పండ్ల తోటల రైతులు.",
+      "hi": "हिमाचल प्रदेश के प्राकृतिक खेती करने वाले किसान।"
+    },
+    "documents": {
+      "en": [
+        "Himachal Bonafide Certificate",
+        "Land Nakul Record",
+        "Aadhaar Card"
+      ],
+      "te": [
+        "నివాస ధృవీకరణ",
+        "భూమి నకలు",
+        "ఆధార్ కార్డు"
+      ],
+      "hi": [
+        "हिमाचली प्रमाण पत्र",
+        "जमीन की नकल",
+        "आधार कार्ड"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register via prakritikkheti.hp.gov.in or block ATMA office.",
+      "te": "prakritikkheti.hp.gov.in పోర్టల్ ద్వారా నమోదు.",
+      "hi": "prakritikkheti.hp.gov.in पोर्टल द्वारा आवेदन करें।"
+    },
+    "icon": "fa-apple-whole",
+    "color": "#dc2626",
+    "badge": "Himachal Pradesh",
+    "leader_image": "/static/images/cms/cm_hp.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "uk-kisan-kalyan",
+    "state_id": "uk",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Pushkar Singh Dhami",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ పుష్కర్ సింగ్ ధామి",
+      "hi": "माननीय मुख्यमंत्री श्री पुष्कर सिंह धामी"
+    },
+    "title": {
+      "en": "Uttarakhand Deen Dayal Sahakarita 0% Loan (Up to ₹3 Lakh)",
+      "te": "ఉత్తరాఖండ్ దీన్ దయాళ్ సహకార 0% వడ్డీ రుణాలు",
+      "hi": "उत्तराखंड दीनदयाल उपाध्याय 0% सहकारिता ऋण"
+    },
+    "tagline": {
+      "en": "Zero-Percent Interest Loans up to ₹3,00,000 for Farmers & ₹5 Lakh for SHGs",
+      "te": "రైతులకు ₹3,00,000 వరకు మరియు మహిళా సంఘాలకు ₹5,00,000 వరకు 0% వడ్డీ రుణాలు",
+      "hi": "किसानों को ₹3 लाख एवं महिला समूहों को ₹5 लाख तक ब्याज मुक्त ऋण"
+    },
+    "authority": {
+      "en": "Cooperative Department, Uttarakhand",
+      "te": "సహకార శాఖ, ఉత్తరాఖండ్",
+      "hi": "सहकारिता विभाग, उत्तराखंड"
+    },
+    "benefits": {
+      "en": "100% interest-free agricultural, dairy, and polyhouse loans through District Cooperative Banks.",
+      "te": "వ్యవసాయం, పాడి పరిశ్రమ, పాలీహౌస్‌ల కోసం 0% సహకార రుణాలు.",
+      "hi": "कृषि, दुग्ध पालन और पॉलीहाउस हेतु 100% ब्याज मुक्त ऋण।"
+    },
+    "eligibility": {
+      "en": "Resident farmers and women self-help groups in Uttarakhand.",
+      "te": "ఉత్తరాఖండ్‌లోని స్థానిక రైతులు మరియు మహిళా సంఘాలు.",
+      "hi": "उत्तराखंड के निवासी किसान एवं स्वयं सहायता समूह।"
+    },
+    "documents": {
+      "en": [
+        "Khatauni Record",
+        "Aadhaar Card",
+        "PACS/DCB Passbook"
+      ],
+      "te": [
+        "ఖతౌనీ రికార్డు",
+        "ఆధార్ కార్డు",
+        "సహకార ఖాతా"
+      ],
+      "hi": [
+        "खतौनी",
+        "आधार कार्ड",
+        "सहकारी बैंक पासबुक"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through nearest Primary Agricultural Credit Society (PACS) or DCB.",
+      "te": "సమీప సహకార సంఘం (PACS) లేదా డిసిబి ద్వారా దరఖాస్తు.",
+      "hi": "निकटतम पैक्स समिति या जिला सहकारी बैंक में आवेदन करें।"
+    },
+    "icon": "fa-mountain-sun",
+    "color": "#0284c7",
+    "badge": "Uttarakhand Co-op",
+    "leader_image": "/static/images/cms/cm_uk.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "as-krishi-sa-sajuli",
+    "state_id": "as",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Dr. Himanta Biswa Sarma",
+      "te": "గౌరవ ముఖ్యమంత్రి డా. హిమంత బిశ్వ శర్మ",
+      "hi": "माननीय मुख्यमंत्री डॉ. हिमंत बिस्वा सरमा"
+    },
+    "title": {
+      "en": "Assam Mukhya Mantri Krishi Sa-Sajuli & Farm Tools Grant",
+      "te": "అస్సాం ముఖ్యమంత్రి కృషి సా-సజులి పథకం",
+      "hi": "असम मुख्यमंत्री कृषि सा-साजुली योजना"
+    },
+    "tagline": {
+      "en": "₹5,000 Direct Grant for Purchase of Farm Tools & Microfinance Relief",
+      "te": "వ్యవసాయ పరికరాల కొనుగోలుకు ₹5,000 ఉచిత గ్రాంట్ & సూక్ష్మ రుణ ఉపశమనం",
+      "hi": "कृषि औजार खरीद हेतु ₹5,000 का प्रत्यक्ष अनुदान"
+    },
+    "authority": {
+      "en": "Department of Agriculture, Assam",
+      "te": "వ్యవసాయ శాఖ, అస్సాం ప్రభుత్వం",
+      "hi": "कृषि विभाग, असम सरकार"
+    },
+    "benefits": {
+      "en": "Cash assistance of ₹5,000 via DBT for purchasing sprayers, weeders, and implements.",
+      "te": "స్ప్రేయర్లు, పరికరాల కొనుగోలుకు ₹5,000 నేరుగా బ్యాంక్ ఖాతాలో జమ.",
+      "hi": "कृषि उपकरण व स्प्रेयर खरीदने हेतु ₹5,000 की सीधी डीबीटी सहायता।"
+    },
+    "eligibility": {
+      "en": "Small and marginal farmers of Assam with active Kisan Credit Card.",
+      "te": "అస్సాంలోని చిన్న రైతులు మరియు కేసీసీ కార్డుదారులు.",
+      "hi": "असम के लघु/सीमांत किसान।"
+    },
+    "documents": {
+      "en": [
+        "Land Jamabandi Document",
+        "Aadhaar Card",
+        "Bank Passbook"
+      ],
+      "te": [
+        "జమాబందీ పత్రం",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ పాస్‌బుక్"
+      ],
+      "hi": [
+        "जमाबंदी/पट्टा",
+        "आधार कार्ड",
+        "बैंक पासबुक"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Block Agriculture Office or Gaonburah recommendation.",
+      "te": "బ్లాక్ వ్యవసాయ కార్యాలయం ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "प्रखंड कृषि अधिकारी के माध्यम से आवेदन करें।"
+    },
+    "icon": "fa-tools",
+    "color": "#0d9488",
+    "badge": "Assam State",
+    "leader_image": "/static/images/cms/cm_as.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "sk-organic-mission",
+    "state_id": "sk",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Prem Singh Tamang",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ ప్రేమ్ సింగ్ తమాంగ్",
+      "hi": "माननीय मुख्यमंत्री श्री प्रेम सिंह तमांग"
+    },
+    "title": {
+      "en": "Sikkim 100% Organic Mission & Cardamom Incentive",
+      "te": "సిక్కిం 100% సేంద్రీయ వ్యవసాయం పథకం",
+      "hi": "सिक्किम 100% जैविक खेती मिशन"
+    },
+    "tagline": {
+      "en": "Production Incentives of ₹100/Kg for Cardamom, Ginger & Free Bio-Inputs",
+      "te": "యాలకులు, అల్లం సాగుదారులకు కిలోకు ₹100 నగదు బోనస్ & ఉచిత బయో-ఎరువులు",
+      "hi": "बड़ी इलायची और अदरक पर ₹100/किलो उत्पादन प्रोत्साहन"
+    },
+    "authority": {
+      "en": "Agriculture & Horticulture Dept, Sikkim",
+      "te": "వ్యవసాయ శాఖ, సిక్కిం",
+      "hi": "कृषि विभाग, सिक्किम सरकार"
+    },
+    "benefits": {
+      "en": "Direct cash rewards for certified organic spices and free bio-fertilizers.",
+      "te": "సేంద్రీయ మసాలా దినుసుల రైతులకు నేరుగా నగదు ప్రోత్సాహకం.",
+      "hi": "प्रमाणित जैविक मसालों के उत्पादन पर सीधा नकद प्रोत्साहन।"
+    },
+    "eligibility": {
+      "en": "Farmers in Sikkim with certified organic land registered with SIMFED.",
+      "te": "సిమ్‌ఫెడ్ (SIMFED) లో నమోదైన సిక్కిం సేంద్రీయ రైతులు.",
+      "hi": "सिक्किम के पंजीकृत जैविक किसान।"
+    },
+    "documents": {
+      "en": [
+        "Organic Certificate",
+        "Parcha (Land Record)",
+        "Aadhaar Card"
+      ],
+      "te": [
+        "ఆర్గానిక్ సర్టిఫికేట్",
+        "పర్చా (భూమి పత్రం)",
+        "ఆధార్ కార్డు"
+      ],
+      "hi": [
+        "जैविक प्रमाण पत्र",
+        "पर्चा",
+        "आधार कार्ड"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Block Administrative Centre (BAC) or SIMFED.",
+      "te": "బ్లాక్ పరిపాలనా కేంద్రం (BAC) ద్వారా దరఖాస్తు.",
+      "hi": "प्रखंड प्रशासनिक केंद्र द्वारा आवेदन करें।"
+    },
+    "icon": "fa-seedling",
+    "color": "#16a34a",
+    "badge": "Sikkim Organic",
+    "leader_image": "/static/images/cms/cm_sk.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "ar-atmanirbhar-krishi",
+    "state_id": "ar",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Pema Khandu",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ పెమా ఖండూ",
+      "hi": "माननीय मुख्यमंत्री श्री पेमा खांडू"
+    },
+    "title": {
+      "en": "Arunachal Atmanirbhar Krishi & 0% Krishi Rinn",
+      "te": "అరుణాచల్ ప్రదేశ్ ఆత్మనిర్భర్ కృషి పథకం",
+      "hi": "अरुणाचल प्रदेश आत्मनिर्भर कृषि योजना"
+    },
+    "tagline": {
+      "en": "45% State Subsidy + 45% Bank Loan + 10% Farmer Share for Farm Machinery",
+      "te": "వ్యవసాయ యంత్రాలకు 45% ప్రభుత్వ సబ్సిడీ & 0% వడ్డీ రుణాలు",
+      "hi": "कृषि यंत्रीकरण पर 45% सरकारी अनुदान + 45% बैंक ऋण"
+    },
+    "authority": {
+      "en": "Department of Agriculture, Arunachal Pradesh",
+      "te": "వ్యవసాయ శాఖ, అరుణాచల్ ప్రదేశ్",
+      "hi": "कृषि विभाग, अरुणाचल प्रदेश"
+    },
+    "benefits": {
+      "en": "High capital subsidy for tractors, power tillers, and processing machinery.",
+      "te": "ట్రాక్టర్లు, పవర్ టిల్లర్లపై 45% ప్రభుత్వ రాయితీ.",
+      "hi": "ट्रैक्टर एवं पावर टिलर पर 45% की सीधी सब्सिडी।"
+    },
+    "eligibility": {
+      "en": "Farmers, SHGs, and FPOs registered on ANKY portal.",
+      "te": "ANKY పోర్టల్‌లో నమోదైన రైతులు మరియు సంఘాలు.",
+      "hi": "पंजीकृत किसान एवं स्वयं सहायता समूह।"
+    },
+    "documents": {
+      "en": [
+        "Land Possession Certificate (LPC)",
+        "Aadhaar Card",
+        "APST Certificate"
+      ],
+      "te": [
+        "భూమి పత్రాలు (LPC)",
+        "ఆధార్ కార్డు",
+        "APST ధృవీకరణ"
+      ],
+      "hi": [
+        "एलपीसी",
+        "आधार कार्ड",
+        "जनजाति प्रमाण पत्र"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at arunachalagri.com or through District Agri Officer.",
+      "te": "arunachalagri.com పోర్టల్ ద్వారా దరఖాస్తు.",
+      "hi": "arunachalagri.com पोर्टल द्वारा आवेदन करें।"
+    },
+    "icon": "fa-tractor",
+    "color": "#0d9488",
+    "badge": "Arunachal State",
+    "leader_image": "/static/images/cms/cm_ar.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "mn-organic-mission",
+    "state_id": "mn",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Yumnam Khemchand Singh",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ యుమ్నమ్ ఖేమ్‌చంద్ సింగ్",
+      "hi": "माननीय मुख्यमंत्री श्री युमनाम खेमचंद सिंह"
+    },
+    "title": {
+      "en": "Manipur Organic Mission & Black Rice (Chak-Hao)",
+      "te": "మణిపూర్ బ్లాక్ రైస్ (చక్-హావో) పథకం",
+      "hi": "मणिपुर ब्लैक राइस (चक-हाओ) मिशन"
+    },
+    "tagline": {
+      "en": "GI Black Rice Production Grants & Organic Export Subsidies",
+      "te": "బ్లాక్ రైస్ సాగుదారులకు ప్రత్యేక గ్రాంట్లు & మార్కెటింగ్ మద్దతు",
+      "hi": "ब्लैक राइस उत्पादकों को वित्तीय अनुदान एवं जैविक विपणन सहायता"
+    },
+    "authority": {
+      "en": "Manipur Organic Mission Agency (MOMA)",
+      "te": "మోమా (MOMA), మణిపూర్",
+      "hi": "मोमा (MOMA), मणिपुर"
+    },
+    "benefits": {
+      "en": "Free bio-inputs, organic seed support, cold chain logistics, and export buyback.",
+      "te": "ఉచిత బయో ఎరువులు, సేంద్రీయ విత్తనాలు & ఎగుమతి మద్దతు.",
+      "hi": "मुफ्त जैविक खाद, बीज सहायता एवं निर्यात की सुविधा।"
+    },
+    "eligibility": {
+      "en": "Farmers in Manipur cultivating indigenous specialty crops.",
+      "te": "మణిపూర్‌లో పంటలు సాగుచేసే రైతులు.",
+      "hi": "मणिपुर के जैविक किसान।"
+    },
+    "documents": {
+      "en": [
+        "Land Holding Proof / Village Chief Certificate",
+        "Aadhaar Card",
+        "Bank Passbook"
+      ],
+      "te": [
+        "భూమి పత్రం",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "भूमि दस्तावेज",
+        "आधार कार्ड",
+        "बैंक पासबुक"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through MOMA office in Imphal or local FPC.",
+      "te": "మోమా (MOMA) కార్యాలయం ద్వారా దరఖాస్తు.",
+      "hi": "मोमा कार्यालय इंफाल द्वारा आवेदन करें।"
+    },
+    "icon": "fa-bowl-rice",
+    "color": "#1e293b",
+    "badge": "Manipur State",
+    "leader_image": "/static/images/cms/cm_mn.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "ml-focus-scheme",
+    "state_id": "ml",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Conrad Sangma",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ కాన్రాడ్ సంగ్మా",
+      "hi": "माननीय मुख्यमंत्री श्री कोनराड संगमा"
+    },
+    "title": {
+      "en": "Meghalaya FOCUS & Lakadong Turmeric Mission",
+      "te": "మేఘాలయ ఫోకస్ (FOCUS) & పసుపు మిషన్",
+      "hi": "मेघालय फोकस योजना एवं हल्दी मिशन"
+    },
+    "tagline": {
+      "en": "₹5,000 Direct Seed Capital Grant per Farmer in Producer Groups",
+      "te": "రైతు సంఘాల సభ్యులకు ₹5,000 ప్రారంభ మూలధన గ్రాంట్ & పసుపు ప్రోత్సాహకాలు",
+      "hi": "उत्पादक समूह के किसान को ₹5,000 का बीज पूंजी अनुदान"
+    },
+    "authority": {
+      "en": "Farmers Empowerment Corp, Meghalaya",
+      "te": "రైతు సాధికారత సంస్థ, మేఘాలయ",
+      "hi": "किसान सशक्तिकरण निगम, मेघालय"
+    },
+    "benefits": {
+      "en": "Direct financial aid to Producer Groups (PGs) and Lakadong processing hubs.",
+      "te": "రైతు ఉత్పత్తి సంఘాలకు నిధుల బదిలీ & ప్రాసెసింగ్ రాయితీలు.",
+      "hi": "किसान समूहों को सीधे वित्तीय सहायता।"
+    },
+    "eligibility": {
+      "en": "Farmers belonging to registered Producer Groups in Meghalaya.",
+      "te": "మేఘాలయలో నమోదైన రైతు సంఘాల సభ్యులు.",
+      "hi": "मेघालय के पंजीकृत उत्पादक समूहों के सदस्य।"
+    },
+    "documents": {
+      "en": [
+        "Producer Group Card",
+        "Aadhaar Card",
+        "Bank Details"
+      ],
+      "te": [
+        "రైతు సంఘం కార్డు",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "समूह कार्ड",
+        "आधार कार्ड",
+        "बैंक खाता"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register Producer Group at local Block Development Office (BDO).",
+      "te": "స్థానిక బ్లాక్ కార్యాలయం (BDO) వద్ద నమోదు చేయండి.",
+      "hi": "प्रखंड विकास कार्यालय (BDO) में पंजीकरण कराएं।"
+    },
+    "icon": "fa-users-gear",
+    "color": "#f59e0b",
+    "badge": "Meghalaya State",
+    "leader_image": "/static/images/cms/cm_ml.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "mz-sedp-agri",
+    "state_id": "mz",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Lalduhoma",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ లాల్‌దుహోమా",
+      "hi": "माननीय मुख्यमंत्री श्री लालदुहोमा"
+    },
+    "title": {
+      "en": "Mizoram Socio-Economic Development (SEDP Agri)",
+      "te": "మిజోరం SEDP వ్యవసాయ అభివృద్ధి పథకం",
+      "hi": "मिजोरम SEDP कृषि सहायता योजना"
+    },
+    "tagline": {
+      "en": "₹50,000 Financial Support for Settled Horticulture & Dragon Fruit",
+      "te": "శాశ్వత ఉద్యానవన పంటలకు మారే కుటుంబాలకు ₹50,000 ఆర్థిక సాయం",
+      "hi": "स्थायी बागवानी हेतु प्रति परिवार ₹50,000 की प्रत्यक्ष सहायता"
+    },
+    "authority": {
+      "en": "Agriculture & Horticulture Dept, Mizoram",
+      "te": "వ్యవసాయ శాఖ, మిజోరం",
+      "hi": "कृषि एवं बागवानी विभाग, मिजोरम"
+    },
+    "benefits": {
+      "en": "Grants for permanent terraces, dragon fruit trellises, and ginger cultivation.",
+      "te": "డ్రాగన్ ఫ్రూట్, అల్లం సాగు మరియు తోటల అభివృద్ధికి నిధులు.",
+      "hi": "ड्रैगन फ्रूट, अदरक की खेती हेतु वित्तीय मदद।"
+    },
+    "eligibility": {
+      "en": "Rural families in Mizoram registered under SEDP boards.",
+      "te": "గ్రామ SEDP బోర్డులలో నమోదైన కుటుంబాలు.",
+      "hi": "मिजोरम के ग्रामीण किसान परिवार।"
+    },
+    "documents": {
+      "en": [
+        "SEDP Beneficiary Card",
+        "Tribal Certificate",
+        "Aadhaar Card"
+      ],
+      "te": [
+        "SEDP లబ్ధిదారు కార్డు",
+        "గిరిజన ధృవీకరణ",
+        "ఆధార్ కార్డు"
+      ],
+      "hi": [
+        "SEDP कार्ड",
+        "जनजाति प्रमाण पत्र",
+        "आधार कार्ड"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Village Level SEDP Committee.",
+      "te": "గ్రామ స్థాయి SEDP కమిటీ ద్వారా దరఖాస్తు.",
+      "hi": "ग्राम स्तरीय SEDP समिति के माध्यम से।"
+    },
+    "icon": "fa-dragon",
+    "color": "#be123c",
+    "badge": "Mizoram State",
+    "leader_image": "/static/images/cms/cm_mz.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "nl-cmmfi-agri",
+    "state_id": "nl",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Sri Neiphiu Rio",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ నెయిఫియు రియో",
+      "hi": "माननीय मुख्यमंत्री श्री नेफ्यू रियो"
+    },
+    "title": {
+      "en": "Nagaland Chief Minister's Micro Finance (CMMFI Agri)",
+      "te": "నాగాలాండ్ ముఖ్యమంత్రి సూక్ష్మ ఆర్థిక పథకం",
+      "hi": "नागालैंड मुख्यमंत्री सूक्ष्म वित्त पहल"
+    },
+    "tagline": {
+      "en": "Up to ₹15 Lakh Credit with 30-60% Subsidy for Agri Ventures",
+      "te": "వ్యవసాయం, పశుపోషణకు 30-60% సబ్సిడీతో ₹15 లక్షల వరకు రుణాలు",
+      "hi": "कृषि एवं पशुपालन हेतु 30-60% सब्सिडी व ₹15 लाख तक ऋण"
+    },
+    "authority": {
+      "en": "Planning Dept & State Bank of India, Nagaland",
+      "te": "ప్రణాళికా శాఖ & ఎస్బీఐ, నాగాలాండ్",
+      "hi": "योजना विभाग एवं एसबीआई, नागालैंड"
+    },
+    "benefits": {
+      "en": "Subsidies for cold rooms, Naga King Chilli, and piggery farms.",
+      "te": "నాగా మిర్చి సాగు, కోల్డ్ రూములు, పంది పెంపకానికి రాయితీలు.",
+      "hi": "नागा मिर्च, मधुमक्खी पालन और पशुपालन फार्म हेतु अनुदान।"
+    },
+    "eligibility": {
+      "en": "Farmers and Joint Liability Groups in Nagaland.",
+      "te": "నాగాలాండ్‌లోని రైతులు మరియు సహకార సంఘాలు.",
+      "hi": "नागालैंड के किसान एवं स्वयं सहायता समूह।"
+    },
+    "documents": {
+      "en": [
+        "Indigenous Inhabitant Certificate (IIC)",
+        "DPR",
+        "Aadhaar Card"
+      ],
+      "te": [
+        "స్థానిక నివాస పత్రం",
+        "DPR నివేదిక",
+        "ఆధార్ కార్డు"
+      ],
+      "hi": [
+        "स्थानीय निवासी प्रमाण पत्र",
+        "DPR",
+        "आधार कार्ड"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through District Level Committee headed by Deputy Commissioner.",
+      "te": "జిల్లా డిప్యూటీ కమిషనర్ కమిటీ ద్వారా దరఖాస్తు.",
+      "hi": "उपायुक्त की अध्यक्षता वाली जिला समिति द्वारा आवेदन करें।"
+    },
+    "icon": "fa-pepper-hot",
+    "color": "#e11d48",
+    "badge": "Nagaland State",
+    "leader_image": "/static/images/cms/cm_nl.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "tr-fasal-bima-sahayata",
+    "state_id": "tr",
+    "category": "state",
+    "leader_name": {
+      "en": "Hon'ble CM Prof. Manik Saha",
+      "te": "గౌరవ ముఖ్యమంత్రి ప్రొఫెసర్ మాణిక్ సాహా",
+      "hi": "माननीय मुख्यमंत्री प्रो. माणिक साहा"
+    },
+    "title": {
+      "en": "Tripura Mukhya Mantri Fasal Bima & Rubber Subsidies",
+      "te": "త్రిపుర ముఖ్యమంత్రి ఫసల్ బీమా పథకం",
+      "hi": "त्रिपुरा मुख्यमंत्री फसल बीमा एवं रबर सहायता"
+    },
+    "tagline": {
+      "en": "100% Farmer Premium Waiver for PMFBY & Rubber Cooperative Grants",
+      "te": "రైతులపై సున్నా ప్రీమియం - పంటల బీమాకు ప్రభుత్వ చెల్లింపు & రబ్బరు సబ్సిడీలు",
+      "hi": "फसल बीमा में 100% प्रीमियम वहन एवं रबर उत्पादक अनुदान"
+    },
+    "authority": {
+      "en": "Department of Agriculture, Tripura",
+      "te": "వ్యవసాయ శాఖ, త్రిపుర",
+      "hi": "कृषि विभाग, त्रिपुरा सरकार"
+    },
+    "benefits": {
+      "en": "State pays farmer share of crop insurance + rubber sheet processing unit subsidies.",
+      "te": "రైతుల పంట బీమా ప్రీమియంను రాష్ట్ర ప్రభుత్వమే భరిస్తుంది.",
+      "hi": "फसल बीमा प्रीमियम का राज्य सरकार द्वारा पूर्ण भुगतान।"
+    },
+    "eligibility": {
+      "en": "Paddy, betel leaf, and rubber smallholders in Tripura.",
+      "te": "వరి, తమలపాకులు, రబ్బరు సాగుచేసే త్రిపుర రైతులు.",
+      "hi": "त्रिपुरा के पंजीकृत किसान।"
+    },
+    "documents": {
+      "en": [
+        "Khatian Record",
+        "Aadhaar Card",
+        "Bank Account Details"
+      ],
+      "te": [
+        "ఖతియాన్ రికార్డు",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా"
+      ],
+      "hi": [
+        "खतियान नकल",
+        "आधार कार्ड",
+        "बैंक पासबुक"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through nearest Block Agriculture Office.",
+      "te": "సమీప బ్లాక్ వ్యవసాయ కార్యాలయం ద్వారా దరఖాస్తు.",
+      "hi": "प्रखंड कृषि कार्यालय द्वारा आवेदन करें।"
+    },
+    "icon": "fa-tree",
+    "color": "#047857",
+    "badge": "Tripura State",
+    "leader_image": "/static/images/cms/cm_tr.jpg",
+    "scheme_image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "central-pacs-computerization",
+    "state_id": "all",
+    "category": "central_moc",
+    "leader_name": {
+      "en": "Hon'ble PM Sri Narendra Modi",
+      "te": "గౌరవ ప్రధాని శ్రీ నరేంద్ర మోదీ",
+      "hi": "माननीय प्रधानमंत्री श्री नरेंद्र मोदी"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "National PACS Computerization & Cloud ERP Mission",
+      "te": "జాతీయ పిఎసిఎస్ (PACS) కంప్యూటరీకరణ & క్లౌడ్ ఈఆర్‌పి మిషన్",
+      "hi": "राष्ट्रीय पैक्स (PACS) कंप्यूटरीकरण एवं क्लाउड ईआरपी मिशन"
+    },
+    "tagline": {
+      "en": "Unified Cloud ERP Software & Digital Banking for 63,000+ PACS across India with ₹2,516 Crore Outlay",
+      "te": "దేశవ్యాప్తంగా 63,000+ పిఎసిఎస్‌లకు ₹2,516 కోట్లతో జాతీయ ఏకీకృత క్లౌడ్ ఈఆర్‌పి సాఫ్ట్‌వేర్",
+      "hi": "देशभर की 63,000+ पैक्स के लिए ₹2,516 करोड़ के बजट से राष्ट्रीय एकीकृत क्लाउड ईआरपी सॉफ्टवेयर"
+    },
+    "authority": {
+      "en": "Ministry of Cooperation, Govt. of India & NABARD",
+      "te": "కేంద్ర సహకార మంత్రిత్వ శాఖ & నాబార్డ్ (NABARD)",
+      "hi": "सहकारिता मंत्रालय, भारत सरकार एवं नाबार्ड"
+    },
+    "benefits": {
+      "en": "Complete transparency in loan sanction, auditing, share capital, and real-time SMS passbook alerts for farmers.",
+      "te": "రుణాల మంజూరు, ఆడిట్, వాటా మూలధనంలో 100% పారదర్శకత. రైతులకు మొబైల్ ఎస్ఎంఎస్ సౌకర్యం.",
+      "hi": "ऋण वितरण, ऑडिटिंग और सदस्यता में पूर्ण पारदर्शिता। किसानों को एसएमएस और डिजिटल पासबुक।"
+    },
+    "eligibility": {
+      "en": "All active Primary Agricultural Credit Societies (PACS) in all 28 States of India.",
+      "te": "భారతదేశంలోని అన్ని 28 రాష్ట్రాల నమోదిత ప్రాథమిక వ్యవసాయ సహకార సంఘాలు.",
+      "hi": "भारत के सभी 28 राज्यों की पंजीकृत प्राथमिक कृषि ऋण समितियां।"
+    },
+    "documents": {
+      "en": [
+        "PACS Society Registration Code",
+        "Member Share Ledger",
+        "Audited Financials"
+      ],
+      "te": [
+        "సహకార సంఘం రిజిస్ట్రేషన్ కోడ్",
+        "సభ్యుల వాటా మూలధన చిట్టా",
+        "ఆడిట్ నివేదిక"
+      ],
+      "hi": [
+        "पैक्स पंजीकरण कोड",
+        "सदस्य शेयर पूंजी बहीखाता",
+        "ऑडिट रिपोर्ट"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Implemented through District Cooperative Officer (DCO) and State Cooperative Bank (StCB).",
+      "te": "జిల్లా సహకార అధికారి (DCO) మరియు రాష్ట్ర సహకార బ్యాంక్ ద్వారా అమలు.",
+      "hi": "जिला सहकारी अधिकारी (DCO) और राज्य सहकारी बैंक के माध्यम से कार्यान्वित।"
+    },
+    "icon": "fa-laptop-code",
+    "color": "#2563eb",
+    "badge": "Ministry of Cooperation",
+    "scheme_image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "central-grain-storage-plan",
+    "state_id": "all",
+    "category": "central_moc",
+    "leader_name": {
+      "en": "Hon'ble PM Sri Narendra Modi",
+      "te": "గౌరవ ప్రధాని శ్రీ నరేంద్ర మోదీ",
+      "hi": "माननीय प्रधानमंत्री श्री नरेंद्र मोदी"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "World's Largest Grain Storage Plan in Cooperative Sector",
+      "te": "సహకార రంగంలో ప్రపంచంలోనే అతిపెద్ద ధాన్య నిల్వ పథకం",
+      "hi": "सहकारी क्षेत्र में विश्व की सबसे बड़ी विकेन्द्रीकृत अन्न भंडारण योजना"
+    },
+    "tagline": {
+      "en": "Creation of 500 MT - 2000 MT Godowns at Village PACS with 75% Pledge Financing Loans",
+      "te": "రైతుల పంటకు రక్షణగా గ్రామ స్థాయిలోనే 500 - 2000 MT పిఎసిఎస్ గోదాములు & 75% తాకట్టు రుణాలు",
+      "hi": "ग्राम स्तर पर 500 से 2000 मीट्रिक टन पैक्स गोदाम और 75% तक अनाज भंडारण ऋण सुविधा"
+    },
+    "authority": {
+      "en": "Ministry of Cooperation, NCDC, NABARD & FCI",
+      "te": "సహకార మంత్రిత్వ శాఖ, ఎన్‌సిడిసి, నాబార్డ్ & ఎఫ్‌సిఐ",
+      "hi": "सहकारिता मंत्रालय, एनसीडीसी, नाबार्ड और एफसीआई"
+    },
+    "benefits": {
+      "en": "Farmers store produce locally, avoid distress harvest sales, receive 75% advance pledge loan, and sell when prices rise.",
+      "te": "రైతులు పంటను గోదాములో భద్రపరచి, 75% విలువ వరకు తక్కువ వడ్డీకే తాకట్టు రుణం పొందవచ్చు.",
+      "hi": "किसान पैक्स गोदाम में अनाज रखकर 75% तक त्वरित ऋण प्राप्त कर सकते हैं।"
+    },
+    "eligibility": {
+      "en": "PACS with available land in all 28 states, and all member farmers cultivating grains/pulses.",
+      "te": "భారతదేశంలోని అన్ని రాష్ట్రాల పిఎసిఎస్‌లు మరియు ధాన్యాలు సాగుచేసే సభ్య రైతులు.",
+      "hi": "सभी राज्यों की पैक्स समितियां और खाद्यान्न उत्पादन करने वाले सभी सदस्य किसान।"
+    },
+    "documents": {
+      "en": [
+        "PACS Land Title Document",
+        "DPR for Godown Unit",
+        "Managing Committee Resolution"
+      ],
+      "te": [
+        "పిఎసిఎస్ స్థల పత్రాలు",
+        "గోదాము ప్రాజెక్ట్ నివేదిక (DPR)",
+        "పాలకవర్గ తీర్మానం"
+      ],
+      "hi": [
+        "पैक्स भूमि दस्तावेज",
+        "विस्तृत परियोजना रिपोर्ट (DPR)",
+        "प्रबंधन समिति प्रस्ताव"
+      ]
+    },
+    "how_to_apply": {
+      "en": "PACS Management Committee submits proposal via NCDC / Agri Infra Fund (AIF) portal.",
+      "te": "పిఎసిఎస్ పాలకవర్గం ఎన్‌సిడిసి లేదా అగ్రికల్చర్ ఇన్‌ఫ్రా ఫండ్ (AIF) పోర్టల్ ద్వారా దరఖాస్తు చేయాలి.",
+      "hi": "पैक्स प्रबंधन समिति एनसीडीसी या एग्री इंफ्रा फंड पोर्टल के जरिए आवेदन करती है।"
+    },
+    "icon": "fa-warehouse",
+    "color": "#ca8a04",
+    "badge": "Decentralized Godowns",
+    "scheme_image": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "central-pmfby",
+    "state_id": "all",
+    "category": "central_moc",
+    "leader_name": {
+      "en": "Hon'ble PM Sri Narendra Modi",
+      "te": "గౌరవ ప్రధాని శ్రీ నరేంద్ర మోదీ",
+      "hi": "माननीय प्रधानमंत्री श्री नरेंद्र मोदी"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "te": "ప్రధాన మంత్రి ఫసల్ బీమా యోజన (PMFBY)",
+      "hi": "प्रधानमंत्री फसल बीमा योजना (PMFBY)"
+    },
+    "tagline": {
+      "en": "Comprehensive Crop Insurance from Pre-Sowing to Post-Harvest with Capped Actuarial Premiums",
+      "te": "విత్తనం నాటినప్పటి నుండి కోత తర్వాతి వరకు పంట నష్టాలకు సమగ్ర బీమా రక్షణ & ప్రభుత్వ రాయితీలు",
+      "hi": "बुआई से लेकर कटाई के बाद तक के जोखिमों के लिए व्यापक फसल बीमा एवं सरकारी सब्सिडी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare, Govt. of India",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ మంత్రిత్వ శాఖ, భారత ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय, भारत सरकार"
+    },
+    "benefits": {
+      "en": "Farmer premium capped at 2% for Kharif, 1.5% for Rabi, and 5% for Commercial/Horticulture crops.",
+      "te": "రైతు వాటా ప్రీమియం: ఖరీఫ్ కు 2%, రబీకి 1.5%, వాణిజ్య పంటలకు 5%. మిగిలిన మొత్తం ప్రభుత్వాల సబ్సిడీ.",
+      "hi": "खरीफ पर 2%, रबी पर 1.5% और वाणिज्यिक पर 5% प्रीमियम। शेष पूरा हिस्सा सरकारी सब्सिडी।"
+    },
+    "eligibility": {
+      "en": "All loanee and non-loanee farmers, sharecroppers, and tenant cultivators across India.",
+      "te": "దేశవ్యాప్తంగా పంటలు సాగుచేసే రైతులు, కౌలు రైతులు అందరూ అర్హులు.",
+      "hi": "अधिसूचित क्षेत्रों में अधिसूचित फसल उगाने वाले देश के सभी भू-स्वामी व बटाईदार किसान।"
+    },
+    "documents": {
+      "en": [
+        "Land Sowing Record / Khasra",
+        "Aadhaar Card",
+        "Bank Account Passbook"
+      ],
+      "te": [
+        "సాగు రికార్డు",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ ఖాతా పాస్ బుక్"
+      ],
+      "hi": [
+        "खसरा/खतौनी बुआई प्रमाण पत्र",
+        "आधार कार्ड",
+        "बैंक पासबुक"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Through National Crop Insurance Portal (pmfby.gov.in), PACS, or Common Service Centres (CSC).",
+      "te": "జాతీయ పంటల బీమా పోర్టల్ (pmfby.gov.in), పిఎసిఎస్ లేదా సమీప సీఎస్‌సీ కేంద్రం ద్వారా.",
+      "hi": "राष्ट्रीय फसल बीमा पोर्टल (pmfby.gov.in), पैक्स या नजदीकी सीएससी के माध्यम से।"
+    },
+    "icon": "fa-cloud-showers-heavy",
+    "color": "#0d9488",
+    "badge": "National Risk Shield",
+    "scheme_image": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "central-dairy-sahakar",
+    "state_id": "all",
+    "category": "central_moc",
+    "leader_name": {
+      "en": "Hon'ble PM Sri Narendra Modi",
+      "te": "గౌరవ ప్రధాని శ్రీ నరేంద్ర మోదీ",
+      "hi": "माननीय प्रधानमंत्री श्री नरेंद्र मोदी"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Dairy Sahakar Scheme & Fisheries Cooperatives",
+      "te": "డైరీ సహకార్ పథకం & మత్స్య సహకార సంఘాలు",
+      "hi": "डेयरी सहकार योजना और मत्स्य सहकारी समितियां"
+    },
+    "tagline": {
+      "en": "₹5,000 Crore Credit Support for Milk Chilling, Processing, Cattle Purchase, and Veterinary Labs",
+      "te": "పాడి సహకార సంఘాలు, బల్క్ మిల్క్ కూలర్లు, పాల ప్రాసెసింగ్ యూనిట్లు, పశువుల కొనుగోలు కోసం ₹5,000 కోట్ల నిధి",
+      "hi": "सहकारी डेयरियों, दुग्ध प्रसंस्करण, बल्क मिल्क कूलर और पशु खरीद हेतु ₹5,000 करोड़ का ऋण कोष"
+    },
+    "authority": {
+      "en": "NCDC, Ministry of Cooperation, Govt. of India",
+      "te": "ఎన్‌సిడిసి, కేంద్ర సహకార మంత్రిత్వ శాఖ",
+      "hi": "एनसीडीसी, सहकारिता मंत्रालय, भारत सरकार"
+    },
+    "benefits": {
+      "en": "Low-interest credit with interest subvention for bulk milk coolers (BMC), chilling units, cattle purchase, and feed.",
+      "te": "బల్క్ మిల్క్ కూలర్లు (BMC), పాల ప్రాసెసింగ్ యూనిట్లు, పశువుల కొనుగోలు కోసం తక్కువ వడ్డీతో కూడిన రుణాలు.",
+      "hi": "बल्क मिल्क कूलर, प्रसंस्करण संयंत्र और पशु खरीद के लिए कम ब्याज दर पर ऋण।"
+    },
+    "eligibility": {
+      "en": "Primary Dairy Cooperative Societies (PDCS), District Milk Unions, and Fisheries Cooperatives in all states.",
+      "te": "దేశంలోని గ్రామ ప్రాథమిక పాడి సహకార సంఘాలు, జిల్లా పాల సమాఖ్యలు మరియు మత్స్యకార సొసైటీలు.",
+      "hi": "सभी राज्यों की प्राथमिक दुग्ध सहकारी समितियां, जिला दुग्ध संघ और मत्स्य सहकारी समितियां।"
+    },
+    "documents": {
+      "en": [
+        "Dairy Society Registration",
+        "Audit Clearance",
+        "Project Feasibility Report"
+      ],
+      "te": [
+        "డైరీ సొసైటీ రిజిస్ట్రేషన్ సర్టిఫికేట్",
+        "ఆడిట్ నివేదిక",
+        "ప్రాజెక్ట్ రిపోర్ట్"
+      ],
+      "hi": [
+        "डेयरी समिति पंजीकरण",
+        "ऑडिट रिपोर्ट",
+        "परियोजना प्रस्ताव"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through District Milk Union or NCDC Regional Offices across India.",
+      "te": "జిల్లా పాల సమాఖ్య లేదా ఎన్‌సిడిసి (NCDC) ప్రాంతీయ కార్యాలయాల ద్వారా దరఖాస్తు చేయండి.",
+      "hi": "जिला दुग्ध संघ या एनसीडीसी क्षेत्रीय कार्यालयों के माध्यम से आवेदन करें।"
+    },
+    "icon": "fa-cow",
+    "color": "#059669",
+    "badge": "₹5,000 Cr Fund",
+    "scheme_image": "https://images.unsplash.com/photo-1527153857715-3908f2ae5e81?auto=format&fit=crop&w=800&q=80"
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "id": "net-pm-kusum-solar",
+    "state_id": "all",
+    "category": "solar_energy",
+    "badge": "🌐 60% Solar Subsidy (Central & State)",
+    "icon": "fa-solar-panel",
+    "color": "#f59e0b",
+    "keywords": ["kusum", "solar", "pump", "grid", "power", "solar energy", "సోలార్", "కుసుమ్", "సౌర విద్యుత్"],
+    "leader_name": {
+      "en": "Ministry of New and Renewable Energy",
+      "te": "కేంద్ర పునరుత్పాదక ఇంధన మంత్రిత్వ శాఖ",
+      "hi": "नवीन और नवीकरणीय ऊर्जा मंत्रालय"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "PM-KUSUM Solar Agriculture Pump Scheme",
+      "te": "పీఎం కుసుమ్ సోలార్ అగ్రికల్చర్ పంప్ సెట్ల పథకం (60% సబ్సిడీ)",
+      "hi": "पीएम-कुसुम सौर कृषि पंप योजना (60% अनुदान)"
+    },
+    "tagline": {
+      "en": "Install standalone solar pumps and solarize existing grid-connected agriculture pumps with 60% government subsidy.",
+      "te": "60% ప్రభుత్వ సబ్సిడీతో డీజిల్, కరెంట్ పంపుల స్థానంలో పర్యావరణహిత సోలార్ పంపుల ఏర్పాటు మరియు అదనపు విద్యుత్ అమ్మకం ద్వారా ఆదాయం.",
+      "hi": "60% सरकारी सब्सिडी पर सौर ऊर्जा आधारित कृषि पंप स्थापित करें और अतिरिक्त बिजली बेचकर नियमित आय अर्जित करें।"
+    },
+    "authority": {
+      "en": "Ministry of New and Renewable Energy (MNRE) & State Discoms",
+      "te": "కేంద్ర ఇంధన మంత్రిత్వ శాఖ & రాష్ట్ర విద్యుత్ పంపిణీ సంస్థలు (DISCOMs)",
+      "hi": "नवीन और नवीकरणीय ऊर्जा मंत्रालय (MNRE) एवं राज्य विद्युत वितरण निगम"
+    },
+    "benefits": {
+      "en": "• 30% Central Financial Assistance (CFA) + 30% State Govt subsidy (Total 60% subsidy).\n• Farmer contributes only 10% upfront, remaining 30% via low-interest bank loan.\n• Uninterrupted daytime power supply for crop irrigation with zero electric bill.\n• Surplus solar energy generated can be sold back to the power grid for ₹3.00/unit monthly income.",
+      "te": "• 30% కేంద్ర సబ్సిడీ + 30% రాష్ట్ర ప్రభుత్వ సబ్సిడీ (మొత్తం 60% ప్రభుత్వ రాయితీ).\n• రైతు కేవలం 10% చెల్లిస్తే చాలు, మిగిలిన 30% తక్కువ వడ్డీ బ్యాంకు రుణం ద్వారా సమకూరుతుంది.\n• ఉచిత పగటిపూట సోలార్ విద్యుత్ ద్వారా నమ్మకమైన నీటిపారుదల.\n• అదనపు విద్యుత్‌ను డిస్కంలకు విక్రయించి నెలకు అదనపు ఆదాయం పొందవచ్చు.",
+      "hi": "• 30% केंद्र सरकार + 30% राज्य सरकार सब्सिडी (कुल 60% सरकारी अनुदान)।\n• किसान को केवल 10% राशि देनी होगी, शेष 30% बैंक ऋण से मिलेगा।\n• दिन के समय बिना किसी बिजली बिल के निरंतर सिंचाई की सुविधा।\n• अतिरिक्त सौर बिजली ग्रिड को बेचकर प्रति यूनिट ₹3.00 की आय।"
+    },
+    "eligibility": {
+      "en": "Individual farmers, groups of farmers, cooperatives, Panchayats, Farmer Producer Organizations (FPOs), and Water User Associations having agricultural land and water source.",
+      "te": "వ్యవసాయ భూమి మరియు నీటి వనరు ఉన్న రైతులు, కౌలు రైతులు, సహకార సంఘాలు, పంచాయతీలు మరియు రైతు ఉత్పత్తిదారుల సంఘాలు (FPOs).",
+      "hi": "कृषि भूमि और जल स्रोत वाले व्यक्तिगत किसान, किसान समूह, सहकारी समितियां, पंचायतें और किसान उत्पादक संगठन (FPO)।"
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Pattadar Passbook / Land 1B Record", "Bank Account Passbook", "Electricity Bill / No Objection Certificate", "Active Mobile Number"],
+      "te": ["ఆధార్ కార్డు", "భూమి పట్టాదారు పాస్‌బుక్ / 1B రికార్డు", "బ్యాంక్ ఖాతా పాస్‌బుక్", "కరెంట్ కనెక్షన్ వివరాలు / NOC", "మొబైల్ నంబర్"],
+      "hi": ["आधार कार्ड", "भूमि पट्टादार पासबुक / खतौनी", "बैंक खाता पासबुक", "विद्युत कनेक्शन विवरण / एनओसी", "मोबाइल नंबर"]
+    },
+    "how_to_apply": {
+      "en": "Apply online through State Energy Development Agency (e.g. NREDCAP in AP) or through Village Rythu Seva Kendra (RSK) / PACS Portal.",
+      "te": "రాష్ట్ర పునరుత్పాదక ఇంధన సంస్థ (ఉదా: ఏపీలో NREDCAP) అధికారిక పోర్టల్ లేదా గ్రామ రైతు భరోసా కేంద్రం (RSK) ద్వారా దరఖాస్తు చేసుకోవాలి.",
+      "hi": "राज्य अक्षय ऊर्जा विकास निगम के पोर्टल अथवा नजदीकी ग्राम किसान सेवा केंद्र (RSK) के माध्यम से ऑनलाइन आवेदन करें।"
+    },
+    "source_url": "https://pmkusum.mnre.gov.in"
+  },
+  {
+    "id": "net-pmksy-drip-irrigation",
+    "state_id": "all",
+    "category": "micro_irrigation",
+    "badge": "🌐 90% Micro Irrigation Subsidy",
+    "icon": "fa-droplet",
+    "color": "#0284c7",
+    "keywords": ["drip", "sprinkler", "pmksy", "irrigation", "water", "micro irrigation", "డ్రిప్", "బిందు సేద్యం", "తుంపర సేద్యం"],
+    "leader_name": {
+      "en": "Ministry of Agriculture & Farmers Welfare",
+      "te": "కేంద్ర వ్యవసాయ మరియు రైతు సంక్షేమ మంత్రిత్వ శాఖ",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "PMKSY - Per Drop More Crop (Drip & Sprinkler Irrigation)",
+      "te": "పీఎంకేఎస్‌వై - ప్రతి చుక్కకు అధిక పంట (బిందు & తుంపర సేద్యం - 90% సబ్సిడీ)",
+      "hi": "प्रधानमंत्री कृषि सिंचाई योजना - प्रति बूंद अधिक फसल (ड्रिप एवं स्प्रिंकलर)"
+    },
+    "tagline": {
+      "en": "Maximize crop yield and save 50-70% water through subsidized precision micro-irrigation systems.",
+      "te": "90% ప్రభుత్వ సబ్సిడీతో బిందు మరియు తుంపర సేద్యం పరికరాల ఏర్పాటు, 60% నీటి ఆదా మరియు 40% దిగుబడి పెంపు.",
+      "hi": "90% तक सरकारी अनुदान पर ड्रिप एवं स्प्रिंकलर प्रणाली, 50-70% जल की बचत और फसल पैदावार में भारी वृद्धि।"
+    },
+    "authority": {
+      "en": "Department of Agriculture & State Horticulture Mission",
+      "te": "వ్యవసాయ శాఖ మరియు రాష్ట్ర ఉద్యానవన మిషన్ (APMIP)",
+      "hi": "कृषि विभाग एवं राज्य बागवानी मिशन"
+    },
+    "benefits": {
+      "en": "• 90% subsidy for Small & Marginal Farmers (SC/ST/Women/Small Farmers).\n• 70% subsidy for General Category Farmers up to 5 acres.\n• Direct water and liquid fertilizer (Fertigation) delivery to roots, reducing fertilizer waste by 40%.\n• Increases crop yield by 30-50% with uniform plant growth.",
+      "te": "• చిన్న, సన్నకారు, ఎస్సీ, ఎస్టీ మరియు మహిళా రైతులకు 90% సబ్సిడీ.\n• ఇతర రైతులకు 70% సబ్సిడీ గరిష్టంగా 5 ఎకరాల వరకు వర్తింపు.\n• ఎరువులను నేరుగా వేర్లకు అందించే ఫెర్టిగేషన్ సదుపాయం, 40% ఎరువుల ఆదా.\n• కలుపు నివారణ మరియు కూలీల ఖర్చులలో 50% తగ్గింపు.",
+      "hi": "• लघु एवं सीमांत, महिला, एससी/एसटी किसानों को 90% तक अनुदान।\n• सामान्य वर्ग के किसानों को 70% सब्सिडी (अधिकतम 5 एकड़ तक)।\n• ड्रिप द्वारा सीधे जड़ों में तरल उर्वरक (फर्टिगेशन), उर्वरक की 40% बचत।\n• खरपतवार में कमी और फसल उत्पादन में 30 से 50% की वृद्धि।"
+    },
+    "eligibility": {
+      "en": "All landholding and tenant farmers cultivating horticultural, vegetable, fruit, sugarcane, cotton, or cereal crops with an assured irrigation source.",
+      "te": "నీటి వనరు ఉన్న ఉద్యానవన, పండ్ల తోటలు, కూరగాయలు, చెరకు, పత్తి మరియు వాణిజ్య పంటలు సాగుచేసే రైతులందరూ.",
+      "hi": "सुनिश्चित सिंचाई स्रोत वाले बागवानी, सब्जी, फल, गन्ना, कपास आदि फसलों की खेती करने वाले सभी किसान।"
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Pattadar Passbook / 1B", "Soil & Water Test Report", "Bank Passbook", "Passport Photo"],
+      "te": ["ఆధార్ కార్డు", "పట్టాదారు పాస్‌బుక్ / 1B", "నీటి వనరు ధృవీకరణ పత్రం", "బ్యాంక్ పాస్‌బుక్", "ఫోటో"],
+      "hi": ["आधार कार्ड", "भूमि पट्टादार पासबुक / 1B", "जल स्रोत प्रमाण पत्र", "बैंक पासबुक", "पासपोर्ट फोटो"]
+    },
+    "how_to_apply": {
+      "en": "Apply at your nearest Village Rythu Seva Kendra (RSK) / Horticulture Officer or online via State Micro Irrigation portal (e.g. APMIP).",
+      "te": "గ్రామ రైతు భరోసా కేంద్రం (RSK) లేదా మండల ఉద్యానవన అధికారి (HO) వద్ద దరఖాస్తు చేసుకోవాలి.",
+      "hi": "नजदीकी ग्राम किसान सेवा केंद्र (RSK) या ब्लॉक उद्यान अधिकारी के पास आवेदन करें।"
+    },
+    "source_url": "https://pmksy.gov.in"
+  },
+  {
+    "id": "net-soil-health-card",
+    "state_id": "all",
+    "category": "soil_testing",
+    "badge": "🌐 100% Free Soil Testing",
+    "icon": "fa-vial",
+    "color": "#16a34a",
+    "keywords": ["soil", "health", "card", "testing", "fertilizer", "భూసార", "మట్టి పరీక్ష", "భూసార పరీక్ష"],
+    "leader_name": {
+      "en": "Ministry of Agriculture",
+      "te": "కేంద్ర వ్యవసాయ శాఖ",
+      "hi": "कृषि मंत्रालय"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "National Soil Health Card Scheme",
+      "te": "జాతీయ భూసార ఆరోగ్య కార్డు పథకం (100% ఉచిత మట్టి పరీక్ష)",
+      "hi": "राष्ट्रीय मृदा स्वास्थ्य कार्ड योजना (100% मुफ्त मिट्टी परीक्षण)"
+    },
+    "tagline": {
+      "en": "Get 12-parameter scientific soil nutrient test and customized fertilizer dosage recommendations for your farmland.",
+      "te": "12 రకాల రసాయన, సేంద్రీయ పోషక పరీక్షలు ఉచితంగా చేయించుకుని, మీ పొలానికి సరిపడా ఎరువుల వాడకం ద్వారా దిగుబడి పెంచుకోండి.",
+      "hi": "अपने खेत की मिट्टी के 12 मुख्य पोषक तत्वों की मुफ्त वैज्ञानिक जांच और संतुलित खाद उपयोग की सलाह प्राप्त करें।"
+    },
+    "authority": {
+      "en": "Department of Agriculture, Cooperation & Farmers Welfare",
+      "te": "వ్యవసాయ మరియు సహకార శాఖ (రాష్ట్ర ప్రయోగశాలలు)",
+      "hi": "कृषि एवं सहकारिता विभाग"
+    },
+    "benefits": {
+      "en": "• Free testing of 12 critical soil parameters: N, P, K, S, Zn, Fe, Cu, Mn, Bo, pH, EC, and OC.\n• Prevents excessive use of chemical fertilizers (Urea/DAP), saving ₹4,000-₹6,000 per acre.\n• Restores soil fertility and long-term biological health.\n• Printed Soil Health Card delivered directly to the farmer with customized crop advisory.",
+      "te": "• నత్రజని, భాస్వరం, పొటాష్, జింక్, ఐరన్, పీహెచ్ సహా 12 పోషకాల ఉచిత పరీక్ష.\n• అధిక యూరియా మరియు డీఏపీ వాడకాన్ని అరికట్టి ఎకరానికి ₹4,000 నుండి ₹6,000 ఎరువుల ఖర్చు ఆదా.\n• భూమి సహజ సారాన్ని కాపాడి స్థిరమైన అధిక దిగుబడులు.\n• రైతు ఇంటికే నేరుగా ప్రింటెడ్ భూసార కార్డు డెలివరీ.",
+      "hi": "• मिट्टी के 12 पोषक तत्वों (N, P, K, जिंक, आयरन, pH आदि) की पूर्ण मुफ्त जांच।\n• अनावश्यक यूरिया-डीएपी के उपयोग से बचत, प्रति एकड़ ₹4,000-₹6,000 की बचत।\n• मिट्टी की उर्वरता में सुधार और दीर्घावधि पैदावार में वृद्धि।\n• किसान को फसलवार सटीक खाद की मात्रा वाला प्रिंटेड कार्ड मिलता है।"
+    },
+    "eligibility": {
+      "en": "All farmers possessing agricultural land in India (every parcel tested once every 3 years).",
+      "te": "భారతదేశంలోని సాగు భూమి ఉన్న రైతులందరికీ వర్తిస్తుంది (ప్రతి 3 ఏళ్లకు ఒకసారి ఉచిత పునఃపరీక్ష).",
+      "hi": "देश के सभी भू-धारक एवं बटाईदार किसान (प्रत्येक 3 वर्ष में निःशुल्क जांच)।"
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Survey Number / Passbook", "Active Mobile Number"],
+      "te": ["ఆధార్ కార్డు", "సర్వే నంబర్ / పట్టా పాస్‌బుక్", "మొబైల్ నంబర్"],
+      "hi": ["आधार कार्ड", "खसरा / खतौनी नंबर", "मोबाइल नंबर"]
+    },
+    "how_to_apply": {
+      "en": "Hand over a soil sample to your Village Agriculture Assistant (VAA) at RSK or register at the official Soil Health portal.",
+      "te": "గ్రామ రైతు భరోసా కేంద్రంలో గ్రామ వ్యవసాయ సహాయకుడికి (VAA) మట్టి నమూనా అందజేయాలి.",
+      "hi": "ग्राम कृषि सहायक (VAA) को अपने खेत की मिट्टी का नमूना सौंपें अथवा सॉइल हेल्थ पोर्टल पर संपर्क करें।"
+    },
+    "source_url": "https://soilhealth.dac.gov.in"
+  },
+  {
+    "id": "net-kisan-drone-scheme",
+    "state_id": "all",
+    "category": "agri_tech",
+    "badge": "🌐 50-100% Kisan Drone Subsidy",
+    "icon": "fa-helicopter",
+    "color": "#8b5cf6",
+    "keywords": ["drone", "kisan drone", "spray", "pesticide", "smam", "డ్రోన్", "డ్రోన్ స్ప్రేయింగ్", "వ్యవసాయ డ్రోన్"],
+    "leader_name": {
+      "en": "Ministry of Cooperation & Agriculture",
+      "te": "కేంద్ర వ్యవసాయ మరియు సహకార మంత్రిత్వ శాఖ",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Kisan Drone Subsidy & Spraying Scheme (SMAM)",
+      "te": "కిసాన్ డ్రోన్ సబ్సిడీ & స్ప్రేయింగ్ పథకం (50% నుండి 100% సబ్సిడీ)",
+      "hi": "किसान ड्रोन सब्सिडी एवं स्प्रे योजना (SMAM)"
+    },
+    "tagline": {
+      "en": "Subsidized agricultural drones for precise nano-urea, micronutrient, and pesticide spraying in 10 minutes per acre.",
+      "te": "ఎకరానికి కేవలం 10 నిమిషాల్లో నానో యూరియా, మందుల పిచికారీకి ఆధునిక డ్రోన్లు మరియు కొనుగోలుపై భారీ సబ్సిడీ.",
+      "hi": "10 मिनट में 1 एकड़ में नैनो यूरिया व कीटनाशक छिड़काव हेतु ड्रोन पर 50% से 100% तक सरकारी अनुदान।"
+    },
+    "authority": {
+      "en": "Sub-Mission on Agricultural Mechanization (SMAM) & ICAR",
+      "te": "వ్యవసాయ యాంత్రీకరణ సబ్-మిషన్ (SMAM) మరియు సహకార సంఘాలు",
+      "hi": "कृषि यंत्रीकरण उप-मिशन (SMAM) एवं आईसीएआर"
+    },
+    "benefits": {
+      "en": "• 100% grant (up to ₹10 Lakhs) for PACS, KVKs, and ICAR institutions to purchase drones.\n• 75% subsidy for FPOs and 50% subsidy (up to ₹5 Lakhs) for SC/ST/Women/Small Farmers.\n• Saves 90% water and 30% chemical pesticides compared to manual sprayers.\n• Prevents human exposure to toxic chemicals and covers 25-30 acres per day.",
+      "te": "• ప్రాథమిక సహకార సంఘాలు (PACS) మరియు రైతు సంఘాలకు 100% ఉచిత గ్రాంట్ (రూ. 10 లక్షల వరకు).\n• చిన్న, సన్నకారు, మహిళా మరియు ఎస్సీ/ఎస్టీ రైతులకు 50% సబ్సిడీ (రూ. 5 లక్షల వరకు).\n• 90% నీటి ఆదా మరియు 30% పురుగుమందుల ఖర్చు ఆదా.\n• రోజుకు 25-30 ఎకరాలలో పిచికారీ సామర్థ్యం, రైతులకు విష రసాయనాల నుండి రక్షణ.",
+      "hi": "• पैक्स (PACS) व कृषि विज्ञान केंद्रों को 100% अनुदान (अधिकतम ₹10 लाख)।\n• छोटे, सीमांत, महिला व एससी/एसटी किसानों को 50% अनुदान (अधिकतम ₹5 लाख)।\n• 90% पानी की बचत और 30% कीटनाशक की बचत।\n• 10 मिनट में 1 एकड़ का छिड़काव, किसानों का स्वास्थ्य सुरक्षित।"
+    },
+    "eligibility": {
+      "en": "PACS societies, FPOs, Custom Hiring Centres, Agri-graduates, and individual progressive farmers.",
+      "te": "ప్రాథమిక వ్యవసాయ సహకార సంఘాలు (PACS), రైతు ఉత్పత్తిదారుల సంఘాలు (FPOs), మరియు అభ్యుదయ రైతులు.",
+      "hi": "प्राथमिक सहकारी समितियां (PACS), एफपीओ, कस्टम हायरिंग सेंटर एवं प्रगतिशील किसान।"
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "PACS / FPO Registration Certificate", "Drone Pilot Training Certificate", "Bank Account Details"],
+      "te": ["ఆధార్ కార్డు", "సహకార సంఘం / FPO రిజిస్ట్రేషన్ పత్రం", "డ్రోన్ పైలట్ శిక్షణ పత్రం", "బ్యాంక్ ఖాతా వివరాలు"],
+      "hi": ["आधार कार्ड", "पैक्स / एफपीओ पंजीकरण प्रमाण पत्र", "ड्रोन पायलट प्रशिक्षण प्रमाणपत्र", "बैंक खाता विवरण"]
+    },
+    "how_to_apply": {
+      "en": "Apply through the National Agri-Mechanization Portal (agrimachinery.nic.in) or via your District Cooperative Office.",
+      "te": "జాతీయ అగ్రి-మెషినరీ పోర్టల్ (agrimachinery.nic.in) లేదా జిల్లా సహకార అధికారి కార్యాలయంలో దరఖాస్తు చేసుకోవాలి.",
+      "hi": "राष्ट्रीय कृषि यंत्रीकरण पोर्टल (agrimachinery.nic.in) अथवा जिला सहकारिता अधिकारी के पास आवेदन करें।"
+    },
+    "source_url": "https://agrimachinery.nic.in"
+  },
+  {
+    "id": "net-pashu-kcc-dairy",
+    "state_id": "all",
+    "category": "animal_husbandry",
+    "badge": "🌐 4% Interest Pashu KCC",
+    "icon": "fa-cow",
+    "color": "#059669",
+    "keywords": ["pashu", "kcc", "dairy", "cow", "buffalo", "sheep", "goat", "పశు కిసాన్", "పాడి రుణం", "ఆవులు గేదెలు"],
+    "leader_name": {
+      "en": "Ministry of Fisheries, Animal Husbandry & Dairying",
+      "te": "కేంద్ర పశుసంవర్ధక మరియు పాడిపరిశ్రమ మంత్రిత్వ శాఖ",
+      "hi": "मत्स्यपालन, पशुपालन एवं डेयरी मंत्रालय"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Pashu Kisan Credit Card (Dairy & Animal Husbandry 4% Loan)",
+      "te": "పశు కిసాన్ క్రెడిట్ కార్డు (పాడి, గొర్రెలు, మేకల పెంపకానికి 4% తక్కువ వడ్డీ రుణం)",
+      "hi": "पशु किसान क्रेडिट कार्ड (डेयरी एवं पशुपालन 4% ब्याज ऋण)"
+    },
+    "tagline": {
+      "en": "Collateral-free working capital loan up to ₹1.60 Lakh (and up to ₹3 Lakh @ 4% interest) for milk cattle, feed, and healthcare.",
+      "te": "పాడి ఆవులు, గేదెలు, గొర్రెల మేత మరియు పోషణ ఖర్చుల కోసం రూ. 1.60 లక్షల వరకు పూచీకత్తు లేని 4% సులభ రుణం.",
+      "hi": "दुधारू पशुओं के चारे और दवा के लिए बिना गारंटी ₹1.60 लाख तक और कुल ₹3 लाख तक केवल 4% ब्याज पर आसान ऋण।"
+    },
+    "authority": {
+      "en": "Department of Animal Husbandry & Dairying, Govt of India & APCOB",
+      "te": "కేంద్ర పశుసంవర్ధక శాఖ మరియు జిల్లా సహకార కేంద్ర బ్యాంకులు (DCCB)",
+      "hi": "पशुपालन एवं डेयरी विभाग एवं जिला सहकारी बैंक"
+    },
+    "benefits": {
+      "en": "• Loan limit of ₹60,249 per buffalo and ₹40,783 per cow for feed and maintenance.\n• Interest subvention reduces base interest from 7% to an effective 4% per annum upon prompt repayment.\n• No mortgage or collateral security required up to ₹1,60,000.\n• Flexible revolving credit via RuPay Kisan Debit Card.",
+      "te": "• గేదెకు రూ. 60,249 మరియు ఆవుకు రూ. 40,783 వరకు వార్షిక నిర్వహణ రుణం.\n• సకాలంలో చెల్లిస్తే వడ్డీ కేవలం 4.0% మాత్రమే (కేంద్రం 3% రాయితీ అందిస్తుంది).\n• రూ. 1,60,000 వరకు ఎలాంటి ఆస్తి తాకట్టు లేదా పూచీకత్తు అవసరం లేదు.\n• రూపే డెబిట్ కార్డు ద్వారా ఏటీఎంల నుండి ఎప్పుడైనా నగదు విత్‌డ్రా చేసుకునే సదుపాయం.",
+      "hi": "• प्रति भैंस ₹60,249 तथा प्रति गाय ₹40,783 तक कार्यशील पूंजी ऋण।\n• समय पर भुगतान करने पर केवल 4% वार्षिक ब्याज दर।\n• ₹1.60 लाख तक किसी गारंटी/जमीन बंधक की आवश्यकता नहीं।\n• रुपे किसान डेबिट कार्ड द्वारा आसान नकदी आहरण।"
+    },
+    "eligibility": {
+      "en": "All dairy farmers, landless agricultural laborers, tenant farmers, and livestock owners rearing cows, buffaloes, sheep, goats, or pigs.",
+      "te": "పాడి పశువులు, ఆవులు, గేదెలు, గొర్రెలు, మేకలు పెంచుతున్న రైతులు, కౌలుదారులు మరియు భూమిలేని వ్యవసాయ కూలీలు.",
+      "hi": "गाय, भैंस, भेड़, बकरी पालने वाले सभी किसान, बटाईदार और भूमिहीन ग्रामीण पशुपालक।"
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Livestock Health / Tagging Certificate", "Bank Account Passbook", "Passport Photograph"],
+      "te": ["ఆధార్ కార్డు", "పశువుల ఇయర్ ట్యాగింగ్ పత్రం", "బ్యాంక్ పాస్‌బుక్", "పాస్‌పోర్ట్ సైజు ఫోటో"],
+      "hi": ["आधार कार्ड", "पशु टैगिंग / स्वास्थ्य प्रमाण पत्र", "बैंक पासबुक", "पासपोर्ट फोटो"]
+    },
+    "how_to_apply": {
+      "en": "Submit application at your nearest Primary Agricultural Credit Society (PACS), DCCB Branch, or Village Animal Husbandry Assistant at RSK.",
+      "te": "మీ గ్రామ ప్రాథమిక వ్యవసాయ సహకార సంఘం (PACS), DCCB బ్యాంకు లేదా RSK పశువైద్య సహాయకుడిని సంప్రదించండి.",
+      "hi": "नजदीकी पैक्स (PACS) समिति, जिला सहकारी बैंक शाखा या ग्राम पशु चिकित्सा सहायक से संपर्क करें।"
+    },
+    "source_url": "https://dahd.nic.in"
+  },
+  {
+    "id": "net-pm-matsya-sampada",
+    "state_id": "all",
+    "category": "fisheries",
+    "badge": "🌐 40-60% Fisheries Subsidy",
+    "icon": "fa-fish-fins",
+    "color": "#06b6d4",
+    "keywords": ["matsya", "fisheries", "fish", "pond", "boat", "shrimp", "మత్స్య సంపద", "చేపల చెరువులు", "రొయ్యల సాగు"],
+    "leader_name": {
+      "en": "Department of Fisheries, MoFAHD",
+      "te": "కేంద్ర మత్స్యశాఖ",
+      "hi": "मत्स्य पालन विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Pradhan Mantri Matsya Sampada Yojana (PMMSY)",
+      "te": "ప్రధాన మంత్రి మత్స్య సంపద యోజన (చేపలు & రొయ్యల సాగుకు 60% సబ్సిడీ)",
+      "hi": "प्रधानमंत्री मत्स्य संपदा योजना (मत्स्य पालन 60% अनुदान)"
+    },
+    "tagline": {
+      "en": "Comprehensive support for constructing fish ponds, biofloc units, hatcheries, motor boats, and cold chain vehicles with 40-60% government subsidy.",
+      "te": "చేపల చెరువుల తవ్వకం, బయోఫ్లాక్ యూనిట్లు, మోటారు బోట్లు మరియు శీతల రవాణా వాహనాల కొనుగోలుపై 60% వరకు భారీ రాయితీ.",
+      "hi": "मछली पालन तालाब निर्माण, बायोफ्लॉक, मोटर बोट व कोल्ड चेन वाहनों पर 40% से 60% तक सरकारी सब्सिडी।"
+    },
+    "authority": {
+      "en": "National Fisheries Development Board (NFDB) & State Fisheries Dept",
+      "te": "జాతీయ మత్స్య అభివృద్ధి మండలి (NFDB) & రాష్ట్ర మత్స్యశాఖ",
+      "hi": "राष्ट्रीय मत्स्य विकास बोर्ड (NFDB) एवं राज्य मत्स्य विभाग"
+    },
+    "benefits": {
+      "en": "• 60% subsidy for Women and SC/ST beneficiaries; 40% for General category.\n• Subsidies for freshwater fish farming ponds (₹7 Lakhs/ha), Biofloc systems, and RAS units.\n• Subsidized insulated ice vehicles, three-wheelers, and live fish retail kiosks.\n• Comprehensive insurance coverage for fishers and aqua farmers.",
+      "te": "• మహిళలు మరియు ఎస్సీ/ఎస్టీ లబ్ధిదారులకు 60% సబ్సిడీ; ఇతరులకు 40% సబ్సిడీ.\n• చేపల చెరువుల తవ్వకానికి హెక్టారుకు రూ. 7 లక్షల యూనిట్ కాస్ట్‌పై సబ్సిడీ.\n• చేపల రవాణాకు ఐస్ బాక్స్ వాహనాలు, ఆటోలు మరియు లైవ్ ఫిష్ అవుట్‌లెట్ల ఏర్పాటుకు ఆర్థిక సాయం.\n• మత్స్యకారులకు ఉచిత ప్రమాద బీమా రక్షణ.",
+      "hi": "• महिलाओं और एससी/एसटी लाभार्थियों को 60% तथा अन्य को 40% सरकारी सब्सिडी।\n• तालाब निर्माण हेतु ₹7 लाख/हेक्टेयर पर अनुदान, बायोफ्लॉक और आरएएस इकाइयां।\n• मछली परिवहन हेतु इंसुलेटेड वाहन एवं बिक्री केंद्र स्थापित करने में सहायता।\n• मछुआरों को व्यापक बीमा सुरक्षा।"
+    },
+    "eligibility": {
+      "en": "Fishers, fish farmers, fish workers, fisheries cooperatives, FPOs, and entrepreneurs with land or water rights.",
+      "te": "మత్స్యకారులు, చేపల పెంపకందారులు, మత్స్య సహకార సంఘాలు మరియు అక్వా రైతులు.",
+      "hi": "मछुवारे, मछली पालक, मत्स्य सहकारी समितियां, एफपीओ और जल क्षेत्र पट्टाधारक।"
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Land Lease / Ownership Document", "Bank Account Details", "Fisheries ID Card (if available)"],
+      "te": ["ఆధార్ కార్డు", "భూమి పట్టా / లీజు పత్రం", "బ్యాంక్ పాస్‌బుక్", "మత్స్యకార గుర్తింపు కార్డు"],
+      "hi": ["आधार कार्ड", "भूमि पट्टा / लीज दस्तावेज", "बैंक खाता पासबुक", "मत्स्य पहचान पत्र"]
+    },
+    "how_to_apply": {
+      "en": "Submit detailed project report (DPR) to District Fisheries Officer or online via PMMSY Portal (pmmsy.dof.gov.in).",
+      "te": "జిల్లా మత్స్యశాఖ అధికారి కార్యాలయంలో లేదా అధికారిక PMMSY పోర్టల్ (pmmsy.dof.gov.in) ద్వారా దరఖాస్తు చేసుకోవాలి.",
+      "hi": "जिला मत्स्य अधिकारी कार्यालय अथवा पीएमएमएसवाई पोर्टल (pmmsy.dof.gov.in) पर ऑनलाइन आवेदन करें।"
+    },
+    "source_url": "https://pmmsy.dof.gov.in"
+  },
+  {
+    "id": "net-pmfme-food-processing",
+    "state_id": "all",
+    "category": "agri_business",
+    "badge": "🌐 35% Credit Subsidy (Max ₹10L)",
+    "icon": "fa-industry",
+    "color": "#ea580c",
+    "keywords": ["pmfme", "food processing", "mill", "agro industry", "pickle", "dal mill", "ఆహార శుద్ధి", "రైస్ మిల్లు", "నూనె మిల్లు"],
+    "leader_name": {
+      "en": "Ministry of Food Processing Industries",
+      "te": "కేంద్ర ఆహార శుద్ధి పరిశ్రమల మంత్రిత్వ శాఖ",
+      "hi": "खाद्य प्रसंस्करण उद्योग मंत्रालय"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "PM Formalisation of Micro food processing Enterprises (PMFME)",
+      "te": "పీఎం ఆహార శుద్ధి పరిశ్రమల పథకం (PMFME - 35% క్రెడిట్ సబ్సిడీ)",
+      "hi": "पीएम सूक्ष्म खाद्य प्रसंस्करण उद्यम योजना (PMFME - 35% अनुदान)"
+    },
+    "tagline": {
+      "en": "Setup micro agro-processing units (flour mill, oil expeller, pickle, spices, fruit processing) with 35% credit-linked capital subsidy up to ₹10 Lakhs.",
+      "te": "రైస్ మిల్లు, నూనె గానుగ, పచ్చళ్లు, మసాలాలు, పండ్ల ప్రాసెసింగ్ యూనిట్ల ఏర్పాటుకు రూ. 10 లక్షల వరకు 35% ప్రభుత్వ సబ్సిడీ.",
+      "hi": "दाल मिल, तेल मिल, मसाला पिसाई, फल एवं सब्जी प्रसंस्करण इकाई लगाने हेतु ₹10 लाख तक 35% सरकारी सब्सिडी।"
+    },
+    "authority": {
+      "en": "Ministry of Food Processing Industries (MoFPI) & State Nodal Agencies",
+      "te": "ఆహార శుద్ధి పరిశ్రమల మంత్రిత్వ శాఖ & రాష్ట్ర నోడల్ ఏజెన్సీలు",
+      "hi": "खाद्य प्रसंस्करण उद्योग मंत्रालय एवं राज्य नोडल एजेंसियां"
+    },
+    "benefits": {
+      "en": "• 35% credit-linked capital subsidy on project cost, maximum up to ₹10 Lakhs per micro unit.\n• Seed capital of ₹40,000 per Self Help Group (SHG) member for working capital.\n• 50% grant for marketing, branding, and packaging under One District One Product (ODOP).\n• Free technical training and mentoring for food business certification (FSSAI/GST).",
+      "te": "• ప్రాజెక్ట్ ఖర్చుపై 35% క్రెడిట్ సబ్సిడీ (గరిష్టంగా రూ. 10,00,000 వరకు రాయితీ).\n• మహిళా స్వయం సహాయక సంఘాల (SHG) సభ్యులకు రూ. 40,000 తక్షణ మూలధన సాయం.\n• బ్రాండింగ్, ప్యాకేజింగ్ మరియు మార్కెటింగ్ కోసం 50% ప్రభుత్వ గ్రాంట్.\n• FSSAI లైసెన్స్ మరియు ఉచిత నాణ్యతా శిక్షణ.",
+      "hi": "• कुल लागत पर 35% क्रेडिट लिंक्ड सब्सिडी (अधिकतम ₹10 लाख प्रति इकाई)।\n• स्वयं सहायता समूह (SHG) की महिला सदस्यों को ₹40,000 सीड कैपिटल।\n• 'एक जिला एक उत्पाद' (ODOP) के तहत ब्रांडिंग व पैकेजिंग पर 50% अनुदान।\n• एफएसएसएआई लाइसेंस और तकनीकी प्रशिक्षण की मुफ्त व्यवस्था।"
+    },
+    "eligibility": {
+      "en": "Individual entrepreneurs, farmers, Farmer Producer Organizations (FPOs), Self Help Groups (SHGs), and Producer Cooperatives.",
+      "te": "రైతులు, యువ పారిశ్రామికవేత్తలు, మహిళా స్వయం సహాయక సంఘాలు (SHG) మరియు సహకార సంఘాలు.",
+      "hi": "व्यक्तिगत उद्यमी, किसान, स्वयं सहायता समूह (SHG), एफपीओ एवं सहकारी समितियां।"
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "PAN Card", "Project Quotation / Detailed Project Report (DPR)", "Bank Account Statement", "Premises Rent/Ownership Proof"],
+      "te": ["ఆధార్ కార్డు", "పాన్ కార్డు", "మిషనరీ కొటేషన్ / ప్రాజెక్ట్ రిపోర్ట్", "బ్యాంక్ ఖాతా స్టేట్‌మెంట్", "స్థల ధృవీకరణ పత్రం"],
+      "hi": ["आधार कार्ड", "पैन कार्ड", "मशीनरी कोटेशन / डीपीआर", "बैंक स्टेटमेंट", "स्थान स्वामित्व/किरायानामा"]
+    },
+    "how_to_apply": {
+      "en": "Apply online at official PMFME portal (pmfme.mofpi.gov.in) with District Resource Person (DRP) assistance.",
+      "te": "అధికారిక PMFME పోర్టల్ (pmfme.mofpi.gov.in) ద్వారా లేదా జిల్లా రిసోర్స్ పర్సన్ (DRP) ద్వారా దరఖాస్తు చేసుకోవాలి.",
+      "hi": "आधिकारिक पीएमएफएमई पोर्टल (pmfme.mofpi.gov.in) पर ऑनलाइन आवेदन करें।"
+    },
+    "source_url": "https://pmfme.mofpi.gov.in"
+  },
+  {
+    "id": "net-pkvy-organic-farming",
+    "state_id": "all",
+    "category": "organic_farming",
+    "badge": "🌐 ₹50,000/Hectare Organic Grant",
+    "icon": "fa-leaf",
+    "color": "#15803d",
+    "keywords": ["organic", "pkvy", "natural farming", "paramparagat", "జీవామృతం", "సేంద్రీయ వ్యవసాయం", "ప్రకృతి వ్యవసాయం"],
+    "leader_name": {
+      "en": "Ministry of Agriculture",
+      "te": "కేంద్ర వ్యవసాయ మంత్రిత్వ శాఖ",
+      "hi": "कृषि मंत्रालय"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Paramparagat Krishi Vikas Yojana (PKVY - Natural & Organic Farming)",
+      "te": "పరంపరాగత్ కృషి వికాస్ యోజన (సేంద్రీయ & ప్రకృతి వ్యవసాయం - ₹50,000 గ్రాంట్)",
+      "hi": "परंपरागत कृषि विकास योजना (पीकेवीवाई - जैविक एवं प्राकृतिक खेती)"
+    },
+    "tagline": {
+      "en": "Financial assistance of ₹50,000 per hectare for chemical-free natural farming inputs, organic certification, and premium market linkage.",
+      "te": "రసాయన రహిత సేంద్రీయ ఎరువుల తయారీ, ఉచిత PGS సర్టిఫికేషన్ మరియు ప్రీమియం ధరలకు ఉత్పత్తుల విక్రయానికి హెక్టారుకు ₹50,000 సాయం.",
+      "hi": "जैविक खाद निर्माण, पीजीएस प्रमाणीकरण और प्रीमियम बाजार लिंकेज हेतु ₹50,000 प्रति हेक्टेयर की वित्तीय सहायता।"
+    },
+    "authority": {
+      "en": "National Mission on Sustainable Agriculture (NMSA)",
+      "te": "జాతీయ స్థిరమైన వ్యవసాయ మిషన్ మరియు రాష్ట్ర ప్రకృతి వ్యవసాయ విభాగం (RySS)",
+      "hi": "राष्ट्रीय सतत कृषि मिशन एवं राज्य जैविक खेती प्रकोष्ठ"
+    },
+    "benefits": {
+      "en": "• ₹50,000 per hectare provided over 3 years, of which ₹31,000 is directly credited for organic inputs (Jeevamrutha, Vermicompost).\n• 100% free Participatory Guarantee System (PGS-India) organic certification.\n• ₹8,800/ha for post-harvest packaging, branding, and organic melas.\n• Higher market price for certified chemical-free produce.",
+      "te": "• 3 సంవత్సరాలలో హెక్టారుకు ₹50,000 సాయం, ఇందులో ₹31,000 నేరుగా సేంద్రీయ ఎరువుల తయారీకి జమ.\n• 100% ఉచిత పీజీఎస్ సేంద్రీయ సర్టిఫికేషన్.\n• ప్యాకేజింగ్, బ్రాండింగ్ మరియు ఆర్గానిక్ సంతల ఏర్పాటుకు ₹8,800 గ్రాంట్.\n• పురుగుమందుల రహిత నాణ్యమైన పంటకు మార్కెట్లో 20-30% అదనపు ధర.",
+      "hi": "• 3 वर्षों में ₹50,000/हेक्टेयर की सहायता, जिसमें ₹31,000 सीधे इनपुट (जीवामृत, वर्मीकम्पोस्ट) हेतु।\n• शत-प्रतिशत निःशुल्क जैविक प्रमाणन (PGS-India)।\n• पैकेजिंग, ब्रांडिंग व परिवहन हेतु ₹8,800 का अनुदान।\n• बाजार में रासायनिक मुक्त उपज का 20-40% अधिक मूल्य।"
+    },
+    "eligibility": {
+      "en": "Farmer clusters (minimum 20 hectares) or individual farmers practicing or transitioning to organic / natural farming.",
+      "te": "సేంద్రీయ, ప్రకృతి వ్యవసాయం చేయాలనుకునే రైతులు లేదా 50 ఎకరాల రైతు సంఘాల క్లస్టర్లు.",
+      "hi": "जैविक एवं प्राकृतिक खेती करने वाले किसान समूह (न्यूनतम 20 हेक्टेयर क्लस्टर) या व्यक्तिगत किसान।"
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Land 1B / Passbook", "Bank Account Details", "Cluster Member Consent Form"],
+      "te": ["ఆధార్ కార్డు", "భూమి పట్టాదారు పాస్‌బుక్", "బ్యాంక్ ఖాతా వివరాలు", "రైతు సంఘం సభ్యత్వ పత్రం"],
+      "hi": ["आधार कार्ड", "भूमि खतौनी", "बैंक पासबुक", "क्लस्टर सहमति पत्र"]
+    },
+    "how_to_apply": {
+      "en": "Register through Village Agriculture Assistant (VAA) or Natural Farming Master Trainer (CRPs) at your nearest RSK.",
+      "te": "రైతు సేవా కేంద్రం (RSK) వద్ద గ్రామ వ్యవసాయ సహాయకుడు లేదా నేచురల్ ఫార్మింగ్ మాస్టర్ ట్రైనర్ ద్వారా నమోదు చేసుకోవాలి.",
+      "hi": "नजदीकी किसान सेवा केंद्र पर कृषि सहायक या प्राकृतिक खेती मास्टर ट्रेनर के माध्यम से पंजीकृत हों।"
+    },
+    "source_url": "https://pgsindia-ncof.gov.in"
+  },
+  {
+    "id": "net-aif-infrastructure-fund",
+    "state_id": "all",
+    "category": "agri_infra",
+    "badge": "🌐 3% Interest Subvention (₹2 Cr)",
+    "icon": "fa-warehouse",
+    "color": "#2563eb",
+    "keywords": ["aif", "infrastructure", "godown", "cold storage", "sorting", "grading", "గోదాములు", "కోల్డ్ స్టోరేజ్", "మౌలిక సదుపాయాలు"],
+    "leader_name": {
+      "en": "Ministry of Agriculture & Farmers Welfare",
+      "te": "కేంద్ర వ్యవసాయ శాఖ",
+      "hi": "कृषि मंत्रालय"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Agriculture Infrastructure Fund (AIF - ₹1 Lakh Crore Scheme)",
+      "te": "వ్యవసాయ మౌలిక సదుపాయాల నిధి (AIF - 3% వడ్డీ రాయితీతో గోదాములు & కోల్డ్ స్టోరేజ్)",
+      "hi": "कृषि अवसंरचना कोष (AIF - 3% ब्याज छूट के साथ वेयरहाउस व कोल्ड स्टोरेज)"
+    },
+    "tagline": {
+      "en": "Medium to long-term debt financing for post-harvest management infrastructure with 3% interest subvention up to ₹2 Crore loans.",
+      "te": "రైతు పంట నిల్వ గోదాములు, కోల్డ్ స్టోరేజీలు, సార్టింగ్ యూనిట్ల నిర్మాణానికి రూ. 2 కోట్ల వరకు 3% వడ్డీ రాయితీ రుణాలు.",
+      "hi": "फसल कटाई बाद भंडारण हेतु गोदाम, कोल्ड स्टोरेज, ग्रेडिंग यूनिट्स के लिए ₹2 करोड़ तक 3% ब्याज छूट पर ऋण।"
+    },
+    "authority": {
+      "en": "National Bank for Agriculture and Rural Development (NABARD) & Ministry of Agriculture",
+      "te": "నాబార్డ్ (NABARD) మరియు కేంద్ర వ్యవసాయ శాఖ",
+      "hi": "नाबार्ड (NABARD) एवं केंद्रीय कृषि मंत्रालय"
+    },
+    "benefits": {
+      "en": "• 3% per annum interest subvention on loans up to ₹2 Crores for a maximum tenure of 7 years.\n• Credit guarantee coverage under CGTMSE for loans up to ₹2 Crores with fee paid by Government.\n• Can be converged with other Central/State subsidies (MIDH, SMAM, PMFME).\n• Prevents distress sales by providing modern on-farm storage and e-NAM integration.",
+      "te": "• రూ. 2 కోట్ల వరకు బ్యాంకు రుణాలపై 7 సంవత్సరాల పాటు ఏటా 3% వడ్డీ రాయితీ.\n• ఎలాంటి ఆస్తి తనఖా అవసరం లేకుండా ప్రభుత్వ CGTMSE క్రెడిట్ గ్యారెంటీ రక్షణ.\n• ఇతర కేంద్ర, రాష్ట్ర పథకాల సబ్సిడీలతో అనుసంధానించుకునే వెసులుబాటు.\n• పంటను నిల్వ చేసుకుని మంచి ధర వచ్చినప్పుడు మార్కెట్లో అమ్ముకునే సదుపాయం.",
+      "hi": "• ₹2 करोड़ तक के ऋण पर 7 वर्षों हेतु 3% वार्षिक ब्याज छूट।\n• बिना किसी अतिरिक्त बंधक के CGTMSE के तहत सरकारी क्रेडिट गारंटी।\n• अन्य योजनाओं (MIDH, PMFME) के साथ सब्सिडी का दोहरा लाभ।\n• सही दाम मिलने तक अपनी फसल को सुरक्षित रखने की आधुनिक सुविधा।"
+    },
+    "eligibility": {
+      "en": "PACS societies, Agricultural Producers, FPOs, SHGs, Joint Liability Groups, Agri-entrepreneurs, and Startups.",
+      "te": "ప్రాథమిక వ్యవసాయ సహకార సంఘాలు (PACS), రైతు ఉత్పత్తిదారుల సంఘాలు (FPOs), మరియు అగ్రి-స్టార్టప్‌లు.",
+      "hi": "प्राथमिक कृषि सहकारी समितियां (PACS), एफपीओ, स्वयं सहायता समूह एवं कृषि उद्यमी।"
+    },
+    "documents": {
+      "en": ["Aadhaar & PAN Card", "Detailed Project Report (DPR)", "Land Document / Lease Agreement", "Bank Sanction Letter"],
+      "te": ["ఆధార్ & పాన్ కార్డు", "వివరణాత్మక ప్రాజెక్ట్ నివేదిక (DPR)", "భూమి లీజు లేదా యాజమాన్య పత్రం", "బ్యాంక్ లోన్ ఆమోద పత్రం"],
+      "hi": ["आधार व पैन कार्ड", "परियोजना रिपोर्ट (DPR)", "भूमि दस्तावेज / लीज एग्रीमेंट", "बैंक स्वीकृति पत्र"]
+    },
+    "how_to_apply": {
+      "en": "Register and apply online at the national AIF Portal (agriinfra.dac.gov.in) with direct commercial / cooperative bank routing.",
+      "te": "జాతీయ AIF పోర్టల్ (agriinfra.dac.gov.in) లో ఆన్‌లైన్ ద్వారా దరఖాస్తు చేసుకోవాలి.",
+      "hi": "राष्ट्रीय एआईएफ पोर्टल (agriinfra.dac.gov.in) पर ऑनलाइन आवेदन करें।"
+    },
+    "source_url": "https://agriinfra.dac.gov.in"
+  },
+  {
+    "id": "net-pm-kisan-mandhan",
+    "state_id": "all",
+    "category": "social_security",
+    "badge": "🌐 ₹3,000/Month Farmer Pension",
+    "icon": "fa-person-cane",
+    "color": "#0d9488",
+    "keywords": ["mandhan", "pension", "kisan pension", "old age", "social security", "పింఛను", "రైతు పెన్షన్", "వృద్ధాప్య రక్షణ"],
+    "leader_name": {
+      "en": "Ministry of Agriculture & Farmers Welfare / LIC",
+      "te": "కేంద్ర వ్యవసాయ శాఖ & ఎల్ఐసీ (LIC)",
+      "hi": "कृषि मंत्रालय एवं एलआईसी"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "PM Kisan Maan-Dhan Yojana (Farmer Pension Scheme)",
+      "te": "పీఎం కిసాన్ మాన్‌ధన్ యోజన (రైతులకు నెలకు ₹3,000 వృద్ధాప్య పింఛను)",
+      "hi": "प्रधानमंत्री किसान मान-धन योजना (किसानों को ₹3,000/माह पेंशन)"
+    },
+    "tagline": {
+      "en": "Assured monthly pension of ₹3,000 after age 60 for small and marginal farmers with 50% matching contribution from Central Government.",
+      "te": "చిన్న, సన్నకారు రైతులకు 60 ఏళ్లు నిండిన తర్వాత జీవితాంతం నెలకు ₹3,000 కచ్చితమైన పెన్షన్, కేంద్ర ప్రభుత్వం సమాన వాటా జమ.",
+      "hi": "60 वर्ष की आयु के बाद छोटे एवं सीमांत किसानों को ₹3,000 प्रतिमाह की सुनिश्चित पेंशन, 50% अंशदान केंद्र सरकार देती है।"
+    },
+    "authority": {
+      "en": "Life Insurance Corporation of India (LIC) & Ministry of Agriculture",
+      "te": "భారతీయ జీవిత బీమా సంస్థ (LIC) & కేంద్ర వ్యవసాయ శాఖ",
+      "hi": "भारतीय जीवन बीमा निगम (LIC) एवं कृषि मंत्रालय"
+    },
+    "benefits": {
+      "en": "• Guaranteed monthly pension of ₹3,000 after attaining 60 years of age.\n• Low monthly contribution between ₹55 to ₹200 (based on entry age 18-40 years).\n• Equal 50% contribution deposited directly by Central Government into the farmer's pension account.\n• In case of beneficiary death, spouse is entitled to 50% family pension (₹1,500/month).\n• Can be auto-debited directly from PM-KISAN / Annadata Sukhibhava installment.",
+      "te": "• 60 ఏళ్లు దాటిన తర్వాత జీవితాంతం ప్రతి నెలా ₹3,000 బ్యాంక్ ఖాతాలో జమ.\n• వయస్సును బట్టి నెలకు కేవలం ₹55 నుండి ₹200 నామమాత్రపు ప్రీమియం.\n• రైతు ఎంత మొత్తం చెల్లిస్తారో, అంతే మొత్తాన్ని కేంద్ర ప్రభుత్వం ఉచితంగా జతచేస్తుంది.\n• ఒకవేళ రైతు మరణిస్తే జీవిత భాగస్వామికి నెలకు ₹1,500 ఫ్యామిలీ పెన్షన్ లభిస్తుంది.\n• పీఎం కిసాన్ నిధుల నుండి నేరుగా ఆటో-డెబిట్ చేసుకునే సౌలభ్యం.",
+      "hi": "• 60 वर्ष पूरे होने पर हर महीने ₹3,000 की पक्की पेंशन।\n• प्रवेश आयु (18-40 वर्ष) के अनुसार मात्र ₹55 से ₹200 प्रतिमाह अंशदान।\n• जितना किसान जमा करेगा, उतना ही 50% हिस्सा केंद्र सरकार जमा करेगी।\n• किसान की मृत्यु पर पति/पत्नी को ₹1,500/माह पारिवारिक पेंशन।\n• पीएम-किसान की किस्त से स्वतः अंशदान काटने का विकल्प।"
+    },
+    "eligibility": {
+      "en": "Small and marginal farmers aged between 18 and 40 years holding cultivable land up to 2 hectares (5 acres).",
+      "te": "18 నుండి 40 సంవత్సరాల వయస్సు మరియు 5 ఎకరాలలోపు సాగు భూమి ఉన్న చిన్న, సన్నకారు రైతులందరూ.",
+      "hi": "18 से 40 वर्ष की आयु वाले छोटे और सीमांत किसान, जिनके पास 2 हेक्टेयर (5 एकड़) तक कृषि भूमि हो।"
+    },
+    "documents": {
+      "en": ["Aadhaar Card", "Savings Bank Account / PM-KISAN Account", "Nominee Details"],
+      "te": ["ఆధార్ కార్డు", "బ్యాంక్ ఖాతా పాస్‌బుక్", "నామినీ వివరాలు"],
+      "hi": ["आधार कार्ड", "बैंक खाता पासबुक", "नॉमिनी का विवरण"]
+    },
+    "how_to_apply": {
+      "en": "Enroll instantly at your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK) or at maandhan.in.",
+      "te": "గ్రామ రైతు భరోసా కేంద్రం (RSK) లేదా CSC సెంటర్‌ను సంప్రదించి 5 నిమిషాల్లో పెన్షన్ కార్డు పొందవచ్చు.",
+      "hi": "नजदीकी सीएससी (CSC) या ग्राम किसान सेवा केंद्र पर तुरंत कार्ड बनवाएं।"
+    },
+    "source_url": "https://maandhan.in"
+  }
+]

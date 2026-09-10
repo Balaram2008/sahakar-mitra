@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>రైతు మిత్ర కియోస్క్ • Sahakara Mitra Touch Kiosk</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            kGold: {
+              300: '#fde68a',
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706'
+            },
+            kEmerald: {
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
+              950: '#022c22'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- FontAwesome & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800;900&family=Ramabhadra&family=Hind:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/kiosk.css">
+
+  <style>
+    body {
+      font-family: 'Noto Sans Telugu', 'Plus Jakarta Sans', system-ui, sans-serif;
+    }
+  </style>
+</head>
+<body class="kiosk-body">
+
+  <!-- ================= TOP GOVERNMENT KIOSK HEADER ================= -->
+  <header class="kiosk-header px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
+    <!-- Brand Logo & Title -->
+    <div class="flex items-center gap-3.5">
+      <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-white p-2 shadow-2xl flex items-center justify-center flex-shrink-0 border-3 border-amber-400">
+        <i class="fa-solid fa-scale-balanced text-3xl text-emerald-800"></i>
+      </div>
+      <div>
+        <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
+          <span class="px-2 py-0.5 text-[10px] sm:text-[11px] font-black uppercase tracking-wider bg-amber-400 text-emerald-950 rounded-md shadow-sm">
+            రైతు భరోసా కేంద్రం కియోస్క్ (RSK)
+          </span>
+          <span class="px-2 py-0.5 text-[10px] sm:text-[11px] font-black uppercase tracking-wider bg-emerald-600 text-white rounded-md shadow-sm">
+            28 రాష్ట్రాలు & కేంద్రం
+          </span>
+        </div>
+        <h1 class="text-xl sm:text-2xl lg:text-3xl font-black tracking-tight text-white kiosk-glow mt-0.5" data-kiosk-i18n="welcome_title">
+          సహకార మిత్ర • రైతు సేవా కియోస్క్
+        </h1>
+        <p class="text-xs sm:text-sm text-emerald-200 font-medium truncate max-w-lg" data-kiosk-i18n="welcome_sub">
+          సంక్షేమ పథకాలు, సున్నా వడ్డీ రుణాలు & విపత్తు పరిహార స్పర్శ వేదిక
+        </p>
+      </div>
+    </div>
+
+    <!-- Live Digital Clock, State CM Badge & Language Bar -->
+    <div class="flex items-center gap-2.5 sm:gap-3">
+      <!-- Live Clock -->
+      <div class="hidden sm:block px-3.5 py-2 rounded-2xl bg-black/40 border-2 border-amber-400/40 text-right">
+        <div id="kiosk-live-clock" class="text-lg sm:text-xl font-black text-amber-300 tracking-wider">--:--:--</div>
+        <div id="kiosk-live-date" class="text-[10px] text-emerald-200 font-bold">-- --- ----</div>
+      </div>
+
+      <!-- State Switcher Badge with Chief Minister Photo -->
+      <button onclick="kiosk.openModal('kiosk-states-modal')" class="p-2 sm:px-3.5 py-2 rounded-2xl bg-white/10 hover:bg-white/20 border-2 border-amber-400 transition flex items-center gap-2.5 group text-left shadow-lg">
+        <img id="kiosk-current-cm-img" src="/static/images/cms/cm_ap.jpg" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/N._Chandrababu_Naidu_in_2024.jpg/480px-N._Chandrababu_Naidu_in_2024.jpg'" class="w-11 h-11 sm:w-12 sm:h-12 rounded-full object-cover border-2 border-amber-400 shadow-md flex-shrink-0" />
+        <div class="hidden md:block">
+          <div class="text-[9px] uppercase tracking-wider text-amber-300 font-black">ప్రస్తుత రాష్ట్రం</div>
+          <div id="kiosk-current-state-name" class="font-black text-xs sm:text-sm text-white">ఆంధ్రప్రదేశ్</div>
+          <div id="kiosk-current-cm-name" class="text-[10px] text-emerald-200 truncate max-w-[130px]">శ్రీ నారా చంద్రబాబు నాయుడు</div>
+        </div>
+        <i class="fa-solid fa-chevron-down text-amber-400 text-xs ml-0.5"></i>
+      </button>
+
+      <!-- Language Switcher -->
+      <div class="flex items-center gap-1 bg-black/30 p-1 rounded-2xl border border-white/20">
+        <button onclick="kiosk.applyLanguage('te')" data-lang="te" class="kiosk-lang-btn active">తెలుగు</button>
+        <button onclick="kiosk.applyLanguage('hi')" data-lang="hi" class="kiosk-lang-btn">हिन्दी</button>
+        <button onclick="kiosk.applyLanguage('en')" data-lang="en" class="kiosk-lang-btn">English</button>
+      </div>
+
+      <!-- Return to Web Portal Mode -->
+      <a href="/" class="px-3.5 py-2.5 rounded-2xl bg-white/10 hover:bg-amber-400 hover:text-emerald-950 text-white font-black text-xs border border-white/20 transition flex items-center gap-1.5 shadow">
+        <i class="fa-solid fa-desktop text-sm"></i>
+        <span class="hidden lg:inline" data-kiosk-i18n="web_mode">వెబ్ పోర్టల్</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ================= LIVE STATS BAR (PORTAL FEATURE) ================= -->
+  <div class="bg-emerald-950/95 border-b border-emerald-500/40 py-2.5 px-4 shadow-inner">
+    <div class="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
+      <div class="border-r border-emerald-800/80 last:border-0 px-2">
+        <strong class="text-amber-400 font-black text-sm sm:text-base block">2,050+ PACS</strong>
+        <span class="text-emerald-200 text-[11px]">కంప్యూటరీకరణ అయిన సంఘాలు (ERP)</span>
+      </div>
+      <div class="border-r border-emerald-800/80 last:border-0 px-2">
+        <strong class="text-amber-400 font-black text-sm sm:text-base block">50+ లక్షల మంది</strong>
+        <span class="text-emerald-200 text-[11px]">ఇ-పంటలో నమోదైన రైతులు</span>
+      </div>
+      <div class="border-r border-emerald-800/80 last:border-0 px-2">
+        <strong class="text-amber-400 font-black text-sm sm:text-base block">0% వడ్డీ</strong>
+        <span class="text-emerald-200 text-[11px]">సున్నా వడ్డీ పంట రుణాలు (KCC)</span>
+      </div>
+      <div class="px-2">
+        <strong class="text-amber-400 font-black text-sm sm:text-base block">₹0 ఉచితం</strong>
+        <span class="text-emerald-200 text-[11px]">100% ఉచిత పంటల బీమా రక్షణ</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= LIVE ANNOUNCEMENT TICKER (PORTAL FEATURE) ================= -->
+  <div class="kiosk-ticker-wrap">
+    <div class="kiosk-ticker-badge">
+      <i class="fa-solid fa-bullhorn text-xs animate-bounce"></i>
+      <span>తాజా సమాచారం</span>
+    </div>
+    <div class="kiosk-ticker-content">
+      <span class="kiosk-ticker-marquee" id="kiosk-live-ticker-text">
+        🌾 అన్నదాత సుఖీభవ 2026 నిధుల విడుదల ప్రారంభం • 💰 పిఎసిఎస్ 0% వడ్డీ పంట రుణాల పరిమితి ₹3,00,000 వరకు పెంపు • 🛡️ ఈ-పంట (e-Crop) లో నమోదైన రైతులకు 100% ఉచిత పంటల బీమా వర్తింపు • 🇮🇳 భారతదేశంలోని 28 రాష్ట్రాల సంక్షేమ పథకాలు కియోస్క్‌లో అందుబాటులో ఉన్నాయి • 📞 పంట నష్టం అత్యవసర ఫిర్యాదుల హెల్ప్‌లైన్: 1070 / 1800-425-4440 • ⚖️ సహకార చట్టం 1964 ప్రకారం రైతులందరికీ సమాన ఓటు హక్కు
+      </span>
+    </div>
+    <button onclick="kiosk.speakTicker()" class="px-3 py-1 bg-amber-400 text-emerald-950 font-black text-xs hover:bg-amber-300 flex items-center gap-1 flex-shrink-0 h-full">
+      <i class="fa-solid fa-volume-high"></i> <span class="hidden sm:inline">వినండి</span>
+    </button>
+  </div>
+
+  <!-- ================= TOUCH QUICK NAVIGATION TAB BAR ================= -->
+  <div class="kiosk-nav-bar px-4 py-2 overflow-x-auto no-scrollbar flex items-center gap-2">
+    <button onclick="kiosk.openModal('kiosk-ai-assistant-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-robot text-amber-400"></i>
+      <span>ఏఐ చాట్‌బాట్</span>
+    </button>
+    <button onclick="kiosk.openModal('kiosk-wizard-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i>
+      <span>అర్హత విజార్డ్</span>
+    </button>
+    <button onclick="kiosk.openModal('kiosk-states-explorer-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-map-location-dot text-blue-400"></i>
+      <span>28 రాష్ట్రాల పథకాలు</span>
+    </button>
+    <button onclick="kiosk.openModal('kiosk-laws-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-scale-balanced text-indigo-400"></i>
+      <span>సహకార చట్టాలు</span>
+    </button>
+    <button onclick="kiosk.openModal('kiosk-insurance-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-shield-halved text-teal-400"></i>
+      <span>ఉచిత పంట బీమా</span>
+    </button>
+    <button onclick="kiosk.openModal('kiosk-finance-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-hand-holding-dollar text-green-400"></i>
+      <span>0% పంట రుణాలు</span>
+    </button>
+    <button onclick="kiosk.openModal('kiosk-grievance-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-bullhorn text-rose-400"></i>
+      <span>సహకార స్పందన</span>
+    </button>
+    <button onclick="kiosk.openModal('kiosk-tracker-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-route text-amber-300"></i>
+      <span>ఫిర్యాదు ట్రాకర్</span>
+    </button>
+    <button onclick="kiosk.openModal('kiosk-benefit-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-wallet text-emerald-300"></i>
+      <span>రైతు భరోసా DBT</span>
+    </button>
+    <button onclick="kiosk.openModal('kiosk-pacs-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-seedling text-teal-300"></i>
+      <span>ఎరువులు & విత్తనాలు</span>
+    </button>
+    <button onclick="kiosk.openModal('kiosk-chc-modal')" class="kiosk-nav-btn">
+      <i class="fa-solid fa-tractor text-orange-400"></i>
+      <span>యంత్రాల కిరాయి</span>
+    </button>
+  </div>
+
+  <!-- ================= MAIN KIOSK HERO WITH TALKING AVATAR & GIANT MIC ================= -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col justify-between gap-5">
+
+    <!-- Avatar + Voice Mic Hero Row -->
+    <div class="p-5 sm:p-7 rounded-3xl bg-gradient-to-r from-emerald-950/90 via-emerald-900/80 to-teal-950/90 border-3 border-amber-400/50 shadow-2xl flex flex-col lg:flex-row items-center justify-between gap-5 relative overflow-hidden">
+      <!-- Glow Accent -->
+      <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <!-- Left: Interactive Mascot Avatar -->
+      <div class="flex items-center gap-4 sm:gap-5 flex-1 w-full">
+        <div class="relative flex-shrink-0 cursor-pointer" onclick="kiosk.speakText(kiosk.i18nDict[kiosk.currentLang]?.avatar_greeting)">
+          <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-amber-400 p-1 shadow-2xl flex items-center justify-center border-4 border-white overflow-hidden">
+            <img id="kiosk-mascot-img" src="https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?w=200" alt="Mascot" class="w-full h-full object-cover rounded-full" />
+          </div>
+          <span class="absolute -bottom-1 right-0 px-2 py-0.5 bg-emerald-700 border border-white text-[9px] font-black rounded-full text-white">
+            ఏఐ మిత్ర
+          </span>
+        </div>
+
+        <div class="flex-1">
+          <!-- Speech Bubble -->
+          <div id="kiosk-avatar-bubble" class="p-3.5 sm:p-4 rounded-2xl bg-white/10 backdrop-blur-md border-2 border-amber-400 text-white font-medium text-xs sm:text-sm leading-relaxed relative shadow-lg">
+            <span>నమస్కారం రైతు సోదరులారా! సహకార కియోస్క్‌కి స్వాగతం. క్రింది సేవలపై తాకండి లేదా మైక్ నొక్కి మాట్లాడండి.</span>
+          </div>
+          <!-- Audio wave indicator -->
+          <div id="kiosk-avatar-wave" class="hidden items-center gap-1.5 mt-1.5 text-amber-300 text-xs font-bold">
+            <i class="fa-solid fa-volume-high fa-beat"></i>
+            <span>వాయిస్ సహాయకుడు మాట్లాడుతున్నారు...</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Center: Giant 1-Touch Voice Mic -->
+      <div class="flex flex-col items-center justify-center gap-1.5 flex-shrink-0">
+        <button id="kiosk-giant-mic-btn" onclick="kiosk.startVoiceQuery()" class="kiosk-giant-mic" title="మాట్లాడటానికి తాకండి">
+          <i class="fa-solid fa-microphone text-3xl sm:text-4xl"></i>
+          <span class="text-[10px] font-black uppercase tracking-wider mt-0.5" data-kiosk-i18n="tap_to_speak">మాట్లాడండి</span>
+        </button>
+        <span class="text-[10px] text-amber-200 font-bold" data-kiosk-i18n="mic_tip">1-టచ్ వాయిస్ శోధన</span>
+      </div>
+
+      <!-- Right: Search Bar & Trending Pills -->
+      <div class="w-full lg:w-96 flex flex-col gap-2">
+        <div class="relative">
+          <input type="text" id="kiosk-search-input" placeholder="పథకం పేరు వెతకండి (ఉదా: PM-KUSUM, అన్నదాత)..." class="w-full py-3.5 pl-11 pr-11 rounded-2xl bg-black/40 border-2 border-amber-400 text-white placeholder-emerald-200/60 font-bold text-xs sm:text-sm focus:outline-none focus:ring-4 focus:ring-amber-400/40" />
+          <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-amber-400 text-base"></i>
+          <button onclick="kiosk.performSchemeSearch()" class="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-xl bg-amber-400 text-emerald-950 font-black text-xs hover:bg-amber-300">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Trending Search Pills -->
+        <div class="flex flex-wrap items-center gap-1 text-xs">
+          <span class="text-[10px] text-amber-300 font-black uppercase">హాట్:</span>
+          <button onclick="kiosk.performSchemeSearch('PM-KUSUM Solar')" class="px-2 py-0.5 rounded-lg bg-white/10 hover:bg-amber-400 hover:text-emerald-950 font-bold text-[10px] text-white border border-white/20 transition">☀️ PM-KUSUM</button>
+          <button onclick="kiosk.performSchemeSearch('Annadata Sukhibhava')" class="px-2 py-0.5 rounded-lg bg-white/10 hover:bg-amber-400 hover:text-emerald-950 font-bold text-[10px] text-white border border-white/20 transition">🌾 అన్నదాత ₹20,000</button>
+          <button onclick="kiosk.performSchemeSearch('Drip Irrigation 90%')" class="px-2 py-0.5 rounded-lg bg-white/10 hover:bg-amber-400 hover:text-emerald-950 font-bold text-[10px] text-white border border-white/20 transition">💧 బిందు సేద్యం 90%</button>
+          <button onclick="kiosk.performSchemeSearch('Kisan Drone')" class="px-2 py-0.5 rounded-lg bg-white/10 hover:bg-amber-400 hover:text-emerald-950 font-bold text-[10px] text-white border border-white/20 transition">🚁 డ్రోన్ రాయితీ</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= 12 GRAND TACTILE SERVICE ACTION CARDS (ALL PORTAL FEATURES) ================= -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3.5 sm:gap-4">
+
+      <!-- Tile 1: Rythu Bharosa / DBT Payment Status -->
+      <div onclick="kiosk.openModal('kiosk-benefit-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-emerald-600 border-2 border-emerald-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-wallet"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">రైతు భరోసా / డీబీటీ స్థితి</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">PM-KISAN & రాష్ట్ర ప్రభుత్వ చెల్లింపుల వివరాలు, ఆధార్ లింక్ స్టేటస్</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-amber-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-hand-pointer"></i> ఆధార్‌తో తనిఖీ
+        </span>
+      </div>
+
+      <!-- Tile 2: Smart AI Eligibility Wizard -->
+      <div onclick="kiosk.openModal('kiosk-wizard-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-amber-500 text-emerald-950 border-2 border-amber-300 group-hover:bg-emerald-600 group-hover:text-white transition">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">స్మార్ట్ పథక అర్హత విజార్డ్</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">భూమి, PACS సభ్యత్వం & పంట ఆధారంగా వర్తించే పథకాల తక్షణ సిఫార్సు</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-amber-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-bolt"></i> 3 ప్రశ్నల్లో అర్హత
+        </span>
+      </div>
+
+      <!-- Tile 3: All-India 28 States Scheme Explorer -->
+      <div onclick="kiosk.openModal('kiosk-states-explorer-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-blue-600 border-2 border-blue-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-map-location-dot"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">28 రాష్ట్రాల సమగ్ర పథకాలు</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">ఆంధ్రప్రదేశ్ & భారతదేశంలోని అన్ని రాష్ట్రాల వ్యవసాయ, సహకార పథకాలు</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-amber-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-layer-group"></i> రాష్ట్రాల వారీగా పథకాలు
+        </span>
+      </div>
+
+      <!-- Tile 4: Live Internet Scheme Search -->
+      <div onclick="kiosk.openModal('kiosk-search-results-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-purple-600 border-2 border-purple-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-globe"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">లైవ్ ఇంటర్నెట్ పథకాల శోధన</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">వికీపీడియా & జాతీయ పోర్టల్స్ నుండి రియల్-టైమ్ ప్రభుత్వ సంక్షేమ సమాచారం</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-amber-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-satellite-dish"></i> ప్రత్యక్ష వెబ్ శోధన
+        </span>
+      </div>
+
+      <!-- Tile 5: Conversational AI Voice Assistant -->
+      <div onclick="kiosk.openModal('kiosk-ai-assistant-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-teal-600 border-2 border-teal-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-robot"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">ఏఐ రైతు సహాయకుడు (చాట్)</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">పంట వ్యాధులు, మార్కెట్ ధరలు, చట్టపరమైన సహకార సలహాలు వాయిస్‌లో అడగండి</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-amber-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-microphone"></i> ఏఐతో మాట్లాడండి
+        </span>
+      </div>
+
+      <!-- Tile 6: Cooperative Laws & Farmer Rights -->
+      <div onclick="kiosk.openModal('kiosk-laws-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-indigo-600 border-2 border-indigo-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-scale-balanced"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">సహకార చట్టాలు & హక్కులు</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">APCS Act 1964 మరియు PACS మోడల్ బై-లాస్ ప్రకారం ఓటు, ఆడిట్ హక్కులు</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-amber-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-book-bookmark"></i> చట్టబద్ధమైన హక్కులు
+        </span>
+      </div>
+
+      <!-- Tile 7: 100% Free Crop Insurance Calculator -->
+      <div onclick="kiosk.openModal('kiosk-insurance-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-cyan-600 border-2 border-cyan-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">100% ఉచిత పంటల బీమా (PMFBY)</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">పంట బీమా విలువ, రైతు ప్రీమియం ఆదా & 72 గంటల నష్టపరిహార గైడ్</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-cyan-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-calculator"></i> ₹0 ప్రీమియం లెక్కింపు
+        </span>
+      </div>
+
+      <!-- Tile 8: 0% Interest PACS Crop Loan Calculator -->
+      <div onclick="kiosk.openModal('kiosk-finance-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-green-600 border-2 border-green-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">0% వడ్డీ పంట రుణం (కేసీసీ)</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">7% - 3% - 4% = 0.0% సున్నా వడ్డీ రుణ లెక్కింపు & మోడల్ పిఎసిఎస్ సేవలు</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-amber-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-coins"></i> అర్హత & ఆదా లెక్కింపు
+        </span>
+      </div>
+
+      <!-- Tile 9: Sahakara Spandana Grievance Registration -->
+      <div onclick="kiosk.openModal('kiosk-grievance-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-rose-600 border-2 border-rose-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">సహకార స్పందన (ఫిర్యాదు)</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">రుణ తిరస్కరణ, ఎరువుల కొరత, ఎన్నికలపై జిల్లా సహకార అధికారికి (DCO) ఫిర్యాదు</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-rose-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-file-signature"></i> తక్షణ టికెట్ జారీ
+        </span>
+      </div>
+
+      <!-- Tile 10: Live Grievance Ticket Tracker -->
+      <div onclick="kiosk.openModal('kiosk-tracker-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-red-600 border-2 border-red-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-route"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">లైవ్ ఫిర్యాదు స్టేటస్ ట్రాకర్</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">4-దశల ప్రత్యక్ష పరిష్కార పురోగతి & విచారణ అధికారి వివరాల తనిఖీ</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-amber-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-magnifying-glass"></i> టికెట్ ట్రాక్ చేయండి
+        </span>
+      </div>
+
+      <!-- Tile 11: Kisan Fertilizer & Seed Booking -->
+      <div onclick="kiosk.openModal('kiosk-pacs-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-emerald-700 border-2 border-emerald-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-seedling"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">ఎరువులు & విత్తనాల కోటా</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">PACS / RSK డిపోలో యూరియా, డీఏపీ, సర్టిఫైడ్ విత్తనాల రిజర్వేషన్ టోకెన్</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-amber-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-box"></i> తక్షణ టోకెన్ పొందండి
+        </span>
+      </div>
+
+      <!-- Tile 12: CHC Machinery Rental Booking -->
+      <div onclick="kiosk.openModal('kiosk-chc-modal')" class="kiosk-grid-tile group">
+        <div class="kiosk-tile-icon-wrap bg-orange-600 border-2 border-orange-400 group-hover:bg-amber-400 group-hover:text-emerald-950 transition">
+          <i class="fa-solid fa-tractor"></i>
+        </div>
+        <h3 class="text-base font-black text-amber-300 mt-2">ట్రాక్టర్ & యంత్రాల కిరాయి</h3>
+        <p class="text-[11px] text-white/80 mt-0.5">కస్టమ్ హైరింగ్ సెంటర్ (CHC) ద్వారా డ్రోన్ స్ప్రేయింగ్, హార్వెస్టర్ బుకింగ్</p>
+        <span class="mt-2.5 px-3 py-0.5 rounded-full bg-white/10 text-amber-200 text-[10px] font-black border border-white/20 flex items-center gap-1">
+          <i class="fa-solid fa-calendar-check"></i> సబ్సిడీ కిరాయి బుకింగ్
+        </span>
+      </div>
+
+    </div>
+
+    <!-- ================= BOTTOM EMERGENCY & HELPLINE BAR ================= -->
+    <footer class="p-3.5 rounded-2xl bg-black/40 border border-white/15 flex flex-wrap items-center justify-between gap-3 text-xs">
+      <div class="flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
+        <span class="font-bold text-amber-300" data-kiosk-i18n="kiosk_id">కియోస్క్ టెర్మినల్: RSK-AP-2026</span>
+        <span class="text-white/50">|</span>
+        <span class="text-white/80">సర్వర్: కనెక్ట్ చేయబడింది (100% ఆపరేషనల్)</span>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="font-black text-amber-300 uppercase tracking-wider text-[10px]">టోల్ ఫ్రీ హెల్ప్‌లైన్:</span>
+        <span class="px-2.5 py-1 rounded-lg bg-emerald-800 text-white font-black text-[11px]">📞 కిసాన్ కాల్ సెంటర్: 1551</span>
+        <span class="px-2.5 py-1 rounded-lg bg-blue-900 text-white font-black text-[11px]">🛡️ పంటల బీమా: 1800-425-7078</span>
+        <span class="px-2.5 py-1 rounded-lg bg-rose-900 text-white font-black text-[11px]">📢 సహకార స్పందన: 1902</span>
+        <span class="px-2.5 py-1 rounded-lg bg-amber-900 text-white font-black text-[11px]">🚨 విపత్తు సహాయం: 1070</span>
+      </div>
+    </footer>
+  </main>
+
+  <!-- ================= FULLSCREEN TOUCH INTERACTIVE MODALS ================= -->
+
+  <!-- MODAL 1: RYTHU BHAROSA / DBT STATUS -->
+  <div id="kiosk-benefit-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-600 flex items-center justify-center text-2xl text-white">
+            <i class="fa-solid fa-wallet"></i>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-amber-300">రైతు భరోసా / PM-KISAN స్థితి తనిఖీ</h3>
+            <p class="text-xs text-white/80">మీ 12 అంకెల ఆధార్ నంబర్ నమోదు చేసి చెల్లింపుల చరిత్ర చూడండి</p>
+          </div>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-benefit-modal')" class="w-10 h-10 rounded-2xl bg-white/10 hover:bg-red-600 text-white text-xl font-black flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 my-6 items-start">
+        <div>
+          <label class="block text-xs font-black text-amber-300 uppercase tracking-wider mb-2">ఆధార్ నంబర్ (Aadhaar Number)</label>
+          <input type="text" id="kiosk-aadhaar-input" placeholder="ఉదా: 9876 5432 1098" value="9876 5432 1098" class="numpad-touch-input w-full p-4 rounded-2xl bg-black/40 border-2 border-amber-400 text-white font-black text-xl tracking-widest focus:outline-none focus:ring-4 focus:ring-amber-400/50 text-center" />
+          
+          <div class="flex items-center gap-3 mt-4">
+            <button onclick="kiosk.checkBenefitStatus()" class="flex-1 py-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-emerald-950 font-black text-base sm:text-lg flex items-center justify-center gap-2 shadow-xl">
+              <i class="fa-solid fa-magnifying-glass"></i> స్థితి తనిఖీ చేయండి
+            </button>
+            <button onclick="kiosk.speakText('మీ 12 అంకెల ఆధార్ నంబర్ నమోదు చేసి స్థితి తనిఖీ చేయండి బటన్ నొక్కండి.')" class="p-4 rounded-2xl bg-white/15 hover:bg-white/25 text-white font-bold flex items-center justify-center">
+              <i class="fa-solid fa-volume-high text-amber-300 text-xl"></i>
+            </button>
+          </div>
+
+          <div id="kiosk-benefit-result"></div>
+        </div>
+
+        <!-- Virtual Numeric Keypad -->
+        <div class="bg-black/30 p-5 rounded-3xl border border-white/20">
+          <div class="text-center text-xs font-black text-amber-300 uppercase tracking-wider mb-3">స్పర్శ కీప్యాడ్ (Touch Keypad)</div>
+          <div class="kiosk-numpad-grid">
+            <button onclick="kiosk.handleNumpadKey('1')" class="kiosk-num-key">1</button>
+            <button onclick="kiosk.handleNumpadKey('2')" class="kiosk-num-key">2</button>
+            <button onclick="kiosk.handleNumpadKey('3')" class="kiosk-num-key">3</button>
+            <button onclick="kiosk.handleNumpadKey('4')" class="kiosk-num-key">4</button>
+            <button onclick="kiosk.handleNumpadKey('5')" class="kiosk-num-key">5</button>
+            <button onclick="kiosk.handleNumpadKey('6')" class="kiosk-num-key">6</button>
+            <button onclick="kiosk.handleNumpadKey('7')" class="kiosk-num-key">7</button>
+            <button onclick="kiosk.handleNumpadKey('8')" class="kiosk-num-key">8</button>
+            <button onclick="kiosk.handleNumpadKey('9')" class="kiosk-num-key">9</button>
+            <button onclick="kiosk.handleNumpadKey('clear')" class="kiosk-num-key bg-red-900/60 text-red-300 text-sm">Clear</button>
+            <button onclick="kiosk.handleNumpadKey('0')" class="kiosk-num-key">0</button>
+            <button onclick="kiosk.handleNumpadKey('back')" class="kiosk-num-key bg-amber-900/60 text-amber-300 text-lg"><i class="fa-solid fa-delete-left"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: SMART AI ELIGIBILITY WIZARD -->
+  <div id="kiosk-wizard-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-amber-400 text-emerald-950 flex items-center justify-center text-2xl font-black">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-amber-300">🔍 స్మార్ట్ పథక అర్హత తనిఖీ (విజార్డ్)</h3>
+            <p class="text-xs text-white/80">3 ప్రశ్నలకు సమాధానం ఇచ్చి మీకు వర్తించే అన్ని ప్రభుత్వ పథకాలను తక్షణమే పొందండి</p>
+          </div>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-wizard-modal')" class="w-10 h-10 rounded-2xl bg-white/10 hover:bg-red-600 text-white text-xl font-black flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="my-6 space-y-5">
+        <!-- Q1: Land Type -->
+        <div>
+          <label class="block text-xs sm:text-sm font-black text-amber-300 mb-2">1. మీ భూమి సాగు వివరాలు ఏమిటి?</label>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <label class="kiosk-radio-card" onclick="kiosk.selectWizardOption(this, 'wiz-land')">
+              <input type="radio" name="wiz_land" value="landowner" checked class="accent-amber-400 w-4 h-4" />
+              <div>
+                <strong class="block text-xs font-black text-white">సొంత భూమి (పట్టాదారు)</strong>
+                <span class="text-[10px] text-emerald-200">1B & పట్టాదారు పాస్‌బుక్</span>
+              </div>
+            </label>
+            <label class="kiosk-radio-card" onclick="kiosk.selectWizardOption(this, 'wiz-land')">
+              <input type="radio" name="wiz_land" value="tenant" class="accent-amber-400 w-4 h-4" />
+              <div>
+                <strong class="block text-xs font-black text-white">కౌలు రైతు (CCRC కార్డు)</strong>
+                <span class="text-[10px] text-emerald-200">సాగుదారు హక్కు పత్రం</span>
+              </div>
+            </label>
+            <label class="kiosk-radio-card" onclick="kiosk.selectWizardOption(this, 'wiz-land')">
+              <input type="radio" name="wiz_land" value="dairy" class="accent-amber-400 w-4 h-4" />
+              <div>
+                <strong class="block text-xs font-black text-white">పాడి రైతు / మత్స్యకారుడు</strong>
+                <span class="text-[10px] text-emerald-200">పశు సంవర్ధక & డెయిరీ</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q2: PACS Membership -->
+        <div>
+          <label class="block text-xs sm:text-sm font-black text-amber-300 mb-2">2. మీరు ప్రాథమిక వ్యవసాయ సహకార సంఘంలో (PACS) సభ్యులా?</label>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <label class="kiosk-radio-card" onclick="kiosk.selectWizardOption(this, 'wiz-pacs')">
+              <input type="radio" name="wiz_pacs" value="yes" checked class="accent-amber-400 w-4 h-4" />
+              <div>
+                <strong class="block text-xs font-black text-white">అవును, క్రియాశీలక PACS సభ్యుడిని</strong>
+                <span class="text-[10px] text-emerald-200">0% రుణ & సబ్సిడీ అర్హత</span>
+              </div>
+            </label>
+            <label class="kiosk-radio-card" onclick="kiosk.selectWizardOption(this, 'wiz-pacs')">
+              <input type="radio" name="wiz_pacs" value="no" class="accent-amber-400 w-4 h-4" />
+              <div>
+                <strong class="block text-xs font-black text-white">కాదు, ఇంకా నమోదు కాలేదు</strong>
+                <span class="text-[10px] text-emerald-200">కొత్త సభ్యత్వ దరఖాస్తు</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Q3: Crop Type -->
+        <div>
+          <label class="block text-xs sm:text-sm font-black text-amber-300 mb-2">3. ఈ సీజన్‌లో మీరు సాగు చేస్తున్న ప్రధాన పంట ఏది?</label>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <label class="kiosk-radio-card" onclick="kiosk.selectWizardOption(this, 'wiz-crop')">
+              <input type="radio" name="wiz_crop" value="paddy" checked class="accent-amber-400 w-4 h-4" />
+              <div>
+                <strong class="block text-xs font-black text-white">వరి (Paddy)</strong>
+                <span class="text-[10px] text-emerald-200">ఆహార ధాన్యాల పంట</span>
+              </div>
+            </label>
+            <label class="kiosk-radio-card" onclick="kiosk.selectWizardOption(this, 'wiz-crop')">
+              <input type="radio" name="wiz_crop" value="cotton" class="accent-amber-400 w-4 h-4" />
+              <div>
+                <strong class="block text-xs font-black text-white">పత్తి / వేరుశనగ / మినుము</strong>
+                <span class="text-[10px] text-emerald-200">నూనెగింజలు & వాణిజ్య</span>
+              </div>
+            </label>
+            <label class="kiosk-radio-card" onclick="kiosk.selectWizardOption(this, 'wiz-crop')">
+              <input type="radio" name="wiz_crop" value="horticulture" class="accent-amber-400 w-4 h-4" />
+              <div>
+                <strong class="block text-xs font-black text-white">మిర్చి / మామిడి / కూరగాయలు</strong>
+                <span class="text-[10px] text-emerald-200">ఉద్యానవన పంటలు</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <button onclick="kiosk.runEligibilityWizard()" class="w-full py-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-emerald-950 font-black text-base sm:text-lg shadow-xl flex items-center justify-center gap-2">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> నాకు వర్తించే పథకాలను కనుగొనండి
+        </button>
+
+        <div id="kiosk-wizard-results" class="hidden mt-4 pt-4 border-t border-white/20"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 3: 28 STATES SCHEME EXPLORER -->
+  <div id="kiosk-states-explorer-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div>
+          <h3 class="text-xl sm:text-2xl font-black text-amber-300">🏛️ 28 రాష్ట్రాల వ్యవసాయ & సహకార పథకాలు</h3>
+          <p class="text-xs text-white/80">రాష్ట్రం లేదా ప్రాంతం వారీగా ఫిల్టర్ చేసి పథకాల వివరాలు చదవండి లేదా వినండి</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="kiosk.openModal('kiosk-states-modal')" class="px-3.5 py-2 rounded-xl bg-amber-400 text-emerald-950 font-black text-xs">
+            <i class="fa-solid fa-map-pin"></i> రాష్ట్రం మార్చండి
+          </button>
+          <button onclick="kiosk.closeModal('kiosk-states-explorer-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Region Filter Pills -->
+      <div class="flex items-center gap-1.5 overflow-x-auto my-3 pb-1 no-scrollbar">
+        <button onclick="kiosk.filterSchemesByRegion('all')" class="kiosk-region-pill active" data-region="all">అన్ని రాష్ట్రాలు</button>
+        <button onclick="kiosk.filterSchemesByRegion('South')" class="kiosk-region-pill" data-region="South">దక్షిణ భారతం</button>
+        <button onclick="kiosk.filterSchemesByRegion('North')" class="kiosk-region-pill" data-region="North">ఉత్తర భారతం</button>
+        <button onclick="kiosk.filterSchemesByRegion('West')" class="kiosk-region-pill" data-region="West">పశ్చిమ భారతం</button>
+        <button onclick="kiosk.filterSchemesByRegion('East')" class="kiosk-region-pill" data-region="East">తూర్పు భారతం</button>
+        <button onclick="kiosk.filterSchemesByRegion('Central')" class="kiosk-region-pill" data-region="Central">మధ్య భారతం</button>
+        <button onclick="kiosk.filterSchemesByRegion('North-East')" class="kiosk-region-pill" data-region="North-East">ఈశాన్య భారతం</button>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="flex items-center gap-2 mb-3">
+        <button onclick="kiosk.filterSchemesByCategory('all')" class="px-3 py-1 rounded-lg bg-emerald-800 text-white text-xs font-bold border border-emerald-500/50" data-cat="all">అన్ని వర్గాలు</button>
+        <button onclick="kiosk.filterSchemesByCategory('state')" class="px-3 py-1 rounded-lg bg-white/10 text-white text-xs font-bold border border-white/20" data-cat="state">రాష్ట్ర ప్రభుత్వ పథకాలు</button>
+        <button onclick="kiosk.filterSchemesByCategory('central_moc')" class="px-3 py-1 rounded-lg bg-white/10 text-white text-xs font-bold border border-white/20" data-cat="central_moc">కేంద్ర సహకార పథకాలు (మోదీ)</button>
+      </div>
+
+      <div id="kiosk-state-explorer-cards" class="grid grid-cols-1 md:grid-cols-2 gap-4 max-h-[55vh] overflow-y-auto pr-2">
+        <!-- Dynamic scheme cards injected by kiosk.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 4: LIVE INTERNET SCHEME SEARCH RESULTS -->
+  <div id="kiosk-search-results-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div>
+          <h3 class="text-xl sm:text-2xl font-black text-amber-300">🌐 లైవ్ ఇంటర్నెట్ పథకాల శోధన</h3>
+          <p class="text-xs text-white/80">వికీపీడియా & జాతీయ వ్యవసాయ పోర్టల్స్ నుండి రియల్-టైమ్ సమాచారం</p>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-search-results-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div id="kiosk-search-results-content" class="my-6 max-h-[65vh] overflow-y-auto pr-2"></div>
+    </div>
+  </div>
+
+  <!-- MODAL 5: CONVERSATIONAL AI VOICE ASSISTANT -->
+  <div id="kiosk-ai-assistant-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-3 border-b border-white/20">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-amber-400 text-emerald-950 flex items-center justify-center text-2xl font-black">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-amber-300">కృత్రిమ మేధస్సు రైతు సహాయకుడు</h3>
+            <p class="text-xs text-white/80">వాయిస్ లేదా ప్రశ్న ద్వారా ఏదైనా వ్యవసాయ సలహా అడగండి (28 రాష్ట్రాల సమాచారం సిద్ధంగా ఉంది)</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="kiosk.clearAiChat()" class="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-emerald-700 text-white text-xs font-bold flex items-center gap-1">
+            <i class="fa-solid fa-trash-can"></i> క్లియర్
+          </button>
+          <button onclick="kiosk.closeModal('kiosk-ai-assistant-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Preset Farming Questions (6 Portal Chips) -->
+      <div class="flex flex-wrap gap-1.5 my-3">
+        <button onclick="kiosk.askAiAssistant('అన్నదాత సుఖీభవ 20000 విడతల తేదీలు మరియు మార్గదర్శకాలు')" class="px-2.5 py-1 rounded-xl bg-white/10 hover:bg-amber-400 hover:text-emerald-950 text-xs font-bold text-white border border-white/20">🌾 అన్నదాత సుఖీభవ ₹20,000</button>
+        <button onclick="kiosk.askAiAssistant('0% సున్నా వడ్డీ పిఎసిఎస్ పంట రుణం ఎలా పొందాలి?')" class="px-2.5 py-1 rounded-xl bg-white/10 hover:bg-amber-400 hover:text-emerald-950 text-xs font-bold text-white border border-white/20">💰 0% సున్నా వడ్డీ రుణాలు</button>
+        <button onclick="kiosk.askAiAssistant('ఏపీ 100% ఉచిత పంటల బీమా క్లెయిమ్ విధానం మరియు ఈ-పంట')" class="px-2.5 py-1 rounded-xl bg-white/10 hover:bg-amber-400 hover:text-emerald-950 text-xs font-bold text-white border border-white/20">🛡️ ఉచిత పంటల బీమా క్లెయిమ్</button>
+        <button onclick="kiosk.askAiAssistant('సహకార సంఘం ఎన్నికల నిబంధనలు & ఓటు హక్కు')" class="px-2.5 py-1 rounded-xl bg-white/10 hover:bg-amber-400 hover:text-emerald-950 text-xs font-bold text-white border border-white/20">⚖️ ఎన్నికల నిబంధనలు & ఓటు</button>
+        <button onclick="kiosk.askAiAssistant('పిఎసిఎస్ కంప్యూటరీకరణ క్లౌడ్ ఈఆర్పీ & గ్రామ గోదాముల పథకం')" class="px-2.5 py-1 rounded-xl bg-white/10 hover:bg-amber-400 hover:text-emerald-950 text-xs font-bold text-white border border-white/20">🇮🇳 పిఎసిఎస్ కంప్యూటరీకరణ</button>
+        <button onclick="kiosk.askAiAssistant('పిఎసిఎస్ కార్యదర్శిపై అధికారిక ఫిర్యాదు నమోదు ఎలా చేయాలి?')" class="px-2.5 py-1 rounded-xl bg-white/10 hover:bg-amber-400 hover:text-emerald-950 text-xs font-bold text-white border border-white/20">📢 సహకార ఫిర్యాదు నమోదు</button>
+      </div>
+
+      <!-- Chat History Area -->
+      <div id="kiosk-ai-chat-messages" class="h-64 overflow-y-auto p-4 rounded-2xl bg-black/40 border border-white/15 my-2">
+        <div class="flex justify-start my-2">
+          <div class="p-3.5 rounded-2xl bg-emerald-900/80 border border-amber-400/40 text-white text-xs sm:text-sm">
+            నమస్కారం! నేను మీ కియోస్క్ ఏఐ సహాయకుడిని. పంటలు, ఎరువులు, 0% రుణాలు, ఉచిత పంటల బీమా లేదా 28 రాష్ట్రాల పథకాల గురించి ఏ ప్రశ్న అయినా అడగండి.
+          </div>
+        </div>
+      </div>
+
+      <!-- Input Row -->
+      <div class="flex items-center gap-2 mt-3">
+        <input type="text" id="kiosk-ai-query-input" placeholder="మీ ప్రశ్నను ఇక్కడ టైప్ చేయండి లేదా మాట్లాడండి..." class="flex-1 p-3.5 rounded-2xl bg-black/40 border-2 border-amber-400 text-white font-bold text-xs sm:text-sm focus:outline-none" />
+        <button onclick="kiosk.startAiChatVoice()" class="p-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-black text-sm flex items-center justify-center">
+          <i class="fa-solid fa-microphone text-lg"></i>
+        </button>
+        <button onclick="kiosk.sendAiQuery()" class="px-5 py-3.5 rounded-2xl bg-amber-400 hover:bg-amber-300 text-emerald-950 font-black text-xs sm:text-sm flex items-center gap-1.5 shadow-lg">
+          <i class="fa-solid fa-paper-plane"></i> పంపండి
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 6: COOPERATIVE LAWS & RIGHTS -->
+  <div id="kiosk-laws-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-indigo-600 text-white flex items-center justify-center text-2xl font-black">
+            <i class="fa-solid fa-scale-balanced"></i>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-amber-300">ఆంధ్రప్రదేశ్ సహకార చట్టాలు & రైతుల హక్కులు</h3>
+            <p class="text-xs text-white/80">APCS చట్టం 1964 మరియు పిఎసిఎస్ మోడల్ బై-లాస్ క్రింద మీ చట్టబద్ధమైన హక్కులు</p>
+          </div>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-laws-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="my-4">
+        <div class="relative">
+          <input type="text" id="kiosk-laws-search-input" onkeyup="kiosk.searchLaws(this.value)" placeholder="చట్ట నిబంధనలను శోధించండి (ఉదా: సెక్షన్ 19, ఓటు హక్కు, ఎన్నికలు, ఆడిట్)..." class="w-full p-3.5 pl-11 rounded-2xl bg-black/40 border-2 border-indigo-400 text-white text-xs sm:text-sm font-bold focus:outline-none" />
+          <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-indigo-400 text-sm"></i>
+        </div>
+      </div>
+
+      <div id="kiosk-laws-cards-container" class="space-y-4 max-h-[60vh] overflow-y-auto pr-2">
+        <!-- Loaded dynamically from /api/laws -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 7: 100% FREE CROP INSURANCE & PMFBY CALCULATOR -->
+  <div id="kiosk-insurance-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-cyan-600 text-white flex items-center justify-center text-2xl font-black">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-amber-300">🌾 100% ఉచిత పంటల బీమా & పీఎంఎఫ్‌బీవై క్యాలిక్యులేటర్</h3>
+            <p class="text-xs text-white/80">పంటల బీమా మొత్తం, ప్రభుత్వ సబ్సిడీ మరియు 72 గంటల నష్ట పరిహార మార్గదర్శకాలు</p>
+          </div>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-insurance-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 my-6 items-start">
+        <!-- Left: Insurance Calculator Form -->
+        <div class="bg-black/30 p-5 rounded-3xl border border-cyan-400/40 space-y-4">
+          <h4 class="text-base font-black text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-calculator"></i> బీమా కాలిక్యులేటర్ (Insurance Calculator)
+          </h4>
+
+          <div>
+            <label class="block text-xs font-bold text-amber-300 mb-1">రాష్ట్రం (State)</label>
+            <select id="kiosk-ins-state-select" class="w-full p-3.5 rounded-2xl bg-black/60 border-2 border-cyan-400 text-white font-bold text-xs sm:text-sm focus:outline-none">
+              <!-- Populated by kiosk.js -->
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-amber-300 mb-1">సాగు చేసిన పంటను ఎంచుకోండి</label>
+            <select id="kiosk-ins-crop-select" class="w-full p-3.5 rounded-2xl bg-black/60 border-2 border-cyan-400 text-white font-bold text-xs sm:text-sm focus:outline-none">
+              <option value="paddy">వరి (Paddy - ₹38,000/ఎకరం)</option>
+              <option value="cotton">పత్తి (Cotton - ₹45,000/ఎకరం)</option>
+              <option value="groundnut">వేరుశనగ (Groundnut - ₹32,000/ఎకరం)</option>
+              <option value="chillies">మిర్చి (Chillies - ₹75,000/ఎకరం)</option>
+              <option value="maize">మొక్కజొన్న (Maize - ₹30,000/ఎకరం)</option>
+              <option value="pulses">పప్పుధాన్యాలు (Pulses - ₹24,000/ఎకరం)</option>
+              <option value="sugarcane">చెరకు (Sugarcane - ₹60,000/ఎకరం)</option>
+              <option value="mango">మామిడి / ఉద్యానవన (Mango - ₹50,000/ఎకరం)</option>
+            </select>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-bold text-amber-300 mb-1">పంట కాలం</label>
+              <select id="kiosk-ins-season-select" class="w-full p-3.5 rounded-2xl bg-black/60 border-2 border-cyan-400 text-white font-bold text-xs sm:text-sm focus:outline-none">
+                <option value="kharif">ఖరీఫ్ (Kharif)</option>
+                <option value="rabi">రబీ (Rabi)</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-amber-300 mb-1">విస్తీర్ణం (ఎకరాల్లో)</label>
+              <input type="number" id="kiosk-ins-acres-input" value="3.0" min="0.5" max="100" step="0.5" class="numpad-touch-input w-full p-3.5 rounded-2xl bg-black/60 border-2 border-cyan-400 text-white font-black text-base text-center focus:outline-none" />
+            </div>
+          </div>
+
+          <button onclick="kiosk.calculateInsuranceCoverage()" class="w-full py-4 rounded-2xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-black text-base shadow-xl flex items-center justify-center gap-2">
+            <i class="fa-solid fa-coins"></i> బీమా రక్షణను లెక్కించండి
+          </button>
+
+          <div id="kiosk-insurance-calc-results" class="hidden space-y-2.5 pt-3 border-t border-white/20 text-xs"></div>
+        </div>
+
+        <!-- Right: 4-Step 72H Claim Process -->
+        <div class="bg-black/30 p-5 rounded-3xl border border-cyan-400/40 space-y-3">
+          <h4 class="text-base font-black text-amber-300 flex items-center gap-2">
+            <i class="fa-solid fa-clipboard-list"></i> 72 గంటల్లో పంట నష్ట క్లెయిమ్ ప్రక్రియ
+          </h4>
+
+          <div class="space-y-3 text-xs">
+            <div class="p-3 bg-white/10 rounded-2xl border border-white/20">
+              <strong class="text-cyan-300 font-bold block">1. పంట నష్టం సంభవించడం (వరదలు, తుఫాను, తెగుళ్లు)</strong>
+              <p class="text-white/80 mt-0.5">72 గంటల్లోపు ఆర్బీకేలో గ్రామ వ్యవసాయ సహాయకుడికి (VAA) సమాచారం ఇవ్వాలి.</p>
+            </div>
+            <div class="p-3 bg-white/10 rounded-2xl border border-white/20">
+              <strong class="text-cyan-300 font-bold block">2. ఇ-పంట (e-Crop) బుకింగ్ ధృవీకరణ</strong>
+              <p class="text-white/80 mt-0.5">ఆర్బీకే అధికారులు డిజిటల్ సర్వే నంబర్ మరియు పంట స్థితిని తనిఖీ చేస్తారు.</p>
+            </div>
+            <div class="p-3 bg-white/10 rounded-2xl border border-white/20">
+              <strong class="text-cyan-300 font-bold block">3. సంయుక్త సర్వే & పంట కోత ప్రయోగాలు (CCE)</strong>
+              <p class="text-white/80 mt-0.5">బీమా కంపెనీ మరియు వ్యవసాయ శాఖ అధికారులు క్షేత్రస్థాయిలో నష్టాన్ని అంచనా వేస్తారు.</p>
+            </div>
+            <div class="p-3 bg-white/10 rounded-2xl border border-white/20">
+              <strong class="text-cyan-300 font-bold block">4. నేరుగా బ్యాంకు ఖాతాలో పరిహారం జమ (DBT)</strong>
+              <p class="text-white/80 mt-0.5">పరిహారం మొత్తం ఆధార్ అనుసంధానమైన రైతు బ్యాంకు ఖాతాలో జమవుతుంది.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 8: FINANCIAL LITERACY & 0% PACS CROP LOAN CALCULATOR -->
+  <div id="kiosk-finance-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-green-600 text-white flex items-center justify-center text-2xl font-black">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-amber-300">💳 ఆర్థిక అక్షరాస్యత & పిఎసిఎస్ సున్నా వడ్డీ రుణాలు</h3>
+            <p class="text-xs text-white/80">పారదర్శక రుణ లెక్కింపు మరియు ప్రభుత్వ రాయితీలతో రైతులకు సాధికారత</p>
+          </div>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-finance-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 my-6 items-start">
+        <!-- Calculator Form -->
+        <div class="bg-black/30 p-5 rounded-3xl border border-green-400/40 space-y-4">
+          <h4 class="text-base font-black text-green-300 flex items-center gap-2">
+            <i class="fa-solid fa-calculator"></i> కేసీసీ & సున్నా వడ్డీ రుణ లెక్కింపు
+          </h4>
+
+          <div>
+            <label class="block text-xs font-bold text-amber-300 mb-1">పంట రుణం మొత్తం (₹)</label>
+            <input type="number" id="kiosk-kcc-amount-input" value="100000" min="10000" max="300000" step="5000" class="numpad-touch-input w-full p-3.5 rounded-2xl bg-black/60 border-2 border-green-400 text-white font-black text-xl text-center focus:outline-none" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-amber-300 mb-1">తిరిగి చెల్లించే వ్యవధి</label>
+            <select id="kiosk-kcc-tenure-select" class="w-full p-3.5 rounded-2xl bg-black/60 border-2 border-green-400 text-white font-bold text-xs sm:text-sm focus:outline-none">
+              <option value="12">12 నెలల్లోపు (0% సున్నా వడ్డీ పథకం వర్తింపు)</option>
+              <option value="18">18 నెలలు (సాధారణ బ్యాంకు రేటు)</option>
+            </select>
+          </div>
+
+          <button onclick="kiosk.calculateFinanceLoan()" class="w-full py-4 rounded-2xl bg-green-500 hover:bg-green-400 text-slate-950 font-black text-base shadow-xl flex items-center justify-center gap-2">
+            <i class="fa-solid fa-coins"></i> వడ్డీ & ఆదా లెక్కించండి
+          </button>
+
+          <div id="kiosk-kcc-calc-results" class="hidden space-y-2.5 pt-3 border-t border-white/20 text-xs"></div>
+        </div>
+
+        <!-- Model PACS Multi-Services Grid -->
+        <div class="bg-black/30 p-5 rounded-3xl border border-green-400/40 space-y-3">
+          <h4 class="text-base font-black text-amber-300 flex items-center gap-2">
+            <i class="fa-solid fa-store"></i> పిఎసిఎస్ బహుముఖ సేవలు (Model PACS)
+          </h4>
+          <p class="text-xs text-white/80">కేంద్ర సహకార మంత్రిత్వ శాఖ కొత్త మోడల్ బై-లాస్ ప్రకారం మీ గ్రామ పిఎసిఎస్ సంఘం అందించే సేవలు:</p>
+
+          <div class="grid grid-cols-2 gap-3 text-xs">
+            <div class="p-3 bg-emerald-950/70 rounded-2xl border border-emerald-500/40">
+              <i class="fa-solid fa-warehouse text-amber-400 text-xl mb-1 block"></i>
+              <strong class="text-white block text-sm">గ్రామ గోదాములు</strong>
+              <span class="text-emerald-200 text-[11px]">500-2000 MT ధాన్య నిల్వ & తాకట్టు రుణాలు</span>
+            </div>
+            <div class="p-3 bg-blue-950/70 rounded-2xl border border-blue-500/40">
+              <i class="fa-solid fa-tractor text-amber-400 text-xl mb-1 block"></i>
+              <strong class="text-white block text-sm">కస్టమ్ హైరింగ్ (CHC)</strong>
+              <span class="text-blue-200 text-[11px]">డ్రోన్లు, హార్వెస్టర్లు, ట్రాక్టర్ల అద్దె</span>
+            </div>
+            <div class="p-3 bg-amber-950/70 rounded-2xl border border-amber-500/40">
+              <i class="fa-solid fa-pills text-amber-400 text-xl mb-1 block"></i>
+              <strong class="text-white block text-sm">జన్ ఔషధి కేంద్రాలు</strong>
+              <span class="text-amber-200 text-[11px]">50-90% తక్కువ ధరకే నాణ్యమైన మందులు</span>
+            </div>
+            <div class="p-3 bg-purple-950/70 rounded-2xl border border-purple-500/40">
+              <i class="fa-solid fa-laptop text-amber-400 text-xl mb-1 block"></i>
+              <strong class="text-white block text-sm">కామన్ సర్వీస్ (CSC)</strong>
+              <span class="text-purple-200 text-[11px]">కరెంట్ బిల్లులు, ఆధార్ & డిజిటల్ సేవలు</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 9: SAHAKARA SPANDANA GRIEVANCE SUBMISSION -->
+  <div id="kiosk-grievance-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-rose-600 text-white flex items-center justify-center text-2xl font-black">
+            <i class="fa-solid fa-pen-to-square"></i>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-amber-300">📢 సహకార స్పందన - అధికారిక ఫిర్యాదు నమోదు</h3>
+            <p class="text-xs text-white/80">సహకార సంఘం, రుణ తిరస్కరణ లేదా ఎరువుల కొరతపై DCO కి నేరుగా ఫిర్యాదు పంపండి</p>
+          </div>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-grievance-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="my-5 space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-amber-300 mb-1">రైతు / సభ్యుని పూర్తి పేరు</label>
+            <input type="text" id="kiosk-grv-name-input" placeholder="ఉదా: కొండూరు శ్రీనివాస్" value="కొండూరు శ్రీనివాస్" class="w-full p-3.5 rounded-2xl bg-black/40 border-2 border-rose-400 text-white font-bold text-xs sm:text-sm focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-amber-300 mb-1">10 అంకెల మొబైల్ నంబర్</label>
+            <input type="tel" id="kiosk-grv-phone-input" placeholder="9848012345" value="9848012345" class="numpad-touch-input w-full p-3.5 rounded-2xl bg-black/40 border-2 border-rose-400 text-white font-black text-sm text-center focus:outline-none" />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-amber-300 mb-1">రాష్ట్రం (State)</label>
+            <select id="kiosk-grv-state-select" class="w-full p-3.5 rounded-2xl bg-black/40 border-2 border-rose-400 text-white font-bold text-xs sm:text-sm focus:outline-none">
+              <!-- Populated by kiosk.js -->
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-amber-300 mb-1">జిల్లా (District)</label>
+            <input type="text" id="kiosk-grv-district-input" value="గుంటూరు / Guntur" class="w-full p-3.5 rounded-2xl bg-black/40 border-2 border-rose-400 text-white font-bold text-xs sm:text-sm focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-amber-300 mb-1">మండలం & పిఎసిఎస్ పేరు</label>
+            <input type="text" id="kiosk-grv-pacs-input" value="తెనాలి - కొలకలూరు PACS" class="w-full p-3.5 rounded-2xl bg-black/40 border-2 border-rose-400 text-white font-bold text-xs sm:text-sm focus:outline-none" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-amber-300 mb-1">ఫిర్యాదు విభాగం (Category)</label>
+          <select id="kiosk-grv-cat-select" class="w-full p-3.5 rounded-2xl bg-black/40 border-2 border-rose-400 text-white font-bold text-xs sm:text-sm focus:outline-none">
+            <option value="pacs_loan">పిఎసిఎస్ పంట రుణం జాప్యం / తిరస్కరణ (Loan Delay)</option>
+            <option value="fertilizer_shortage">ఎరువులు, విత్తనాల కొరత లేదా అధిక ధరలు (Fertilizer Shortage)</option>
+            <option value="crop_insurance">ఉచిత పంట బీమా క్లెయిమ్ పెండింగ్ (Insurance Claim)</option>
+            <option value="membership_issue">పిఎసిఎస్ సభ్యత్వం నిరాకరణ / హక్కుల ఉల్లంఘన (Membership Issue)</option>
+            <option value="election_governance">సంఘ ఎన్నికల అవకతవకలు / నిధుల దుర్వినియోగం (Governance)</option>
+          </select>
+        </div>
+
+        <div>
+          <div class="flex items-center justify-between mb-1">
+            <label class="text-xs font-bold text-amber-300">సమస్య పూర్తి వివరణ</label>
+            <button type="button" onclick="kiosk.startGrievanceVoice()" class="text-xs bg-rose-900/60 hover:bg-rose-800 text-rose-200 font-bold px-3 py-1 rounded-xl flex items-center gap-1.5">
+              <i class="fa-solid fa-microphone"></i> వాయిస్ ద్వారా నమోదు
+            </button>
+          </div>
+          <textarea id="kiosk-grv-desc-input" rows="3" class="w-full p-3.5 rounded-2xl bg-black/40 border-2 border-rose-400 text-white font-medium text-xs sm:text-sm focus:outline-none" placeholder="మీ సమస్యను ఇక్కడ వివరించండి...">సకాలంలో మునుపటి రుణం చెల్లించినప్పటికీ కొత్త 0% పంట రుణం మంజూరు చేయడంలో కార్యదర్శి అనవసర జాప్యం చేస్తున్నారు.</textarea>
+        </div>
+
+        <button onclick="kiosk.submitOfficialGrievance()" class="w-full py-4 rounded-2xl bg-rose-600 hover:bg-rose-500 text-white font-black text-base sm:text-lg shadow-xl flex items-center justify-center gap-2">
+          <i class="fa-solid fa-paper-plane"></i> జిల్లా సహకార అధికారికి (DCO) పంపండి
+        </button>
+
+        <div id="kiosk-grv-submit-result"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 10: LIVE GRIEVANCE TICKET TRACKER -->
+  <div id="kiosk-tracker-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-red-600 text-white flex items-center justify-center text-2xl font-black">
+            <i class="fa-solid fa-route"></i>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-amber-300">లైవ్ ఫిర్యాదు స్టేటస్ ట్రాకర్ & పురోగతి</h3>
+            <p class="text-xs text-white/80">మీ టికెట్ ఐడీ నమోదు చేసి 4-దశల పరిష్కార పురోగతిని చూడండి</p>
+          </div>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-tracker-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="my-5">
+        <div class="flex items-center gap-3">
+          <input type="text" id="kiosk-track-ticket-input" placeholder="ఉదా: GRV-2026-1042" value="GRV-2026-1042" class="flex-1 p-4 rounded-2xl bg-black/40 border-2 border-amber-400 text-white font-black text-base sm:text-lg text-center focus:outline-none" />
+          <button onclick="kiosk.trackGrievanceStatus()" class="px-6 py-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-emerald-950 font-black text-base flex items-center gap-2 shadow-lg">
+            <i class="fa-solid fa-magnifying-glass"></i> స్టేటస్ చూడండి
+          </button>
+        </div>
+
+        <div id="kiosk-track-status-result" class="mt-6"></div>
+
+        <!-- Escalation Matrix Info -->
+        <div class="mt-6 p-4 rounded-2xl bg-black/30 border border-white/20">
+          <h4 class="text-xs font-black uppercase tracking-wider text-amber-300 mb-2 flex items-center gap-1.5">
+            <i class="fa-solid fa-sitemap"></i> స్పందన పరిష్కార శ్రేణి (Escalation Matrix)
+          </h4>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
+            <div class="p-2.5 bg-white/5 rounded-xl">
+              <strong class="text-amber-400 block">స్థాయి 1 (48 Hours):</strong>
+              <span class="text-white/80">PACS Secretary / Village Agri Assistant (RSK)</span>
+            </div>
+            <div class="p-2.5 bg-white/5 rounded-xl">
+              <strong class="text-amber-400 block">స్థాయి 2 (7 Days):</strong>
+              <span class="text-white/80">District Cooperative Officer (DCO)</span>
+            </div>
+            <div class="p-2.5 bg-white/5 rounded-xl">
+              <strong class="text-amber-400 block">స్థాయి 3 (Final SLA):</strong>
+              <span class="text-white/80">Registrar of Cooperative Societies, AP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 11: FERTILIZER & SEED BOOKING -->
+  <div id="kiosk-pacs-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-teal-600 text-white flex items-center justify-center text-2xl font-black">
+            <i class="fa-solid fa-seedling"></i>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-amber-300">రైతు ఎరువులు & విత్తనాల రిజర్వేషన్</h3>
+            <p class="text-xs text-white/80">PACS సొసైటీ వద్ద సబ్సిడీ కోటా రిజర్వ్ చేసి టోకెన్ పొందండి</p>
+          </div>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-pacs-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+        <div>
+          <label class="block text-xs font-black text-amber-300 uppercase mb-1.5">ఎరువు / విత్తనం ఎంచుకోండి</label>
+          <select id="kiosk-pacs-item-select" class="w-full p-4 rounded-2xl bg-black/40 border-2 border-amber-400 text-white font-black text-xs sm:text-sm focus:outline-none">
+            <option value="Urea (Neem Coated)">యూరియా (Urea Neem Coated - 45kg @ ₹266.5)</option>
+            <option value="DAP (Di-Ammonium Phosphate)">డీఏపీ (DAP 50kg @ ₹1,350)</option>
+            <option value="MOP Potash">పొటాష్ (MOP Potash 50kg @ ₹1,700)</option>
+            <option value="Paddy Certified Seed MTU-1010">వరి విత్తనాలు MTU-1010 (30kg)</option>
+            <option value="Groundnut K-6 Seed">వేరుశనగ K-6 విత్తనాలు (40kg)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-black text-amber-300 uppercase mb-1.5">బస్తాల సంఖ్య (Quantity)</label>
+          <input type="number" id="kiosk-pacs-qty-input" value="2" min="1" max="10" class="numpad-touch-input w-full p-4 rounded-2xl bg-black/40 border-2 border-amber-400 text-white font-black text-xl text-center focus:outline-none" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-black text-amber-300 uppercase mb-1.5">సమీప PACS డిపో</label>
+          <select id="kiosk-pacs-center-select" class="w-full p-4 rounded-2xl bg-black/40 border-2 border-amber-400 text-white font-bold text-xs sm:text-sm focus:outline-none">
+            <option value="RSK Village Center 1">గ్రామ రైతు భరోసా కేంద్రం - 1</option>
+            <option value="PACS Mandal Hub">మండల ప్రాథమిక సహకార సంఘం</option>
+            <option value="District APCOB Branch">జిల్లా సహకార కేంద్ర బ్యాంక్ డిపో</option>
+          </select>
+        </div>
+      </div>
+
+      <button onclick="kiosk.bookFertilizerSeed()" class="w-full py-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-emerald-950 font-black text-base sm:text-lg flex items-center justify-center gap-2 shadow-xl">
+        <i class="fa-solid fa-check-circle"></i> రిజర్వేషన్ నిర్ధారించండి & టోకెన్ జారీ చేయండి
+      </button>
+
+      <div id="kiosk-pacs-booking-result"></div>
+    </div>
+  </div>
+
+  <!-- MODAL 12: CHC MACHINERY RENTAL -->
+  <div id="kiosk-chc-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-orange-600 text-white flex items-center justify-center text-2xl font-black">
+            <i class="fa-solid fa-tractor"></i>
+          </div>
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-amber-300">వ్యవసాయ యంత్రాల కిరాయి బుకింగ్ (CHC)</h3>
+            <p class="text-xs text-white/80">రైతు సేవా కేంద్రం ద్వారా సబ్సిడీ రేట్లకు ఆధునిక యంత్రాలు</p>
+          </div>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-chc-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+        <div>
+          <label class="block text-xs font-black text-amber-300 uppercase mb-1.5">యంత్రం ఎంచుకోండి</label>
+          <select id="kiosk-chc-equip-select" class="w-full p-4 rounded-2xl bg-black/40 border-2 border-amber-400 text-white font-bold text-xs sm:text-sm focus:outline-none">
+            <option value="Tractor 45HP">ట్రాక్టర్ 45HP (₹450/hr)</option>
+            <option value="Paddy Harvester Combine">వరి కోత యంత్రం (₹1400/hr)</option>
+            <option value="Kisan Agri Drone Spray">కిసాన్ డ్రోన్ స్ప్రేయర్ (₹350/acre)</option>
+            <option value="Rotavator & Cultivator">రోటవేటర్ & కల్టివేటర్ (₹300/hr)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-black text-amber-300 uppercase mb-1.5">గంటల సంఖ్య / విస్తీర్ణం</label>
+          <input type="number" id="kiosk-chc-hours-input" value="4" min="1" max="20" class="numpad-touch-input w-full p-4 rounded-2xl bg-black/40 border-2 border-amber-400 text-white font-black text-xl text-center focus:outline-none" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-black text-amber-300 uppercase mb-1.5">కావలసిన తేదీ</label>
+          <input type="text" id="kiosk-chc-date-input" value="రేపు ఉదయం 7:00 AM" class="w-full p-4 rounded-2xl bg-black/40 border-2 border-amber-400 text-white font-bold text-xs sm:text-sm text-center focus:outline-none" />
+        </div>
+      </div>
+
+      <button onclick="kiosk.bookChcEquipment()" class="w-full py-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-emerald-950 font-black text-base sm:text-lg flex items-center justify-center gap-2 shadow-xl">
+        <i class="fa-solid fa-calendar-check"></i> యంత్రం బుకింగ్ నిర్ధారించండి
+      </button>
+
+      <div id="kiosk-chc-result"></div>
+    </div>
+  </div>
+
+  <!-- MODAL 13: 28 STATES SWITCHER GRID MODAL -->
+  <div id="kiosk-states-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface">
+      <div class="flex items-center justify-between pb-4 border-b border-white/20">
+        <div>
+          <h3 class="text-xl sm:text-2xl font-black text-amber-300">భారతదేశంలోని 28 రాష్ట్రాలను ఎంచుకోండి</h3>
+          <p class="text-xs text-white/80">రాష్ట్ర ముఖ్యమంత్రుల చిత్రాలు & సంబంధిత రాష్ట్ర పథకాలు స్వయంచాలకంగా అప్‌డేట్ అవుతాయి</p>
+        </div>
+        <button onclick="kiosk.closeModal('kiosk-states-modal')" class="w-10 h-10 rounded-xl bg-white/10 hover:bg-red-600 text-white font-bold flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div id="kiosk-states-grid-modal" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 my-6 max-h-[60vh] overflow-y-auto pr-2">
+        <!-- Injected via loadStates() -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 14: PRINT PREVIEW MODAL -->
+  <div id="kiosk-print-preview-modal" class="kiosk-fullscreen-modal hidden">
+    <div class="kiosk-modal-surface max-w-lg text-center">
+      <i class="fa-solid fa-print text-5xl text-amber-400 mb-3"></i>
+      <h3 class="text-2xl font-black text-white">రైతు సేవా రసీదు ప్రింటర్</h3>
+      <p class="text-xs sm:text-sm text-emerald-200 mt-1">కియోస్క్ థర్మల్ ప్రింటర్ నుండి అధికారిక రసీదు లేదా పాస్ ప్రింట్ చేయబడుతుంది.</p>
+      
+      <div class="my-5 p-4 rounded-2xl bg-white text-black text-left font-mono text-xs border border-gray-300 shadow-inner">
+        <div class="text-center font-bold pb-2 border-b border-black">
+          SAHAKARA MITRA RSK KIOSK PASS<br>
+          TOKEN: AP-RSK-2026-9812
+        </div>
+        <div class="py-2 space-y-1">
+          <div>రైతు: శ్రీ రామారావు</div>
+          <div>సేవ: 0% వడ్డీ పంట రుణం ప్రీ-అప్రూవల్</div>
+          <div>మొత్తం: ₹1,26,000 (3 ఎకరాల వరి)</div>
+          <div>స్టేటస్: APPROVED (PACS-01)</div>
+        </div>
+        <div class="text-center pt-2 border-t border-dashed border-black font-bold">
+          |||| | ||||| || ||||||<br>
+          VALID FOR 72 HOURS
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <button onclick="window.print()" class="flex-1 py-3.5 rounded-2xl bg-amber-400 text-emerald-950 font-black text-base hover:bg-amber-300 flex items-center justify-center gap-2">
+          <i class="fa-solid fa-print"></i> రసీదు ముద్రించండి
+        </button>
+        <button onclick="kiosk.closeModal('kiosk-print-preview-modal')" class="px-6 py-3.5 rounded-2xl bg-white/10 text-white font-bold text-base hover:bg-white/20">
+          మూసివేయి
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden Container For Printing Thermal Slips -->
+  <div id="kiosk-print-area"></div>
+
+  <!-- Confetti Canvas -->
+  <canvas id="kiosk-confetti-canvas"></canvas>
+
+  <!-- Scripts -->
+  <script src="/static/js/voice.js"></script>
+  <script src="/static/js/kiosk.js"></script>
+</body>
+</html>

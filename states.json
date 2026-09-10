@@ -1,0 +1,785 @@
+[
+  {
+    "id": "all",
+    "code": "ALL",
+    "region": "Central",
+    "name": {
+      "en": "All India (Central Schemes)",
+      "te": "భారతదేశం అంతటా (కేంద్ర పథకాలు)",
+      "hi": "अखिल भारतीय (केंद्रीय योजनाएं)"
+    },
+    "cm_name": {
+      "en": "Hon'ble PM Sri Narendra Modi",
+      "te": "గౌరవ ప్రధాని శ్రీ నరేంద్ర మోదీ",
+      "hi": "माननीय प्रधानमंत्री श्री नरेंद्र मोदी"
+    },
+    "cm_image": "/static/images/pm_narendra_modi.jpg",
+    "govt_name": {
+      "en": "Government of India (Ministry of Cooperation)",
+      "te": "భారత ప్రభుత్వం (కేంద్ర సహకార మంత్రిత్వ శాఖ)",
+      "hi": "भारत सरकार (सहकारिता मंत्रालय)"
+    },
+    "default_lang": "te",
+    "lang_name": {
+      "en": "All Languages",
+      "te": "అన్ని భాషలు",
+      "hi": "सभी भाषाएँ"
+    }
+  },
+  {
+    "id": "ap",
+    "code": "AP",
+    "region": "South",
+    "name": {
+      "en": "Andhra Pradesh",
+      "te": "ఆంధ్రప్రదేశ్",
+      "hi": "आंध्र प्रदेश"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri N. Chandrababu Naidu",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ నారా చంద్రబాబు నాయుడు",
+      "hi": "माननीय मुख्यमंत्री श्री एन. चंद्रबाबू नायडू"
+    },
+    "cm_image": "/static/images/cms/cm_ap.jpg",
+    "govt_name": {
+      "en": "Govt. of Andhra Pradesh",
+      "te": "ఆంధ్రప్రదేశ్ ప్రభుత్వం",
+      "hi": "आंध्र प्रदेश सरकार"
+    },
+    "default_lang": "te",
+    "lang_name": {
+      "en": "Telugu (తెలుగు)",
+      "te": "తెలుగు",
+      "hi": "तेलुगु"
+    }
+  },
+  {
+    "id": "tg",
+    "code": "TG",
+    "region": "South",
+    "name": {
+      "en": "Telangana",
+      "te": "తెలంగాణ",
+      "hi": "तेलंगाना"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Revanth Reddy",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ ఎ. రేవంత్ రెడ్డి",
+      "hi": "माननीय मुख्यमंत्री श्री ए. रेवंत रेड्डी"
+    },
+    "cm_image": "/static/images/cms/cm_tg.jpg",
+    "govt_name": {
+      "en": "Govt. of Telangana",
+      "te": "తెలంగాణ ప్రభుత్వం",
+      "hi": "तेलंगाना सरकार"
+    },
+    "default_lang": "te",
+    "lang_name": {
+      "en": "Telugu (తెలుగు)",
+      "te": "తెలుగు",
+      "hi": "तेलुगु"
+    }
+  },
+  {
+    "id": "ka",
+    "code": "KA",
+    "region": "South",
+    "name": {
+      "en": "Karnataka",
+      "te": "కర్ణాటక",
+      "hi": "कर्नाटक"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Siddaramaiah",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ సిద్ధరామయ్య",
+      "hi": "माननीय मुख्यमंत्री श्री सिद्धारमैया"
+    },
+    "cm_image": "/static/images/cms/cm_ka.jpg",
+    "govt_name": {
+      "en": "Govt. of Karnataka",
+      "te": "కర్ణాటక ప్రభుత్వం",
+      "hi": "कर्नाटक सरकार"
+    },
+    "default_lang": "kn",
+    "lang_name": {
+      "en": "Kannada (ಕನ್ನಡ)",
+      "te": "కన్నడ",
+      "hi": "कन्नड़"
+    }
+  },
+  {
+    "id": "tn",
+    "code": "TN",
+    "region": "South",
+    "name": {
+      "en": "Tamil Nadu",
+      "te": "తమిళనాడు",
+      "hi": "तमिलनाडु"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri C. Joseph Vijay",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ సి. జోసెఫ్ విజయ్",
+      "hi": "माननीय मुख्यमंत्री श्री सी. जोसेफ विजय"
+    },
+    "cm_image": "/static/images/cms/cm_tn.jpg",
+    "govt_name": {
+      "en": "Govt. of Tamil Nadu",
+      "te": "తమిళనాడు ప్రభుత్వం",
+      "hi": "तमिलनाडु सरकार"
+    },
+    "default_lang": "ta",
+    "lang_name": {
+      "en": "Tamil (தமிழ்)",
+      "te": "తమిళం",
+      "hi": "तमिल"
+    }
+  },
+  {
+    "id": "kl",
+    "code": "KL",
+    "region": "South",
+    "name": {
+      "en": "Kerala",
+      "te": "కేరళ",
+      "hi": "केरल"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri V.D. Satheesan",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ వి.డి. సతీశన్",
+      "hi": "माननीय मुख्यमंत्री श्री वी.डी. सतीशन"
+    },
+    "cm_image": "/static/images/cms/cm_kl.jpg",
+    "govt_name": {
+      "en": "Govt. of Kerala",
+      "te": "కేరళ ప్రభుత్వం",
+      "hi": "केरल सरकार"
+    },
+    "default_lang": "ml",
+    "lang_name": {
+      "en": "Malayalam (മലയാളം)",
+      "te": "మలయాళం",
+      "hi": "मलयालम"
+    }
+  },
+  {
+    "id": "mh",
+    "code": "MH",
+    "region": "West",
+    "name": {
+      "en": "Maharashtra",
+      "te": "మహారాష్ట్ర",
+      "hi": "महाराष्ट्र"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Devendra Fadnavis",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ దేవేంద్ర ఫడ్నవీస్",
+      "hi": "माननीय मुख्यमंत्री श्री देवेंद्र फडणवीस"
+    },
+    "cm_image": "/static/images/cms/cm_mh.jpg",
+    "govt_name": {
+      "en": "Govt. of Maharashtra",
+      "te": "మహారాష్ట్ర ప్రభుత్వం",
+      "hi": "महाराष्ट्र सरकार"
+    },
+    "default_lang": "mr",
+    "lang_name": {
+      "en": "Marathi (मराठी)",
+      "te": "మరాఠీ",
+      "hi": "मराठी"
+    }
+  },
+  {
+    "id": "gj",
+    "code": "GJ",
+    "region": "West",
+    "name": {
+      "en": "Gujarat",
+      "te": "గుజరాత్",
+      "hi": "गुजरात"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Bhupendra bhai Patel",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ భూపేంద్ర పటేల్",
+      "hi": "माननीय मुख्यमंत्री श्री भूपेंद्र भाई पटेल"
+    },
+    "cm_image": "/static/images/cms/cm_gj.jpg",
+    "govt_name": {
+      "en": "Govt. of Gujarat",
+      "te": "గుజరాత్ ప్రభుత్వం",
+      "hi": "गुजरात सरकार"
+    },
+    "default_lang": "gu",
+    "lang_name": {
+      "en": "Gujarati (ગુજરાતી)",
+      "te": "గుజరాతీ",
+      "hi": "गुजराती"
+    }
+  },
+  {
+    "id": "ga",
+    "code": "GA",
+    "region": "West",
+    "name": {
+      "en": "Goa",
+      "te": "గోవా",
+      "hi": "गोवा"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Dr. Pramod Sawant",
+      "te": "గౌరవ ముఖ్యమంత్రి డా. ప్రమోద్ సావంత్",
+      "hi": "माननीय मुख्यमंत्री डॉ. प्रमोद सावंत"
+    },
+    "cm_image": "/static/images/cms/cm_ga.jpg",
+    "govt_name": {
+      "en": "Govt. of Goa",
+      "te": "గోవా ప్రభుత్వం",
+      "hi": "गोवा सरकार"
+    },
+    "default_lang": "mr",
+    "lang_name": {
+      "en": "Marathi / Konkani",
+      "te": "మరాఠీ",
+      "hi": "मराठी / कोंकणी"
+    }
+  },
+  {
+    "id": "mp",
+    "code": "MP",
+    "region": "Central",
+    "name": {
+      "en": "Madhya Pradesh",
+      "te": "మధ్యప్రదేశ్",
+      "hi": "मध्य प्रदेश"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Dr. Mohan Yadav",
+      "te": "గౌరవ ముఖ్యమంత్రి డా. మోహన్ యాదవ్",
+      "hi": "माननीय मुख्यमंत्री डॉ. मोहन यादव"
+    },
+    "cm_image": "/static/images/cms/cm_mp.jpg",
+    "govt_name": {
+      "en": "Govt. of Madhya Pradesh",
+      "te": "మధ్యప్రదేశ్ ప్రభుత్వం",
+      "hi": "मध्य प्रदेश सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Hindi (हिन्दी)",
+      "te": "హిందీ",
+      "hi": "हिन्दी"
+    }
+  },
+  {
+    "id": "cg",
+    "code": "CG",
+    "region": "Central",
+    "name": {
+      "en": "Chhattisgarh",
+      "te": "ఛత్తీస్‌గఢ్",
+      "hi": "छत्तीसगढ़"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Vishnu Deo Sai",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ విష్ణు దేవ్ సాయ్",
+      "hi": "माननीय मुख्यमंत्री श्री विष्णु देव साय"
+    },
+    "cm_image": "/static/images/cms/cm_cg.jpg",
+    "govt_name": {
+      "en": "Govt. of Chhattisgarh",
+      "te": "ఛత్తీస్‌గఢ్ ప్రభుత్వం",
+      "hi": "छत्तीसगढ़ सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Hindi (हिन्दी)",
+      "te": "హిందీ",
+      "hi": "हिन्दी"
+    }
+  },
+  {
+    "id": "up",
+    "code": "UP",
+    "region": "North",
+    "name": {
+      "en": "Uttar Pradesh",
+      "te": "ఉత్తరప్రదేశ్",
+      "hi": "उत्तर प्रदेश"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Yogi Adityanath",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ యోగి ఆదిత్యనాథ్",
+      "hi": "माननीय मुख्यमंत्री श्री योगी आदित्यनाथ"
+    },
+    "cm_image": "/static/images/cms/cm_up.jpg",
+    "govt_name": {
+      "en": "Govt. of Uttar Pradesh",
+      "te": "ఉత్తరప్రదేశ్ ప్రభుత్వం",
+      "hi": "उत्तर प्रदेश सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Hindi (हिन्दी)",
+      "te": "హిందీ",
+      "hi": "हिन्दी"
+    }
+  },
+  {
+    "id": "rj",
+    "code": "RJ",
+    "region": "North",
+    "name": {
+      "en": "Rajasthan",
+      "te": "రాజస్థాన్",
+      "hi": "राजस्थान"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Bhajan Lal Sharma",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ భజన్ లాల్ శర్మ",
+      "hi": "माननीय मुख्यमंत्री श्री भजन लाल शर्मा"
+    },
+    "cm_image": "/static/images/cms/cm_rj.jpg",
+    "govt_name": {
+      "en": "Govt. of Rajasthan",
+      "te": "రాజస్థాన్ ప్రభుత్వం",
+      "hi": "राजस्थान सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Hindi (हिन्दी)",
+      "te": "హిందీ",
+      "hi": "हिन्दी"
+    }
+  },
+  {
+    "id": "pb",
+    "code": "PB",
+    "region": "North",
+    "name": {
+      "en": "Punjab",
+      "te": "పంజాబ్",
+      "hi": "पंजाब"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Bhagwant Mann",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ భగవంత్ మాన్",
+      "hi": "माननीय मुख्यमंत्री श्री भगवंत मान"
+    },
+    "cm_image": "/static/images/cms/cm_pb.jpg",
+    "govt_name": {
+      "en": "Govt. of Punjab",
+      "te": "పంజాబ్ ప్రభుత్వం",
+      "hi": "पंजाब सरकार"
+    },
+    "default_lang": "pa",
+    "lang_name": {
+      "en": "Punjabi (ਪੰਜਾਬੀ)",
+      "te": "పంజాబీ",
+      "hi": "पंजाबी"
+    }
+  },
+  {
+    "id": "hr",
+    "code": "HR",
+    "region": "North",
+    "name": {
+      "en": "Haryana",
+      "te": "హర్యానా",
+      "hi": "हरियाणा"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Nayab Singh Saini",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ నయాబ్ సింగ్ సైనీ",
+      "hi": "माननीय मुख्यमंत्री श्री नायब सिंह सैनी"
+    },
+    "cm_image": "/static/images/cms/cm_hr.jpg",
+    "govt_name": {
+      "en": "Govt. of Haryana",
+      "te": "హర్యానా ప్రభుత్వం",
+      "hi": "हरियाणा सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Hindi (हिन्दी)",
+      "te": "హిందీ",
+      "hi": "हिन्दी"
+    }
+  },
+  {
+    "id": "hp",
+    "code": "HP",
+    "region": "North",
+    "name": {
+      "en": "Himachal Pradesh",
+      "te": "హిమాచల్ ప్రదేశ్",
+      "hi": "हिमाचल प्रदेश"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Sukhvinder Singh Sukhu",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ సుఖ్విందర్ సింగ్ సుఖు",
+      "hi": "माननीय मुख्यमंत्री श्री सुखविंदर सिंह सुक्खू"
+    },
+    "cm_image": "/static/images/cms/cm_hp.jpg",
+    "govt_name": {
+      "en": "Govt. of Himachal Pradesh",
+      "te": "హిమాచల్ ప్రదేశ్ ప్రభుత్వం",
+      "hi": "हिमाचल प्रदेश सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Hindi (हिन्दी)",
+      "te": "హిందీ",
+      "hi": "हिन्दी"
+    }
+  },
+  {
+    "id": "uk",
+    "code": "UK",
+    "region": "North",
+    "name": {
+      "en": "Uttarakhand",
+      "te": "ఉత్తరాఖండ్",
+      "hi": "उत्तराखंड"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Pushkar Singh Dhami",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ పుష్కర్ సింగ్ ధామి",
+      "hi": "माननीय मुख्यमंत्री श्री पुष्कर सिंह धामी"
+    },
+    "cm_image": "/static/images/cms/cm_uk.jpg",
+    "govt_name": {
+      "en": "Govt. of Uttarakhand",
+      "te": "ఉత్తరాఖండ్ ప్రభుత్వం",
+      "hi": "उत्तराखंड सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Hindi (हिन्दी)",
+      "te": "హిందీ",
+      "hi": "हिन्दी"
+    }
+  },
+  {
+    "id": "br",
+    "code": "BR",
+    "region": "East",
+    "name": {
+      "en": "Bihar",
+      "te": "బీహార్",
+      "hi": "बिहार"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Samrat Choudhary",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ సామ్రాట్ చౌదరి",
+      "hi": "माननीय मुख्यमंत्री श्री सम्राट चौधरी"
+    },
+    "cm_image": "/static/images/cms/cm_br.jpg",
+    "govt_name": {
+      "en": "Govt. of Bihar",
+      "te": "బీహార్ ప్రభుత్వం",
+      "hi": "बिहार सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Hindi (हिन्दी)",
+      "te": "హిందీ",
+      "hi": "हिन्दी"
+    }
+  },
+  {
+    "id": "wb",
+    "code": "WB",
+    "region": "East",
+    "name": {
+      "en": "West Bengal",
+      "te": "పశ్చిమ బెంగాల్",
+      "hi": "पश्चिम बंगाल"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Suvendu Adhikari",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ సువేందు అధికారి",
+      "hi": "माननीय मुख्यमंत्री श्री शुभेंदु अधिकारी"
+    },
+    "cm_image": "/static/images/cms/cm_wb.jpg",
+    "govt_name": {
+      "en": "Govt. of West Bengal",
+      "te": "పశ్చిమ బెంగాల్ ప్రభుత్వం",
+      "hi": "पश्चिम बंगाल सरकार"
+    },
+    "default_lang": "bn",
+    "lang_name": {
+      "en": "Bengali (বাংলা)",
+      "te": "బెంగాలీ",
+      "hi": "বাংলা"
+    }
+  },
+  {
+    "id": "or",
+    "code": "OR",
+    "region": "East",
+    "name": {
+      "en": "Odisha",
+      "te": "ఒడిశా",
+      "hi": "ओडिशा"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Mohan Charan Majhi",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ మోహన్ చరణ్ మాఝీ",
+      "hi": "माननीय मुख्यमंत्री श्री मोहन चरण माझी"
+    },
+    "cm_image": "/static/images/cms/cm_or.jpg",
+    "govt_name": {
+      "en": "Govt. of Odisha",
+      "te": "ఒడిశా ప్రభుత్వం",
+      "hi": "ओडिशा सरकार"
+    },
+    "default_lang": "or",
+    "lang_name": {
+      "en": "Odia (ଓଡ଼ିଆ)",
+      "te": "ఒడియా",
+      "hi": "ओडिया"
+    }
+  },
+  {
+    "id": "jh",
+    "code": "JH",
+    "region": "East",
+    "name": {
+      "en": "Jharkhand",
+      "te": "జార్ఖండ్",
+      "hi": "झारखंड"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Hemant Soren",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ హేమంత్ సోరెన్",
+      "hi": "माननीय मुख्यमंत्री श्री हेमंत सोरेन"
+    },
+    "cm_image": "/static/images/cms/cm_jh.jpg",
+    "govt_name": {
+      "en": "Govt. of Jharkhand",
+      "te": "జార్ఖండ్ ప్రభుత్వం",
+      "hi": "झारखंड सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Hindi (हिन्दी)",
+      "te": "హిందీ",
+      "hi": "हिन्दी"
+    }
+  },
+  {
+    "id": "as",
+    "code": "AS",
+    "region": "North-East",
+    "name": {
+      "en": "Assam",
+      "te": "అస్సాం",
+      "hi": "असम"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Dr. Himanta Biswa Sarma",
+      "te": "గౌరవ ముఖ్యమంత్రి డా. హిమంత బిశ్వ శర్మ",
+      "hi": "माननीय मुख्यमंत्री डॉ. हिमंत बिस्वा सरमा"
+    },
+    "cm_image": "/static/images/cms/cm_as.jpg",
+    "govt_name": {
+      "en": "Govt. of Assam",
+      "te": "అస్సాం ప్రభుత్వం",
+      "hi": "असम सरकार"
+    },
+    "default_lang": "as",
+    "lang_name": {
+      "en": "Assamese (অসমীয়া)",
+      "te": "అస్సామీ",
+      "hi": "असमिया"
+    }
+  },
+  {
+    "id": "sk",
+    "code": "SK",
+    "region": "North-East",
+    "name": {
+      "en": "Sikkim",
+      "te": "సిక్కిం",
+      "hi": "सिक्किम"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Prem Singh Tamang",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ ప్రేమ్ సింగ్ తమాంగ్",
+      "hi": "माननीय मुख्यमंत्री श्री प्रेम सिंह तमांग"
+    },
+    "cm_image": "/static/images/cms/cm_sk.jpg",
+    "govt_name": {
+      "en": "Govt. of Sikkim",
+      "te": "సిక్కిం ప్రభుత్వం",
+      "hi": "सिक्किम सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Nepali / Hindi",
+      "te": "హిందీ",
+      "hi": "नेपाली / हिन्दी"
+    }
+  },
+  {
+    "id": "ar",
+    "code": "AR",
+    "region": "North-East",
+    "name": {
+      "en": "Arunachal Pradesh",
+      "te": "అరుణాచల్ ప్రదేశ్",
+      "hi": "अरुणाचल प्रदेश"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Pema Khandu",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ పెమా ఖండూ",
+      "hi": "माननीय मुख्यमंत्री श्री पेमा खांडू"
+    },
+    "cm_image": "/static/images/cms/cm_ar.jpg",
+    "govt_name": {
+      "en": "Govt. of Arunachal Pradesh",
+      "te": "అరుణాచల్ ప్రదేశ్ ప్రభుత్వం",
+      "hi": "अरुणाचल प्रदेश सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Hindi / English",
+      "te": "హిందీ",
+      "hi": "हिन्दी / अंग्रेज़ी"
+    }
+  },
+  {
+    "id": "mn",
+    "code": "MN",
+    "region": "North-East",
+    "name": {
+      "en": "Manipur",
+      "te": "మణిపూర్",
+      "hi": "मणिपुर"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Yumnam Khemchand Singh",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ యుమ్నమ్ ఖేమ్‌చంద్ సింగ్",
+      "hi": "माननीय मुख्यमंत्री श्री युमनाम खेमचंद सिंह"
+    },
+    "cm_image": "/static/images/cms/cm_mn.jpg",
+    "govt_name": {
+      "en": "Govt. of Manipur",
+      "te": "మణిపూర్ ప్రభుత్వం",
+      "hi": "मणिपुर सरकार"
+    },
+    "default_lang": "hi",
+    "lang_name": {
+      "en": "Manipuri / Hindi",
+      "te": "హిందీ",
+      "hi": "मणिपुरी / हिन्दी"
+    }
+  },
+  {
+    "id": "ml",
+    "code": "ML",
+    "region": "North-East",
+    "name": {
+      "en": "Meghalaya",
+      "te": "మేఘాలయ",
+      "hi": "मेघालय"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Conrad Sangma",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ కాన్రాడ్ సంగ్మా",
+      "hi": "माननीय मुख्यमंत्री श्री कोनराड संगमा"
+    },
+    "cm_image": "/static/images/cms/cm_ml.jpg",
+    "govt_name": {
+      "en": "Govt. of Meghalaya",
+      "te": "మేఘాలయ ప్రభుత్వం",
+      "hi": "मेघालय सरकार"
+    },
+    "default_lang": "en",
+    "lang_name": {
+      "en": "English / Khasi",
+      "te": "ఇంగ్లీష్",
+      "hi": "अंग्रेज़ी / खासी"
+    }
+  },
+  {
+    "id": "mz",
+    "code": "MZ",
+    "region": "North-East",
+    "name": {
+      "en": "Mizoram",
+      "te": "మిజోరం",
+      "hi": "मिजोरम"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Lalduhoma",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ లాల్‌దుహోమా",
+      "hi": "माननीय मुख्यमंत्री श्री लालदुहोमा"
+    },
+    "cm_image": "/static/images/cms/cm_mz.jpg",
+    "govt_name": {
+      "en": "Govt. of Mizoram",
+      "te": "మిజోరం ప్రభుత్వం",
+      "hi": "मिजोरम सरकार"
+    },
+    "default_lang": "en",
+    "lang_name": {
+      "en": "Mizo / English",
+      "te": "ఇంగ్లీష్",
+      "hi": "मिजो / अंग्रेज़ी"
+    }
+  },
+  {
+    "id": "nl",
+    "code": "NL",
+    "region": "North-East",
+    "name": {
+      "en": "Nagaland",
+      "te": "నాగాలాండ్",
+      "hi": "नागालैंड"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Sri Neiphiu Rio",
+      "te": "గౌరవ ముఖ్యమంత్రి శ్రీ నెయిఫియు రియో",
+      "hi": "माननीय मुख्यमंत्री श्री नेफ्यू रियो"
+    },
+    "cm_image": "/static/images/cms/cm_nl.jpg",
+    "govt_name": {
+      "en": "Govt. of Nagaland",
+      "te": "నాగాలాండ్ ప్రభుత్వం",
+      "hi": "नागालैंड सरकार"
+    },
+    "default_lang": "en",
+    "lang_name": {
+      "en": "English",
+      "te": "ఇంగ్లీష్",
+      "hi": "अंग्रेज़ी"
+    }
+  },
+  {
+    "id": "tr",
+    "code": "TR",
+    "region": "North-East",
+    "name": {
+      "en": "Tripura",
+      "te": "త్రిపుర",
+      "hi": "त्रिपुरा"
+    },
+    "cm_name": {
+      "en": "Hon'ble CM Prof. Manik Saha",
+      "te": "గౌరవ ముఖ్యమంత్రి ప్రొఫెసర్ మాణిక్ సాహా",
+      "hi": "माननीय मुख्यमंत्री प्रो. माणिक साहा"
+    },
+    "cm_image": "/static/images/cms/cm_tr.jpg",
+    "govt_name": {
+      "en": "Govt. of Tripura",
+      "te": "త్రిపుర ప్రభుత్వం",
+      "hi": "त्रिपुरा सरकार"
+    },
+    "default_lang": "bn",
+    "lang_name": {
+      "en": "Bengali / Kokborok",
+      "te": "బెంగాలీ",
+      "hi": "বাংলা / कोकबोरोक"
+    }
+  }
+]

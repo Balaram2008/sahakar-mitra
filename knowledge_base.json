@@ -1,0 +1,259 @@
+{
+  "intents": [
+    {
+      "id": "annadata_sukhibhava_rythu_bharosa",
+      "keywords": [
+        "annadata sukhibhava",
+        "rythu bharosa",
+        "chandrababu naidu scheme",
+        "20000 assistance",
+        "farmer assistance",
+        "అన్నదాత సుఖీభవ",
+        "రైతు భరోసా",
+        "చంద్రబాబు నాయుడు పథకం",
+        "20000 సహాయం",
+        "అన్నదాత",
+        "अन्नदाता सुखीभव",
+        "रायथू भरोसा",
+        "चंद्रबाबू नायडू योजना",
+        "20000 सहायता"
+      ],
+      "response": {
+        "en": "🌾 **Annadata Sukhibhava / Rythu Bharosa Scheme (Hon'ble CM Sri N. Chandrababu Naidu Govt.)**\n\n1. **Total Financial Support:** ₹20,000 per year per eligible farmer family.\n2. **Contribution Breakdown:** ₹14,000 provided directly by the Andhra Pradesh State Government + ₹6,000 under Central PM-KISAN.\n3. **Disbursement Schedule:**\n   - **1st Installment (Kharif Season):** ₹10,000\n   - **2nd Installment (Rabi Season):** ₹5,000\n   - **3rd Installment (Sankranti Festival):** ₹5,000\n4. **Tenant Farmers:** SC, ST, BC, and Minority tenant farmers holding CCRC cards are also fully eligible.\n5. **Enrollment:** Through your local Village Rythu Seva Kendra (RSK / RBK).",
+        "te": "🌾 **అన్నదాత సుఖీభవ / రైతు భరోసా పథకం (గౌరవ ముఖ్యమంత్రి శ్రీ నారా చంద్రబాబు నాయుడు గారి ప్రభుత్వం)**\n\n1. **మొత్తం ఆర్థిక సాయం:** అర్హులైన ప్రతి రైతు కుటుంబానికి ఏడాదికి ₹20,000.\n2. **నిధుల వాటా:** ఆంధ్రప్రదేశ్ రాష్ట్ర ప్రభుత్వం ₹14,000 + కేంద్ర పీఎం కిసాన్ ₹6,000.\n3. **విడతల వివరాలు:**\n   - **1వ విడత (ఖరీఫ్ ప్రారంభం):** ₹10,000\n   - **2వ విడత (రబీ కాలం):** ₹5,000\n   - **3వ విడత (సంక్రాంతి కానుక):** ₹5,000\n4. **కౌలు రైతులు:** CCRC కార్డులు ఉన్న ఎస్సీ, ఎస్టీ, బీసీ, మైనారిటీ కౌలు రైతులకు కూడా వర్తిస్తుంది.\n5. **నమోదు:** మీ గ్రామ రైతు సేవా కేంద్రం (RSK / RBK) వద్ద గ్రామ వ్యవసాయ సహాయకుడి ద్వారా నమోదు చేసుకోవచ్చు.",
+        "hi": "🌾 **अन्नदाता सुखीभव / रायथू भरोसा (माननीय मुख्यमंत्री श्री एन. चंद्रबाबू नायडू सरकार)**\n\n1. **कुल वित्तीय सहायता:** पात्र किसान परिवार को ₹20,000 प्रति वर्ष।\n2. **योगदान:** आंध्र प्रदेश राज्य सरकार द्वारा ₹14,000 + केंद्रीय पीएम-किसान द्वारा ₹6,000।\n3. **किस्त विवरण:** पहली किस्त ₹10,000 (खरीफ), दूसरी किस्त ₹5,000 (रबी), और तीसरी किस्त ₹5,000 (संक्रांति)।\n4. **बटाईदार किसान:** सीसीआरसी कार्ड धारक एससी/एसटी/ओबीसी बटाईदार भी पूर्ण रूप से पात्र हैं।"
+      },
+      "actions": [
+        "check_eligibility",
+        "view_schemes"
+      ]
+    },
+    {
+      "id": "pacs_crop_loan",
+      "keywords": [
+        "pacs loan",
+        "crop loan",
+        "scale of finance",
+        "loan eligibility",
+        "vaddi leni runalu",
+        "sunna vaddi",
+        "వడ్డీ లేని రుణాలు",
+        "పంట రుణం",
+        "పిఎసిఎస్ లోన్",
+        "రైతు రుణం",
+        "సున్నా వడ్డీ",
+        "ఫసల్ ఋణ",
+        "पैक्स लोन",
+        "ब्याज मुक्त ऋण",
+        "वड्डी लेनी रुनालु"
+      ],
+      "response": {
+        "en": "🌾 **PACS Crop Loan & Vaddi Leni Runalu (0% Interest)**\n\n1. **Loan Limit:** Up to ₹1,00,000 at 0% effective interest if repaid within 12 months under AP Govt scheme.\n2. **Baseline Interest:** 7% p.a. (Central Govt provides 3% prompt repayment subvention + AP Govt reimburses remaining 4%).\n3. **Eligibility:** Land-owning farmers (Pattadar 1B) & Tenant farmers with CCRC Cards.\n4. **Scale of Finance (AP Example):** Paddy (~₹38,000/acre), Cotton (~₹45,000/acre), Chillies (~₹75,000/acre).\n5. **Where to Apply:** Visit your village Primary Agricultural Credit Society (PACS) or local Rythu Seva Kendra (RSK).",
+        "te": "🌾 **పిఎసిఎస్ పంట రుణాలు & వడ్డీ లేని రుణాలు (0% సున్నా వడ్డీ)**\n\n1. **రుణ పరిమితి:** 12 నెలల్లో తిరిగి చెల్లిస్తే ₹1,00,000 వరకు సున్నా వడ్డీకే లభిస్తుంది.\n2. **వడ్డీ వివరాలు:** సాధారణ వడ్డీ 7% కాగా, కేంద్రం 3% సబ్సిడీ ఇస్తుంది, మిగిలిన 4% వడ్డీని ఆంధ్రప్రదేశ్ ప్రభుత్వమే భరిస్తుంది.\n3. **అర్హత:** పట్టాదారు పాస్‌బుక్ ఉన్న రైతులు మరియు CCRC కార్డు కలిగిన కౌలు రైతులు.\n4. **స్కేల్ ఆఫ్ ఫైనాన్స్:** వరి (ఎకరాకు ~₹38,000), పత్తి (~₹45,000), మిర్చి (~₹75,000).\n5. **ఎక్కడ దరఖాస్తు చేయాలి:** మీ గ్రామ ప్రాథమిక వ్యవసాయ సహకార పరపతి సంఘం (PACS) లేదా సమీప రైతు సేవా కేంద్రం (RSK).",
+        "hi": "🌾 **पैक्स फसल ऋण एवं शून्य प्रतिशत ब्याज योजना (वड्डी लेनी रुनालु)**\n\n1. **ऋण सीमा:** 1 वर्ष के भीतर समय पर भुगतान करने पर ₹1,00,000 तक 0% ब्याज पर ऋण।\n2. **ब्याज विवरण:** मूल दर 7% है; 3% केंद्र सरकार की छूट + शेष 4% आंध्र प्रदेश सरकार द्वारा वहन।\n3. **पात्रता:** पट्टेदार किसान एवं सीसीआरसी कार्ड धारक बटाईदार किसान।\n4. **आवेदन कहां करें:** अपनी ग्राम प्राथमिक कृषि ऋण समिति (PACS) या नजदीकी आरबीके में संपर्क करें।"
+      },
+      "actions": [
+        "calculate_kcc",
+        "view_pacs_schemes"
+      ]
+    },
+    {
+      "id": "crop_insurance_pmfby",
+      "keywords": [
+        "crop insurance",
+        "pmfby",
+        "uchitha vyavasaya bima",
+        "free crop insurance",
+        "crop loss claim",
+        "e-crop",
+        "పంటల బీమా",
+        "ఉచిత పంట బీమా",
+        "పంట నష్టం",
+        "క్లెయిమ్",
+        "ఇ-పంట",
+        "ఫసల్ బీమా",
+        "फसल बीमा",
+        "मुफ्त फसल बीमा",
+        "ई-क्रॉप",
+        "दावा"
+      ],
+      "response": {
+        "en": "🛡️ **AP 100% Free Crop Insurance & PMFBY Guidelines**\n\n1. **Zero Farmer Premium:** Under Andhra Pradesh State policy, farmers do not pay any premium; 100% premium is borne by the AP Government.\n2. **Mandatory Step:** You must register under **e-Crop (ఇ-పంట)** at your local RSK/RBK during every cropping season.\n3. **Localized Damage Claim:** Must be reported within **72 hours** of calamity (cyclone, floods, pest attack, drought).\n4. **Helpline Channel:** Report to Village Agriculture Assistant (VAA) at RSK or call Crop Insurance Toll-free 1800-425-7078 / Kisan Call Centre 1907.",
+        "te": "🛡️ **ఆంధ్రప్రదేశ్ 100% ఉచిత పంటల బీమా & పీఎంఎఫ్‌బీవై (PMFBY)**\n\n1. **పూర్తి ఉచిత బీమా:** ఏపీ ప్రభుత్వ విధానం ప్రకారం రైతులు ఒక్క రూపాయి ప్రీమియం చెల్లించాల్సిన అవసరం లేదు. ప్రభుత్వమే పూర్తి ఖర్చును భరిస్తుంది.\n2. **తప్పనిసరి నిబంధన:** ప్రతి పంట కాలంలో మీ స్థానిక రైతు సేవా కేంద్రం (RSK) వద్ద **ఇ-పంట (e-Crop)** తప్పనిసరిగా నమోదు చేయించుకోవాలి.\n3. **పంట నష్టం క్లెయిమ్:** తుఫాను, వరదలు లేదా తెగుళ్ల వల్ల నష్టం జరిగితే **72 గంటల్లోపు** ఆర్బీకేలో ఫిర్యాదు చేయాలి.\n4. **టోల్ ఫ్రీ నంబర్:** ఉచిత పంటల బీమా సహాయం కోసం 1800-425-7078 లేదా 1907 కు కాల్ చేయండి.",
+        "hi": "🛡️ **आंध्र प्रदेश 100% मुफ्त फसल बीमा एवं पीएमएफबीवाई निर्देश**\n\n1. **शून्य प्रीमियम:** आंध्र प्रदेश सरकार किसानों का 100% बीमा प्रीमियम स्वयं भरती है।\n2. **अनिवार्य शर्त:** प्रत्येक सीजन में स्थानीय आरबीके में **ई-क्रॉप (e-Crop)** पंजीकरण आवश्यक है।\n3. **फसल क्षति सूचना:** प्राकृतिक आपदा या नुकसान के **72 घंटे के भीतर** सूचना देना अनिवार्य है।"
+      },
+      "actions": [
+        "calculate_insurance",
+        "track_insurance"
+      ]
+    },
+    {
+      "id": "cooperative_elections_laws",
+      "keywords": [
+        "cooperative election",
+        "voting rights",
+        "managing committee",
+        "bylaws",
+        "apcs act",
+        "section 51",
+        "section 60",
+        "సహకార ఎన్నికలు",
+        "ఓటు హక్కు",
+        "పాలకవర్గం",
+        "సెక్షన్ 51",
+        "చట్టం",
+        "सहकारी चुनाव",
+        "मतदान अधिकार",
+        "प्रबंध समिति",
+        "धारा 51"
+      ],
+      "response": {
+        "en": "⚖️ **AP Cooperative Societies Act 1964: Governance & Legal Rights**\n\n- **Managing Committee Tenure:** Elected for **5 years** via transparent secret ballot.\n- **Voting Rights (Sec 25):** 1 Member = 1 Vote. No proxy voting allowed. Member must attend at least 2 general body meetings in 5 years.\n- **Mandatory Reservations:** Reserved seats for Women, Small/Marginal Farmers, and SC/ST candidates on every PACS board.\n- **Statutory Inquiry & Recovery (Sec 51 & Sec 60):** 1/3rd members can petition District Cooperative Officer (DCO) for inquiry into corruption and recover misappropriated funds with interest.",
+        "te": "⚖️ **ఆంధ్రప్రదేశ్ సహకార చట్టం 1964: పాలకవర్గం & చట్టపరమైన హక్కులు**\n\n- **పదవీకాలం:** సహకార సంఘ పాలకవర్గ పదవీకాలం **5 సంవత్సరాలు**.\n- **ఓటు హక్కు (సెక్షన్ 25):** ఒక సభ్యునికి ఒకే ఓటు. ప్రాక్సీ (బినామీ) ఓటింగ్ నిషేధం. ఓటు హక్కు ఉండాలంటే 5 ఏళ్లలో కనీసం 2 సర్వసభ్య సమావేశాలకు హాజరు కావాలి.\n- **రిజర్వేషన్లు:** మహిళలకు, చిన్న/సన్నకారు రైతులకు మరియు ఎస్సీ/ఎస్టీలకు పాలకవర్గంలో తప్పనిసరి స్థానాలు ఉంటాయి.\n- **అవకతవకలపై విచారణ (సెక్షన్ 51 & 60):** అక్రమాలు జరిగితే 1/3 వంతు సభ్యుల విజ్ఞప్తి మేరకు జిల్లా సహకార అధికారి (DCO) విచారణ జరిపి నిధులను రికవరీ చేస్తారు.",
+        "hi": "⚖️ **सहकारी कानून एवं चुनाव नियम (APCS Act 1964)**\n\n- **कार्यकाल:** प्रबंध समिति का कार्यकाल 5 वर्ष होता है।\n- **मतदान:** एक सदस्य, एक वोट। प्रॉक्सी वोटिंग अवैध है।\n- **आरक्षण:** महिलाओं, छोटे किसानों और एससी/एसटी के लिए आरक्षण अनिवार्य है।\n- **जांच (धारा 51):** 1/3 सदस्यों की मांग पर वित्तीय अनियमितताओं की वैधानिक जांच की जाती है।"
+      },
+      "actions": [
+        "view_laws",
+        "file_grievance"
+      ]
+    },
+    {
+      "id": "pacs_computerization_storage",
+      "keywords": [
+        "pacs computerization",
+        "storage plan",
+        "godown",
+        "narendra modi scheme",
+        "erp software",
+        "పిఎసిఎస్ కంప్యూటరీకరణ",
+        "గోదాములు",
+        "ధాన్య నిల్వ",
+        "మోదీ పథకం",
+        "पैक्स कंप्यूटरीकरण",
+        "अन्न भंडारण",
+        "गोदाम",
+        "मोदी योजना"
+      ],
+      "response": {
+        "en": "🇮🇳 **Ministry of Cooperation Initiatives (Hon'ble PM Sri Narendra Modi)**\n\n1. **PACS Computerization:** ₹2,516 Crore cloud ERP deployment connecting 63,000+ PACS with real-time digital passbooks & automated audit.\n2. **World's Largest Decentralized Grain Storage:** Village godowns (500 to 2,000 MT) at PACS enabling **75% pledge financing loans** so farmers avoid distress selling at harvest.\n3. **PACS as CSCs:** PACS now deliver 300+ e-governance services, Jan Aushadhi generic medicines, and agricultural drone rentals.",
+        "te": "🇮🇳 **కేంద్ర సహకార మంత్రిత్వ శాఖ పథకాలు (గౌరవ ప్రధాని శ్రీ నరేంద్ర మోదీ నాయకత్వం)**\n\n1. **పిఎసిఎస్ కంప్యూటరీకరణ:** దేశవ్యాప్తంగా 63,000+ పిఎసిఎస్‌లకు ₹2,516 కోట్లతో క్లౌడ్ ఈఆర్‌పి సాఫ్ట్‌వేర్, డిజిటల్ పాస్‌బుక్‌లు మరియు పారదర్శక ఆడిట్.\n2. **ప్రపంచంలోనే అతిపెద్ద ధాన్య నిల్వ పథకం:** గ్రామ పిఎసిఎస్ వద్ద 500-2000 MT గోదాములు మరియు 75% పంట విలువ వరకు తాకట్టు రుణాలు.\n3. **బహుముఖ సేవలు:** పిఎసిఎస్‌లు ఇప్పుడు కామన్ సర్వీస్ సెంటర్లు (CSC), జన్ ఔషధి తక్కువ ధర మందుల కేంద్రాలు మరియు డ్రోన్ అద్దె కేంద్రాలుగా మారాయి.",
+        "hi": "🇮🇳 **सहकारिता मंत्रालय की प्रमुख योजनाएं (माननीय प्रधानमंत्री श्री नरेंद्र मोदी)**\n\n1. **पैक्स कंप्यूटरीकरण:** ₹2,516 करोड़ के बजट से 63,000+ पैक्स का राष्ट्रीय क्लाउड ईआरपी डिजिटलीकरण।\n2. **विश्व की सबसे बड़ी विकेन्द्रीकृत अन्न भंडारण योजना:** पैक्स स्तर पर 500 से 2000 मीट्रिक टन के गोदाम और 75% उपज मूल्य तक ऋण।\n3. **पैक्स सीएससी केंद्र:** जन औषधि केंद्र, सीएससी सेवाएं और कृषि ड्रोन किराये की सुविधा।"
+      },
+      "actions": [
+        "view_schemes"
+      ]
+    },
+    {
+      "id": "file_complaint_grievance",
+      "keywords": [
+        "complaint",
+        "grievance",
+        "spandana",
+        "pacs secretary fraud",
+        "loan denial",
+        "fertilizer black market",
+        "ఫిర్యాదు",
+        "స్పందన",
+        "సమస్య",
+        "అధికారి అవినీతి",
+        "ఎరువులు ఇవ్వట్లేదు",
+        "शिकायत",
+        "स्पंदना",
+        "पैक्स शिकायत",
+        "खाद नहीं मिल रही"
+      ],
+      "response": {
+        "en": "📢 **Sahakara Spandana - Cooperative Grievance Portal**\n\nYou can lodge an official grievance right here for:\n1. Delay or refusal of PACS Crop Loans\n2. Fertilizer / Seed black-marketing or overcharging\n3. Illegal refusal of Society membership\n4. Irregularities in Society election voter lists\n5. Delayed crop insurance settlement\n\nYour complaint generates an **Instant Tracking ID** and is routed directly to District Cooperative Officer (DCO).",
+        "te": "📢 **సహకార స్పందన - ఫిర్యాదుల పరిష్కార విభాగం**\n\nమీరు క్రింది సమస్యలపై వెంటనే అధికారిక ఫిర్యాదు నమోదు చేయవచ్చు:\n1. పిఎసిఎస్ పంట రుణం నిరాకరణ లేదా తీవ్ర జాప్యం\n2. ఆర్బీకే/సొసైటీలో ఎరువుల అధిక ధరలు లేదా కృత్రిమ కొరత\n3. చట్టబద్ధమైన సహకార సంఘ సభ్యత్వం నిరాకరణ\n4. సంఘం ఎన్నికల ఓటర్ల జాబితాలో అవకతవకలు\n5. పంట బీమా పరిహారం అందకపోవడం\n\nఫిర్యాదు చేయగానే మీకు **ట్రాకింగ్ ఐడీ (Ticket ID)** వస్తుంది, నేరుగా జిల్లా సహకార అధికారికి (DCO) చేరుతుంది.",
+        "hi": "📢 **सहकार स्पंदना - शिकायत निवारण पोर्टल**\n\nआप निम्न विषयों पर सीधे शिकायत दर्ज कर सकते हैं:\n1. पैक्स ऋण में अनावश्यक देरी या इनकार\n2. उर्वरक/बीज की अधिक कीमत या कालाबाजारी\n3. सदस्यता देने से मना करना\n4. चुनाव मतदाता सूची में गड़बड़ी\n5. फसल बीमा क्लेम में देरी\n\nशिकायत दर्ज करने पर त्वरित ट्रैकिंग आईडी प्राप्त होती है।"
+      },
+      "actions": [
+        "open_grievance_tab"
+      ]
+    },
+    {
+      "id": "cm_directory_28_states",
+      "keywords": [
+        "chief minister",
+        "cm of",
+        "ముఖ్యమంత్రి",
+        "मुख्यमंत्री",
+        "cm list",
+        "revanth reddy",
+        "siddaramaiah",
+        "stalin",
+        "shinde",
+        "yogi",
+        "nitish",
+        "mamata",
+        "bhagwant mann",
+        "himanta"
+      ],
+      "response": {
+        "en": "🇮🇳 **Chief Ministers of Indian States (2024–2026):**\n- **Andhra Pradesh:** Sri N. Chandrababu Naidu\n- **Telangana:** Sri A. Revanth Reddy\n- **Karnataka:** Sri Siddaramaiah\n- **Tamil Nadu:** Sri M. K. Stalin\n- **Kerala:** Sri Pinarayi Vijayan\n- **Maharashtra:** Sri Eknath Shinde\n- **Gujarat:** Sri Bhupendra Patel\n- **Uttar Pradesh:** Sri Yogi Adityanath\n- **Rajasthan:** Sri Bhajan Lal Sharma\n- **Punjab:** Sri Bhagwant Mann\n- **Bihar:** Sri Nitish Kumar\n- **West Bengal:** Smt. Mamata Banerjee\n- **Odisha:** Sri Mohan Charan Majhi\n- **Assam:** Sri Himanta Biswa Sarma\n\n*Select any state above to view its state-specific agricultural & cooperative schemes!*",
+        "te": "🇮🇳 **భారతదేశ రాష్ట్రాల ముఖ్యమంత్రులు (2024–2026):**\n- **ఆంధ్రప్రదేశ్:** శ్రీ నారా చంద్రబాబు నాయుడు\n- **తెలంగాణ:** శ్రీ ఎ. రేవంత్ రెడ్డి\n- **కర్ణాటక:** శ్రీ సిద్ధరామయ్య\n- **తమిళనాడు:** శ్రీ ఎం. కె. స్టాలిన్\n- **కేరళ:** శ్రీ పినరయి విజయన్\n- **మహారాష్ట్ర:** శ్రీ ఏకనాథ్ షిండే\n- **గుజరాత్:** శ్రీ భూపేంద్ర పటేల్\n- **ఉత్తరప్రదేశ్:** శ్రీ యోగి ఆదిత్యనాథ్\n- **రాజస్థాన్:** శ్రీ భజన్ లాల్ శర్మ\n- **పంజాబ్:** శ్రీ భగవంత్ మాన్\n- **బీహార్:** శ్రీ నితీష్ కుమార్\n- **పశ్చిమ బెంగాల్:** శ్రీమతి మమతా బెనర్జీ\n- **ఒడిశా:** శ్రీ మోహన్ చరణ్ మాఝీ\n- **అస్సాం:** శ్రీ హిమంత బిశ్వ శర్మ\n\n*పై జాబితా నుండి ఏ రాష్ట్రాన్నైనా ఎంచుకుని సంబంధిత పథకాలను పరిశీలించండి!*",
+        "hi": "🇮🇳 **भारत के राज्यों के माननीय मुख्यमंत्री (2024–2026):**\n- **आंध्र प्रदेश:** श्री एन. चंद्रबाबू नायडू\n- **तेलंगाना:** श्री ए. रेवंत रेड्डी\n- **कर्नाटक:** श्री सिद्धारमैया\n- **तमिलनाडु:** श्री एम. के. स्टालिन\n- **केरल:** श्री पिनाराई विजयन\n- **महाराष्ट्र:** श्री एकनाथ शिंदे\n- **गुजरात:** श्री भूपेंद्र पटेल\n- **उत्तर प्रदेश:** श्री योगी आदित्यनाथ\n- **राजस्थान:** श्री भजन लाल शर्मा\n- **पंजाब:** श्री भगवंत मान\n- **बिहार:** श्री नीतीश कुमार\n- **पश्चिम बंगाल:** श्रीमती ममता बनर्जी\n- **ओडिशा:** श्री मोहन चरण माझी\n- **असम:** श्री हिमंत बिस्वा सरमा\n\n*किसी भी राज्य का चयन करके उसकी विशेष कृषि एवं सहकारी योजनाओं का विवरण देखें!*"
+      },
+      "actions": [
+        "view_schemes"
+      ]
+    },
+    {
+      "id": "telangana_schemes_info",
+      "keywords": [
+        "telangana",
+        "తెలంగాణ",
+        "तेलंगाना",
+        "rythu bharosa 15000",
+        "rythu bima",
+        "revanth reddy scheme"
+      ],
+      "response": {
+        "en": "🌾 **Telangana State Agricultural Flagship Schemes (Hon'ble CM Sri A. Revanth Reddy):**\n1. **Rythu Bharosa:** Direct financial aid of ₹15,000 per acre per year for crop investment.\n2. **Rythu Bima:** 100% state-funded ₹5 Lakh group life insurance for farmers aged 18-59 years with settlement within 10 days.\n3. **0% Crop Loans:** Interest-free crop loans through Telangana State Cooperative Apex Bank (TSCAB) and PACS.\n4. **Oil Palm Mission:** Up to ₹26,000 per acre subsidy for shifting to oil palm cultivation.",
+        "te": "🌾 **తెలంగాణ రాష్ట్ర వ్యవసాయ పథకాలు (గౌరవ ముఖ్యమంత్రి శ్రీ ఎ. రేవంత్ రెడ్డి గారి ప్రభుత్వం):**\n1. **రైతు భరోసా:** వ్యవసాయ పెట్టుబడి సాయంగా ఎకరాకు ఏడాదికి ₹15,000 నేరుగా బ్యాంక్ ఖాతాల్లో జమ.\n2. **రైతు బీమా:** 18-59 సంవత్సరాల రైతులకు ప్రభుత్వ ప్రీమియంతో ₹5 లక్షల ఉచిత జీవిత బీమా రక్షణ (10 రోజుల్లోనే పరిహారం).\n3. **0% వడ్డీ పంట రుణాలు:** TSCAB మరియు పిఎసిఎస్ సహకార సంఘాల ద్వారా సున్నా వడ్డీ రుణాలు.\n4. **ఆయిల్ పామ్ మిషన్:** ఆయిల్ పామ్ సాగు చేపట్టే రైతులకు ఎకరాకు ₹26,000 వరకు రాయితీ.",
+        "hi": "🌾 **तेलंगाना राज्य प्रमुख कृषि योजनाएं (माननीय मुख्यमंत्री श्री ए. रेवंत रेड्डी):**\n1. **रायथू भरोसा:** फसल निवेश हेतु प्रति एकड़ प्रति वर्ष ₹15,000 की सीधी सहायता।\n2. **रायथू बीमा:** 18-59 वर्ष के किसानों के लिए 100% सरकारी प्रीमियम पर ₹5 लाख का जीवन बीमा।\n3. **0% ब्याज ऋण:** टीएससीएबी एवं प्राथमिक सहकारी समितियों के जरिए शून्य ब्याज पर फसली ऋण।"
+      },
+      "actions": [
+        "view_schemes"
+      ]
+    },
+    {
+      "id": "maharashtra_schemes_info",
+      "keywords": [
+        "maharashtra",
+        "మహారాష్ట్ర",
+        "महाराष्ट्र",
+        "namo shetkari",
+        "1 rupee crop insurance",
+        "1 rs bima"
+      ],
+      "response": {
+        "en": "🌾 **Maharashtra State Flagship Schemes (Hon'ble CM Sri Eknath Shinde):**\n1. **Namo Shetkari Mahasanman Nidhi:** ₹6,000/yr State grant + ₹6,000 PM-KISAN = ₹12,000 total annual direct aid.\n2. **₹1 Crop Insurance Scheme:** Comprehensive crop loss risk cover by paying a token premium of only ₹1 per application.\n3. **Mahatma Jyotirao Phule Farm Loan Waiver:** Debt settlement for cooperative credit society loans.\n4. **Balasaheb Thackeray SMART Project:** High subsidies for Agri-Business Cooperatives.",
+        "te": "🌾 **మహారాష్ట్ర వ్యవసాయ పథకాలు (గౌరవ ముఖ్యమంత్రి శ్రీ ఏకనాథ్ షిండే గారి ప్రభుత్వం):**\n1. **నమో శేత్కరి మహాసన్మాన్ నిధి:** రాష్ట్రం ₹6,000 + కేంద్రం ₹6,000 = ఏడాదికి మొత్తం ₹12,000 నేరుగా రైతుల ఖాతాల్లో జమ.\n2. **₹1 పంటల బీమా పథకం:** కేవలం ₹1 టోకెన్ ప్రీమియంతో పూర్తి పంటల బీమా రక్షణ.\n3. **మహాత్మా జ్యోతిరావు ఫూలే రుణ మాఫీ:** సహకార సంఘాల రుణాల పరిష్కారం.",
+        "hi": "🌾 **महाराष्ट्र प्रमुख कृषि योजनाएं (माननीय मुख्यमंत्री श्री एकनाथ शिंदे):**\n1. **नमो शेतकरी महासम्मान निधि:** ₹6,000 राज्य सहायता + ₹6,000 पीएम-किसान = ₹12,000 वार्षिक सीधा लाभ।\n2. **मात्र ₹1 में फसल बीमा:** केवल ₹1 टोकन प्रीमियम पर व्यापक फसल बीमा सुरक्षा।\n3. **महात्मा ज्योतिराव फुले कर्ज माफी:** सहकारी बैंकों के कृषि ऋणों का मोचन।"
+      },
+      "actions": [
+        "view_schemes"
+      ]
+    },
+    {
+      "id": "karnataka_schemes_info",
+      "keywords": [
+        "karnataka",
+        "కర్ణాటక",
+        "कर्नाटक",
+        "krishi bhagya",
+        "yashaswini",
+        "siddaramaiah scheme"
+      ],
+      "response": {
+        "en": "🌾 **Karnataka State Flagship Schemes (Hon'ble CM Sri Siddaramaiah):**\n1. **Krishi Bhagya Scheme:** 80-90% subsidy for rainfed farm ponds (Krishi Honda), polythene lining, diesel pumps, and sprinklers.\n2. **Yashaswini Cooperative Health Scheme:** Cashless medical & surgical treatment up to ₹5 Lakh in network hospitals for cooperative society members.\n3. **Ganga Kalyana Yojana:** Free borewells with energization for SC/ST small farmers.\n4. **Raitha Siri:** ₹10,000/hectare incentive for cultivating minor millets.",
+        "te": "🌾 **కర్ణాటక వ్యవసాయ పథకాలు (గౌరవ ముఖ్యమంత్రి శ్రీ సిద్ధరామయ్య గారి ప్రభుత్వం):**\n1. **కృషి భాగ్య పథకం:** వర్షాధార ప్రాంతాల్లో వ్యవసాయ కుంటలు (కృషి హొండా), పాలిథిన్ లైనింగ్, స్ప్రింక్లర్లపై 80-90% సబ్సిడీ.\n2. **యశస్విని సహకార ఆరోగ్య పథకం:** సహకార సంఘ సభ్యులకు ₹5 లక్షల వరకు ఉచిత శస్త్రచికిత్సల సౌకర్యం.\n3. **గంగా కళ్యాణ యోజన:** చిన్న రైతులకు ఉచిత బోరుబావులు మరియు మోటార్లు.\n4. **రైత సిరి:** చిరుధాన్యాల సాగుదారులకు హెక్టారుకు ₹10,000 ప్రోత్సాహకం.",
+        "hi": "🌾 **कर्नाटक प्रमुख कृषि योजनाएं (माननीय मुख्यमंत्री श्री सिद्धारमैया):**\n1. **कृषि भाग्य योजना:** खेत तालाबों और सूक्ष्म सिंचाई पर 80-90% तक सब्सिडी।\n2. **यशस्विनी सहकारी स्वास्थ्य योजना:** सहकारी सदस्यों को ₹5 लाख तक कैशलेस चिकित्सा व सर्जरी।\n3. **गंगा कल्याण योजना:** लघु व सीमांत किसानों को मुफ्त नलकूप व बिजली कनेक्शन।"
+      },
+      "actions": [
+        "view_schemes"
+      ]
+    }
+  ]
+}

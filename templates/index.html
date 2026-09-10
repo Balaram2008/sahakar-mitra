@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multilingual Cooperative Governance & Legal Assistance Chatbot</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            apGreen: { 600: '#16a34a', 700: '#15803d', 800: '#166534', 900: '#14532d' },
+            apGold: { 400: '#fbbf24', 500: '#f59e0b', 600: '#d97706' },
+            apBlue: { 600: '#2563eb', 800: '#1e40af', 950: '#172554' }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 flex flex-col min-h-screen">
+
+  <!-- ================= TOP GOVERNMENT HEADER ================= -->
+  <header class="gov-banner text-white shadow-xl sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+      
+      <!-- Brand & Title -->
+      <div class="flex items-center gap-3.5">
+        <div class="w-14 h-14 rounded-full bg-white p-1.5 shadow-lg flex items-center justify-center flex-shrink-0 border-2 border-apGold-400">
+          <i class="fa-solid fa-scale-balanced text-3xl text-emerald-700"></i>
+        </div>
+        <div>
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="px-2.5 py-0.5 text-[11px] font-black uppercase tracking-wider bg-apGold-500 text-emerald-950 rounded-md shadow-sm">
+              Govt. of Andhra Pradesh
+            </span>
+            <span class="px-2.5 py-0.5 text-[11px] font-black uppercase tracking-wider bg-blue-700 text-white rounded-md shadow-sm">
+              Ministry of Cooperation
+            </span>
+          </div>
+          <h1 class="text-xl sm:text-2xl lg:text-3xl font-black tracking-tight brand-glow leading-tight mt-0.5" data-i18n="portal_title">
+            బహుభాషా సహకార పాలన & చట్టపరమైన సహాయక ఏఐ చాట్‌బాట్
+          </h1>
+          <p class="text-xs sm:text-sm text-emerald-100 font-medium" data-i18n="portal_sub">
+            ఆంధ్రప్రదేశ్ ప్రభుత్వం & కేంద్ర సహకార మంత్రిత్వ శాఖ • ఏఐ వాయిస్ & చట్టపరమైన సేవల వేదిక
+          </p>
+        </div>
+      </div>
+
+      <!-- Leaders & Language Controls -->
+      <div class="flex flex-wrap items-center gap-3 justify-between lg:justify-end">
+        
+        <!-- Leadership Mini-Cards -->
+        <div class="flex items-center gap-2">
+          <!-- Dynamic State Chief Minister Badge -->
+          <div id="header-cm-badge" class="leadership-badge-box flex items-center gap-2 shadow-md">
+            <div class="w-10 h-10 rounded-full overflow-hidden border-2 border-apGold-400 flex-shrink-0 bg-white shadow">
+              <img id="header-cm-img" src="/static/images/cms/cm_ap.jpg" alt="State Chief Minister" class="w-full h-full object-cover" onerror="this.src='/static/images/cm_chandrababu_naidu.jpg'">
+            </div>
+            <div class="text-left hidden sm:block">
+              <span id="header-cm-name" class="text-[11px] font-black text-apGold-300 block leading-tight" data-i18n="cm_title">శ్రీ నారా చంద్రబాబు నాయుడు</span>
+              <span id="header-cm-sub" class="text-[10px] text-emerald-100 font-bold block" data-i18n="cm_sub">ముఖ్యమంత్రి, ఆంధ్రప్రదేశ్</span>
+            </div>
+          </div>
+
+          <!-- Hon'ble PM Sri Narendra Modi -->
+          <div class="leadership-badge-box flex items-center gap-2 shadow-md">
+            <div class="w-10 h-10 rounded-full overflow-hidden border-2 border-blue-400 flex-shrink-0 bg-white shadow">
+              <img src="/static/images/pm_narendra_modi.jpg" alt="Sri Narendra Modi" class="w-full h-full object-cover">
+            </div>
+            <div class="text-left hidden sm:block">
+              <span class="text-[11px] font-black text-blue-200 block leading-tight" data-i18n="pm_title">శ్రీ నరేంద్ర మోదీ</span>
+              <span class="text-[10px] text-emerald-100 font-bold block" data-i18n="pm_sub">ప్రధాన మంత్రి, భారతదేశం</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Language Switcher (All State Languages) & Quick Download -->
+        <div class="flex items-center gap-3 flex-wrap">
+          <div class="flex items-center bg-emerald-950/80 p-1.5 rounded-2xl border border-emerald-400/50 shadow-inner">
+            <button class="lang-btn active px-3 py-2 rounded-xl text-sm font-black" data-lang="te">తెలుగు</button>
+            <button class="lang-btn px-3 py-2 rounded-xl text-sm font-black" data-lang="hi">हिन्दी</button>
+            <button class="lang-btn px-3 py-2 rounded-xl text-sm font-black" data-lang="en">English</button>
+            
+            <!-- More State Languages Select -->
+            <select id="state-lang-dropdown" class="bg-emerald-900 border border-emerald-500/60 text-emerald-100 text-xs sm:text-sm font-bold rounded-xl px-2.5 py-1.5 ml-1 focus:outline-none">
+              <option value="" disabled selected>🌐 ఇతర రాష్ట్ర భాషలు (More Languages)</option>
+              <option value="kn">ಕನ್ನಡ (Kannada - KA)</option>
+              <option value="ta">தமிழ் (Tamil - TN)</option>
+              <option value="ml">മലയാളം (Malayalam - KL)</option>
+              <option value="mr">मराठी (Marathi - MH)</option>
+              <option value="gu">ગુજરાતી (Gujarati - GJ)</option>
+              <option value="bn">বাংলা (Bengali - WB)</option>
+              <option value="or">ଓଡ଼ିଆ (Odia - OR)</option>
+              <option value="pa">ਪੰਜਾਬੀ (Punjabi - PB)</option>
+              <option value="as">অসমীয়া (Assamese - AS)</option>
+            </select>
+          </div>
+
+          <a href="/kiosk-mode" class="flex items-center gap-2 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-emerald-950 font-black text-sm px-4 py-2.5 rounded-2xl border-2 border-amber-300 shadow-xl transition-all transform hover:scale-105 active:scale-95" title="Open Hardware-Grade Touchscreen Kiosk Mode">
+            <i class="fa-solid fa-desktop text-base text-emerald-950"></i>
+            <span>కియోస్క్ మోడ్ (Kiosk Mode)</span>
+          </a>
+
+          <a href="/download" class="flex items-center gap-2 bg-white/20 hover:bg-white/30 text-white font-black text-sm px-4 py-2.5 rounded-2xl border border-white/40 shadow-lg transition-all transform hover:scale-105 active:scale-95">
+            <i class="fa-solid fa-download text-base text-apGold-400"></i>
+            <span>Download ZIP</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Quick Stats Bar with Increased Text Size -->
+    <div class="bg-emerald-950/95 border-t border-emerald-600/60 py-2.5">
+      <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+        <div class="border-r border-emerald-800/80 last:border-0 p-1">
+          <strong class="text-apGold-400 font-black text-base sm:text-lg lg:text-xl block tracking-wide" data-i18n="stat_pacs_count">2,050+ PACS</strong>
+          <span class="text-emerald-100 text-xs sm:text-sm font-semibold" data-i18n="stat_pacs_label">కంప్యూటరీకరణ అయిన సంఘాలు</span>
+        </div>
+        <div class="border-r border-emerald-800/80 last:border-0 p-1">
+          <strong class="text-apGold-400 font-black text-base sm:text-lg lg:text-xl block tracking-wide" data-i18n="stat_farmers_count">50+ లక్షల మంది</strong>
+          <span class="text-emerald-100 text-xs sm:text-sm font-semibold" data-i18n="stat_farmers_label">ఇ-పంటలో నమోదైన రైతులు</span>
+        </div>
+        <div class="border-r border-emerald-800/80 last:border-0 p-1">
+          <strong class="text-apGold-400 font-black text-base sm:text-lg lg:text-xl block tracking-wide" data-i18n="stat_interest_rate">0% వడ్డీ</strong>
+          <span class="text-emerald-100 text-xs sm:text-sm font-semibold" data-i18n="stat_interest_label">వడ్డీ లేని రుణాలు (సున్నా వడ్డీ)</span>
+        </div>
+        <div class="p-1">
+          <strong class="text-apGold-400 font-black text-base sm:text-lg lg:text-xl block tracking-wide" data-i18n="stat_insurance_fee">₹0 ప్రీమియం</strong>
+          <span class="text-emerald-100 text-xs sm:text-sm font-semibold" data-i18n="stat_insurance_label">100% ఉచిత పంటల బీమా</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= LIVE ANNOUNCEMENT TICKER ================= -->
+  <div class="ticker-wrap">
+    <div class="ticker-label">
+      <i class="fa-solid fa-bullhorn text-xs animate-bounce"></i>
+      <span data-i18n="ticker_live_badge">తాజా సమాచారం</span>
+    </div>
+    <div class="ticker-content" id="live-ticker-text">
+      🌾 అన్నదాత సుఖీభవ 2026 నిధుల విడుదల ప్రారంభం • 💰 పిఎసిఎస్ 0% వడ్డీ పంట రుణాల పరిమితి ₹3,00,000 వరకు పెంపు • 🛡️ ఈ-పంట (e-Crop) లో నమోదైన రైతులకు 100% ఉచిత పంటల బీమా వర్తింపు • 🇮🇳 భారతదేశంలోని 28 రాష్ట్రాల సంక్షేమ పథకాలు ఇప్పుడు అందుబాటులో ఉన్నాయి • 📞 పంట నష్టం అత్యవసర ఫిర్యాదుల హెల్ప్‌లైన్: 1070 / 1800-425-4440 • ⚖️ సహకార చట్టం 1964 ప్రకారం రైతులందరికీ ఓటు హక్కు కల్పన
+    </div>
+  </div>
+
+  <!-- ================= MAIN NAVIGATION TABS ================= -->
+  <div class="bg-white border-b border-slate-200 shadow-sm sticky top-[138px] lg:top-[128px] z-30">
+    <div class="max-w-7xl mx-auto px-4 overflow-x-auto py-2.5 flex items-center gap-2 no-scrollbar">
+      <button class="nav-tab-btn active-tab px-4 py-2.5 text-sm flex items-center gap-2" data-tab="tab-chat">
+        <i class="fa-solid fa-microphone-lines text-apGold-500"></i>
+        <span data-i18n="tab_chat">ఏఐ వాయిస్ చాట్‌బాట్</span>
+      </button>
+      <button class="nav-tab-btn px-4 py-2.5 text-sm flex items-center gap-2 bg-slate-100 text-slate-700" data-tab="tab-schemes">
+        <i class="fa-solid fa-wheat-awn text-emerald-600"></i>
+        <span data-i18n="tab_schemes">పథకాలు & అర్హత</span>
+      </button>
+      <button class="nav-tab-btn px-4 py-2.5 text-sm flex items-center gap-2 bg-slate-100 text-slate-700" data-tab="tab-laws">
+        <i class="fa-solid fa-scale-balanced text-blue-600"></i>
+        <span data-i18n="tab_laws">సహకార చట్టాలు & హక్కులు</span>
+      </button>
+      <button class="nav-tab-btn px-4 py-2.5 text-sm flex items-center gap-2 bg-slate-100 text-slate-700" data-tab="tab-insurance">
+        <i class="fa-solid fa-shield-halved text-teal-600"></i>
+        <span data-i18n="tab_insurance">పంటల బీమా (PMFBY)</span>
+      </button>
+      <button class="nav-tab-btn px-4 py-2.5 text-sm flex items-center gap-2 bg-slate-100 text-slate-700" data-tab="tab-finance">
+        <i class="fa-solid fa-hand-holding-dollar text-amber-600"></i>
+        <span data-i18n="tab_finance">కేసీసీ & 0% రుణాలు</span>
+      </button>
+      <button class="nav-tab-btn px-4 py-2.5 text-sm flex items-center gap-2 bg-slate-100 text-slate-700" data-tab="tab-grievance">
+        <i class="fa-solid fa-bullhorn text-rose-600"></i>
+        <span data-i18n="tab_grievance">సహకార స్పందన (ఫిర్యాదులు)</span>
+      </button>
+    </div>
+  </div>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">    <!-- ================= TAB 1: AI VOICE CHATBOT ================= -->
+    <section id="tab-chat" class="tab-panel">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        
+        <!-- Left 2 Cols: Main Chat Window -->
+        <div class="lg:col-span-2">
+          <div class="chat-container">
+            
+            <!-- Chat Header -->
+            <div class="p-4 bg-gradient-to-r from-emerald-900 via-emerald-800 to-teal-950 text-white rounded-t-3xl flex items-center justify-between shadow-md">
+              <div class="flex items-center gap-3">
+                <div class="relative">
+                  <div class="w-11 h-11 rounded-2xl bg-emerald-600 flex items-center justify-center text-xl border-2 border-apGold-400 shadow">
+                    <i class="fa-solid fa-robot text-white"></i>
+                  </div>
+                  <span class="absolute bottom-0 right-0 w-3.5 h-3.5 bg-green-400 border-2 border-white rounded-full"></span>
+                </div>
+                <div>
+                  <h3 class="font-black text-base leading-tight" data-i18n="chat_header_title">సహకార పాలన & చట్టపరమైన ఏఐ సహాయకుడు</h3>
+                  <p class="text-xs text-emerald-200" data-i18n="chat_header_status">ఆన్‌లైన్ • వాయిస్ & టెక్స్ట్ సిద్ధంగా ఉంది (తెలుగు / हिन्दी / English)</p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <div id="voice-wave-container" class="hidden flex items-center gap-1 px-3 py-1.5 bg-emerald-950/80 rounded-xl border border-emerald-400">
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <span class="text-xs text-green-300 font-black ml-1.5" data-i18n="chat_voice_listening">వింటున్నాను...</span>
+                </div>
+
+                <button id="chat-stop-voice-btn" class="text-xs bg-red-600/90 hover:bg-red-600 text-white px-3 py-1.5 rounded-xl font-bold transition flex items-center gap-1" title="Stop speech">
+                  <i class="fa-solid fa-stop"></i> <span data-i18n="chat_stop_speech">ఆపు</span>
+                </button>
+                <button id="chat-clear-btn" class="text-xs bg-emerald-700/80 hover:bg-emerald-700 text-white px-3 py-1.5 rounded-xl font-bold transition" title="Clear chat">
+                  <i class="fa-solid fa-trash-can"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Messages Stream -->
+            <div id="chat-messages" class="chat-messages bg-slate-50/70">
+              <!-- Chat bubbles injected dynamically -->
+            </div>
+
+            <!-- Input Bar with STT Mic & Send -->
+            <div class="p-3.5 bg-white border-t border-slate-200 rounded-b-3xl">
+              <form id="chat-form" class="flex items-center gap-2">
+                <button type="button" id="chat-mic-btn" class="voice-mic-btn w-13 h-13 sm:w-14 sm:h-14 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white flex items-center justify-center text-xl shadow-lg transition-all flex-shrink-0" title="Speak in Telugu/Hindi/English">
+                  <i class="fa-solid fa-microphone"></i>
+                </button>
+
+                <input type="text" id="chat-input" class="flex-1 bg-slate-100 border border-slate-300 rounded-2xl px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:bg-white transition" placeholder="పిఎసిఎస్ రుణాలు, అన్నదాత సుఖీభవ, ఉచిత పంట బీమా, చట్టాల గురించి అడగండి..." data-i18n="chat_placeholder" autocomplete="off">
+
+                <button type="submit" class="w-13 h-13 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-r from-apGold-500 to-amber-500 hover:from-apGold-400 hover:to-amber-400 text-slate-950 font-black flex items-center justify-center text-xl shadow-lg transition-all flex-shrink-0" title="Send message">
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right 1 Col: Quick Prompts & Leadership Helpline -->
+        <div class="space-y-5">
+          
+          <div class="bg-white rounded-3xl p-6 shadow-md border-2 border-emerald-100">
+            <h4 class="text-lg font-black text-emerald-950 mb-3 flex items-center gap-2">
+              <i class="fa-solid fa-bolt text-apGold-500 text-xl"></i>
+              <span data-i18n="quick_questions_title">త్వరిత ప్రశ్నలు (Quick Questions)</span>
+            </h4>
+            <div class="flex flex-col gap-2.5">
+              <button class="quick-chip text-left text-sm sm:text-base font-bold" data-query="annadata sukhibhava 20000 installment dates and guidelines" data-i18n="chip_annadata">
+                🌾 అన్నదాత సుఖీభవ ₹20,000 విడతల వివరాలు
+              </button>
+              <button class="quick-chip text-left text-sm sm:text-base font-bold" data-query="pacs loan eligibility and 0 interest vaddi leni runalu" data-i18n="chip_pacs_loan">
+                💰 0% సున్నా వడ్డీ పిఎసిఎస్ పంట రుణం ఎలా పొందాలి?
+              </button>
+              <button class="quick-chip text-left text-sm sm:text-base font-bold" data-query="ap free crop insurance claim and e-crop" data-i18n="chip_crop_insurance">
+                🛡️ ఏపీ 100% ఉచిత పంటల బీమా క్లెయిమ్ విధానం
+              </button>
+              <button class="quick-chip text-left text-sm sm:text-base font-bold" data-query="cooperative society election rules and voting rights" data-i18n="chip_election_rules">
+                ⚖️ సహకార సంఘం ఎన్నికల నిబంధనలు & ఓటు హక్కు
+              </button>
+              <button class="quick-chip text-left text-sm sm:text-base font-bold" data-query="pacs computerization cloud erp and village godowns plan" data-i18n="chip_pacs_modi">
+                🇮🇳 పిఎసిఎస్ కంప్యూటరీకరణ & గోదాముల పథకం
+              </button>
+              <button class="quick-chip text-left text-sm sm:text-base font-bold" data-query="how to file complaint against pacs secretary" data-i18n="chip_grievance">
+                📢 పిఎసిఎస్ / కార్యదర్శిపై అధికారిక ఫిర్యాదు నమోదు
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-br from-emerald-950 via-emerald-900 to-teal-950 text-white rounded-3xl p-6 shadow-lg border-2 border-apGold-400">
+            <h4 class="text-sm font-black uppercase tracking-wider text-apGold-400 mb-3.5 flex items-center gap-2">
+              <i class="fa-solid fa-phone-volume text-base"></i> అధికారిక టోల్ ఫ్రీ సహాయ కేంద్రాలు (Helplines)
+            </h4>
+            <ul class="space-y-3 text-sm text-emerald-100 font-medium">
+              <li class="flex items-center justify-between bg-emerald-900/80 p-3 rounded-2xl border border-emerald-600/40">
+                <span data-i18n="helpline_kcc">రైతు సేవా కేంద్రం (Kisan Call Centre):</span>
+                <strong class="text-white text-base">155251 / 1907</strong>
+              </li>
+              <li class="flex items-center justify-between bg-emerald-900/80 p-3 rounded-2xl border border-emerald-600/40">
+                <span data-i18n="helpline_insurance">ఉచిత పంట బీమా (Crop Insurance):</span>
+                <strong class="text-white text-base">1800-425-7078</strong>
+              </li>
+              <li class="flex items-center justify-between bg-emerald-900/80 p-3 rounded-2xl border border-emerald-600/40">
+                <span data-i18n="helpline_spandana">సహకార స్పందన (Spandana Grievance):</span>
+                <strong class="text-white text-base">1902</strong>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= TAB 2: SCHEMES & ELIGIBILITY ================= -->
+    <section id="tab-schemes" class="tab-panel hidden">
+      
+      <!-- Eligibility Wizard -->
+      <div class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-teal-950 text-white rounded-3xl p-6 sm:p-8 shadow-2xl mb-8 border-3 border-apGold-400">
+        <div class="max-w-4xl">
+          <div class="inline-block px-3.5 py-1 bg-apGold-500 text-slate-950 font-black text-xs sm:text-sm rounded-full uppercase tracking-wider mb-2.5 shadow">
+            AI Eligibility Wizard
+          </div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-white" data-i18n="wizard_title">
+            🔍 స్మార్ట్ పథక అర్హత తనిఖీ (విజార్డ్)
+          </h2>
+          <p class="text-emerald-200 text-sm sm:text-base mt-1.5 mb-6 font-medium" data-i18n="wizard_sub">
+            మీరు దరఖాస్తు చేసుకోదగిన పథకాలను తక్షణమే తెలుసుకోవడానికి 3 ప్రశ్నలకు సమాధానం ఇవ్వండి
+          </p>
+
+          <form id="wizard-form" class="space-y-6 bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/20">
+            <div>
+              <label class="block font-black text-base sm:text-lg text-apGold-300 mb-2.5" data-i18n="wiz_q1">
+                1. ఆంధ్రప్రదేశ్‌లో మీ భూమి సాగు వివరాలు ఏమిటి?
+              </label>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm font-bold">
+                <label class="flex items-center gap-2.5 p-3.5 bg-emerald-950/80 rounded-2xl cursor-pointer hover:bg-emerald-950 border border-emerald-500/50">
+                  <input type="radio" name="wiz_land" value="landowner" checked class="accent-apGold-400 w-4 h-4">
+                  <span data-i18n="wiz_opt_landowner">సొంత భూమి (పట్టాదారు)</span>
+                </label>
+                <label class="flex items-center gap-2.5 p-3.5 bg-emerald-950/80 rounded-2xl cursor-pointer hover:bg-emerald-950 border border-emerald-500/50">
+                  <input type="radio" name="wiz_land" value="tenant" class="accent-apGold-400 w-4 h-4">
+                  <span data-i18n="wiz_opt_tenant">కౌలు రైతు (CCRC కార్డు)</span>
+                </label>
+                <label class="flex items-center gap-2.5 p-3.5 bg-emerald-950/80 rounded-2xl cursor-pointer hover:bg-emerald-950 border border-emerald-500/50">
+                  <input type="radio" name="wiz_land" value="dairy" class="accent-apGold-400 w-4 h-4">
+                  <span data-i18n="wiz_opt_dairy">పాడి రైతు / మత్స్యకారుడు</span>
+                </label>
+              </div>
+            </div>
+
+            <div>
+              <label class="block font-black text-base sm:text-lg text-apGold-300 mb-2.5" data-i18n="wiz_q2">
+                2. మీరు ప్రాథమిక వ్యవసాయ సహకార పరపతి సంఘంలో (PACS) సభ్యులా?
+              </label>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm font-bold">
+                <label class="flex items-center gap-2.5 p-3.5 bg-emerald-950/80 rounded-2xl cursor-pointer hover:bg-emerald-950 border border-emerald-500/50">
+                  <input type="radio" name="wiz_pacs" value="yes" checked class="accent-apGold-400 w-4 h-4">
+                  <span data-i18n="wiz_opt_pacs_yes">అవును, క్రియాశీలక పిఎసిఎస్ సభ్యుడిని</span>
+                </label>
+                <label class="flex items-center gap-2.5 p-3.5 bg-emerald-950/80 rounded-2xl cursor-pointer hover:bg-emerald-950 border border-emerald-500/50">
+                  <input type="radio" name="wiz_pacs" value="no" class="accent-apGold-400 w-4 h-4">
+                  <span data-i18n="wiz_opt_pacs_no">కాదు, ఇంకా పిఎసిఎస్‌లో నమోదు కాలేదు</span>
+                </label>
+              </div>
+            </div>
+
+            <div>
+              <label class="block font-black text-base sm:text-lg text-apGold-300 mb-2.5" data-i18n="wiz_q3">
+                3. ఈ వ్యవసాయ కాలంలో మీరు సాగు చేస్తున్న ప్రధాన పంట ఏది?
+              </label>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm font-bold">
+                <label class="flex items-center gap-2.5 p-3.5 bg-emerald-950/80 rounded-2xl cursor-pointer hover:bg-emerald-950 border border-emerald-500/50">
+                  <input type="radio" name="wiz_crop" value="paddy" checked class="accent-apGold-400 w-4 h-4">
+                  <span data-i18n="wiz_opt_paddy">వరి (Paddy)</span>
+                </label>
+                <label class="flex items-center gap-2.5 p-3.5 bg-emerald-950/80 rounded-2xl cursor-pointer hover:bg-emerald-950 border border-emerald-500/50">
+                  <input type="radio" name="wiz_crop" value="cotton" class="accent-apGold-400 w-4 h-4">
+                  <span data-i18n="wiz_opt_cotton">పత్తి / వేరుశనగ / పప్పులు</span>
+                </label>
+                <label class="flex items-center gap-2.5 p-3.5 bg-emerald-950/80 rounded-2xl cursor-pointer hover:bg-emerald-950 border border-emerald-500/50">
+                  <input type="radio" name="wiz_crop" value="horticulture" class="accent-apGold-400 w-4 h-4">
+                  <span data-i18n="wiz_opt_horticulture">మిర్చి / మామిడి / వాణిజ్య</span>
+                </label>
+              </div>
+            </div>
+
+            <button type="submit" class="w-full py-4 bg-gradient-to-r from-apGold-400 to-amber-500 hover:from-apGold-300 hover:to-amber-400 text-slate-950 font-black rounded-2xl text-base sm:text-lg shadow-xl transition-all" data-i18n="wiz_find_btn">
+              నాకు వర్తించే పథకాలు చూడండి
+            </button>
+          </form>
+
+          <div id="wizard-results" class="hidden mt-6 bg-white text-slate-900 p-6 sm:p-7 rounded-3xl shadow-2xl">
+            <h3 class="text-xl sm:text-2xl font-black text-emerald-950 mb-3 flex items-center gap-2" data-i18n="wiz_results_title">
+              <i class="fa-solid fa-circle-check text-emerald-600"></i> మీకు వర్తించే ప్రభుత్వ పథకాలు:
+            </h3>
+            <div id="wizard-matched-schemes" class="space-y-3.5"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 28 Indian States Selector Component -->
+      <div class="mb-8 bg-gradient-to-br from-slate-900 via-emerald-950 to-teal-950 text-white p-6 sm:p-8 rounded-3xl shadow-xl border-2 border-emerald-400/40">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4 pb-4 border-b border-emerald-800/60">
+          <div>
+            <h3 class="text-xl sm:text-2xl font-black text-apGold-300 flex items-center gap-2" data-i18n="select_state_title">
+              <i class="fa-solid fa-map-location-dot text-apGold-400"></i>
+              <span>🏛️ భారతదేశంలోని రాష్ట్రాన్ని ఎంచుకోండి (28 రాష్ట్రాలు & కేంద్ర పథకాలు)</span>
+            </h3>
+            <p class="text-sm sm:text-base text-emerald-100 mt-1 font-medium" data-i18n="select_state_sub">
+              మీ రాష్ట్ర వ్యవసాయ సంక్షేమ, సహకార రుణాలు మరియు బీమా పథకాలను చూడటానికి రాష్ట్రాన్ని ఎంచుకోండి:
+            </p>
+          </div>
+
+          <!-- State Select Dropdown -->
+          <div class="flex items-center gap-2 flex-shrink-0">
+            <select id="state-select-dropdown" class="bg-emerald-900/95 border-2 border-apGold-400 text-white font-black text-sm sm:text-base rounded-2xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-apGold-300 shadow-md">
+              <option value="all">🇮🇳 All India (Central & 28 States)</option>
+              <!-- State options injected dynamically -->
+            </select>
+          </div>
+        </div>
+
+        <!-- Region Filter Pills -->
+        <div class="flex items-center gap-2.5 overflow-x-auto pb-2 mb-3.5">
+          <button class="region-pill active text-sm font-bold" data-region="all" data-i18n="region_all">అన్ని రాష్ట్రాలు</button>
+          <button class="region-pill text-sm font-bold" data-region="South" data-i18n="region_south">దక్షిణ భారతం</button>
+          <button class="region-pill text-sm font-bold" data-region="North" data-i18n="region_north">ఉత్తర భారతం</button>
+          <button class="region-pill text-sm font-bold" data-region="West" data-i18n="region_west">పశ్చిమ భారతం</button>
+          <button class="region-pill text-sm font-bold" data-region="East" data-i18n="region_east">తూర్పు భారతం</button>
+          <button class="region-pill text-sm font-bold" data-region="Central" data-i18n="region_central">మధ్య భారతం</button>
+          <button class="region-pill text-sm font-bold" data-region="North-East" data-i18n="region_northeast">ఈశాన్య భారతం</button>
+        </div>
+
+        <!-- State Quick Chips Container -->
+        <div id="states-chips-container" class="flex flex-wrap items-center gap-2.5 max-h-40 overflow-y-auto pr-1">
+          <!-- State chips injected by app.js -->
+        </div>
+
+        <!-- Active State Banner -->
+        <div id="active-state-banner" class="mt-4 p-4 bg-emerald-900/70 rounded-2xl border border-emerald-500/50 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-sm">
+          <div class="flex items-center gap-3">
+            <div class="w-11 h-11 rounded-full overflow-hidden border-2 border-apGold-400 bg-white shadow flex-shrink-0">
+              <img id="active-state-cm-img" src="/static/images/cms/cm_ap.jpg" alt="Active State CM" class="w-full h-full object-cover" onerror="this.src='/static/images/cms/cm_ap.jpg'">
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-emerald-200" data-i18n="state_selected_badge">ఎంచుకున్న రాష్ట్రం:</span>
+                <strong id="active-state-name" class="text-apGold-300 font-black text-base">ఆంధ్రప్రదేశ్ (Andhra Pradesh)</strong>
+              </div>
+              <span id="active-state-cm-label" class="text-xs text-emerald-300 font-bold block">ముఖ్యమంత్రి: శ్రీ నారా చంద్రబాబు నాయుడు</span>
+            </div>
+          </div>
+          <div class="flex items-center gap-2.5">
+            <span id="active-state-count" class="px-3.5 py-1.5 bg-apGold-400 text-slate-950 font-black rounded-full text-xs sm:text-sm shadow">3 పథకాలు</span>
+            <button id="toggle-cm-gallery-btn" class="px-3.5 py-1.5 bg-emerald-800 hover:bg-emerald-700 text-apGold-300 font-black text-xs sm:text-sm rounded-full border border-apGold-400/60 shadow transition flex items-center gap-1.5">
+              <i class="fa-solid fa-users-viewfinder"></i>
+              <span id="cm-gallery-btn-text">28 రాష్ట్రాల CMల గ్యాలరీ (View 28 CMs)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 28 State CMs 2026 Interactive Gallery Grid (Collapsible/Expandable) -->
+        <div id="cm-gallery-container" class="hidden mt-4 p-4 sm:p-5 bg-emerald-950/90 rounded-2xl border-2 border-apGold-400/50 shadow-inner animate-fade-in">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 mb-3 border-b border-emerald-700/60">
+            <div class="flex items-center gap-2.5">
+              <div class="w-8 h-8 rounded-lg bg-apGold-400 text-slate-950 flex items-center justify-center font-black">
+                <i class="fa-solid fa-id-card-clip text-base"></i>
+              </div>
+              <div>
+                <h4 class="text-base sm:text-lg font-black text-white">భారతదేశంలోని 28 రాష్ట్రాల ముఖ్యమంత్రులు (2026)</h4>
+                <p class="text-xs text-emerald-200">ఏదైనా ముఖ్యమంత్రి ఫోటోపై క్లిక్ చేసి వారి రాష్ట్ర సంక్షేమ పథకాలను చూడండి</p>
+              </div>
+            </div>
+            <span class="text-xs font-black bg-apGold-400/20 text-apGold-300 border border-apGold-400/40 px-3 py-1 rounded-full self-start sm:self-auto">28 States CM Gallery</span>
+          </div>
+
+          <!-- CM Cards Grid -->
+          <div id="cm-cards-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3 max-h-96 overflow-y-auto pr-1">
+            <!-- CM cards injected dynamically by app.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Schemes Directory Controls -->
+      <div class="mb-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-black text-slate-900" data-i18n="schemes_heading">ప్రభుత్వ సంక్షేమ & సహకార అభివృద్ధి పథకాలు</h2>
+          <p class="text-sm sm:text-base text-slate-600 font-medium" data-i18n="schemes_subheading">భారతదేశంలోని 28 రాష్ట్రాలు & కేంద్ర సహకార మంత్రిత్వ శాఖ సంక్షేమ పథకాలు</p>
+        </div>
+
+        <div class="flex items-center gap-2.5 overflow-x-auto pb-1">
+          <button class="scheme-filter-btn active-filter text-sm sm:text-base font-black px-4 py-2" data-category="all" data-i18n="filter_all">అన్ని పథకాలు</button>
+          <button class="scheme-filter-btn text-sm sm:text-base font-black px-4 py-2" data-category="state" data-i18n="filter_ap">రాష్ట్ర ప్రభుత్వ పథకాలు</button>
+          <button class="scheme-filter-btn text-sm sm:text-base font-black px-4 py-2" data-category="central_moc" data-i18n="filter_central">కేంద్ర సహకార పథకాలు</button>
+        </div>
+      </div>
+
+      <!-- Search Input & Live Internet Search Controls -->
+      <div class="mb-6 space-y-3">
+        <div class="flex flex-col sm:flex-row items-stretch gap-3">
+          <div class="relative flex-1">
+            <i class="fa-solid fa-magnifying-glass absolute left-4 top-4 text-slate-400 text-lg"></i>
+            <input type="text" id="schemes-search-input" class="w-full bg-white border-2 border-slate-300 rounded-2xl pl-12 pr-12 py-3.5 text-base sm:text-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 shadow-sm font-semibold" placeholder="పథకం పేరుతో శోధించండి (e.g. Drip Irrigation, Solar Pump, Soil Health, Drone)..." data-i18n="search_schemes_placeholder">
+            <button id="clear-schemes-search-btn" class="hidden absolute right-3.5 top-3 text-slate-400 hover:text-slate-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          
+          <button id="internet-scheme-search-btn" class="px-6 py-3.5 bg-gradient-to-r from-sky-600 to-blue-700 hover:from-sky-700 hover:to-blue-800 text-white font-black text-sm sm:text-base rounded-2xl shadow-lg transition-all flex items-center justify-center gap-2 flex-shrink-0 active:scale-95">
+            <i class="fa-solid fa-globe text-apGold-400 text-lg"></i>
+            <span data-i18n="btn_internet_search">🌐 ఇంటర్నెట్ నుండి లైవ్ శోధన</span>
+          </button>
+        </div>
+
+        <!-- Quick Trending Internet Schemes Suggestions -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-1.5 text-xs sm:text-sm">
+          <span class="text-slate-600 font-black flex items-center gap-1 flex-shrink-0">
+            <i class="fa-solid fa-fire text-amber-500"></i> లైవ్ పథకాలు:
+          </span>
+          <button class="internet-quick-chip px-3.5 py-1.5 bg-white hover:bg-sky-50 text-sky-900 font-bold rounded-xl border border-sky-300 shadow-sm whitespace-nowrap transition" data-query="PMKSY Drip Irrigation">
+            💧 PMKSY డ్రిప్ సేద్యం (90% Subsidy)
+          </button>
+          <button class="internet-quick-chip px-3.5 py-1.5 bg-white hover:bg-amber-50 text-amber-950 font-bold rounded-xl border border-amber-300 shadow-sm whitespace-nowrap transition" data-query="PM KUSUM Solar Pump">
+            ☀️ పీఎం కుసుమ్ సోలార్ పంపులు
+          </button>
+          <button class="internet-quick-chip px-3.5 py-1.5 bg-white hover:bg-emerald-50 text-emerald-950 font-bold rounded-xl border border-emerald-300 shadow-sm whitespace-nowrap transition" data-query="Soil Health Card">
+            🧪 భూసార ఆరోగ్య కార్డు
+          </button>
+          <button class="internet-quick-chip px-3.5 py-1.5 bg-white hover:bg-teal-50 text-teal-950 font-bold rounded-xl border border-teal-300 shadow-sm whitespace-nowrap transition" data-query="Pashu Kisan Credit Card Dairy">
+            🐄 పశు కిసాన్ క్రెడిట్ కార్డు (4%)
+          </button>
+          <button class="internet-quick-chip px-3.5 py-1.5 bg-white hover:bg-cyan-50 text-cyan-950 font-bold rounded-xl border border-cyan-300 shadow-sm whitespace-nowrap transition" data-query="Matsya Sampada Fisheries">
+            🐟 మత్స్య సంపద (60% సబ్సిడీ)
+          </button>
+          <button class="internet-quick-chip px-3.5 py-1.5 bg-white hover:bg-purple-50 text-purple-950 font-bold rounded-xl border border-purple-300 shadow-sm whitespace-nowrap transition" data-query="Kisan Drone Scheme">
+            🚁 కిసాన్ డ్రోన్ రాయితీ
+          </button>
+          <button class="internet-quick-chip px-3.5 py-1.5 bg-white hover:bg-orange-50 text-orange-950 font-bold rounded-xl border border-orange-300 shadow-sm whitespace-nowrap transition" data-query="PMFME Food Processing">
+            🏭 ఆహార శుద్ధి పరిశ్రమలు (PMFME)
+          </button>
+        </div>
+      </div>
+
+      <!-- Live Internet Search Status Banner -->
+      <div id="internet-search-status-bar" class="hidden mb-6 p-4 sm:p-5 bg-gradient-to-r from-sky-950 via-blue-950 to-slate-900 text-white rounded-3xl border-2 border-sky-400 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 animate-fade-in">
+        <div class="flex items-center gap-3.5">
+          <div id="internet-search-spinner" class="w-12 h-12 rounded-2xl bg-sky-500/20 border border-sky-400/50 flex items-center justify-center text-sky-300 text-xl animate-spin flex-shrink-0">
+            <i class="fa-solid fa-satellite-dish"></i>
+          </div>
+          <div>
+            <h4 id="internet-status-title" class="font-black text-base text-white flex items-center gap-2">
+              <span>🌐 ఇంటర్నెట్ నుండి సమాచారం శోధిస్తోంది...</span>
+            </h4>
+            <p id="internet-status-desc" class="text-xs sm:text-sm text-sky-200 mt-0.5">జాతీయ పోర్టల్స్ మరియు వికీపీడియా ద్వారా లైవ్ పథకం వివరాలు సేకరించబడుతున్నాయి.</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2 flex-shrink-0">
+          <span id="internet-results-count-badge" class="px-4 py-1.5 bg-apGold-400 text-slate-950 font-black text-xs sm:text-sm rounded-xl shadow">
+            శోధన ఫలితాలు
+          </span>
+        </div>
+      </div>
+
+      <!-- Schemes Grid -->
+      <div id="schemes-container" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+    </section>    <!-- ================= TAB 3: COOPERATIVE LAWS ================= -->
+    <section id="tab-laws" class="tab-panel hidden">
+      <div class="mb-6">
+        <h2 class="text-2xl sm:text-3xl font-black text-slate-900" data-i18n="laws_heading">ఆంధ్రప్రదేశ్ సహకార చట్టాలు & రైతుల హక్కులు</h2>
+        <p class="text-sm sm:text-base text-slate-600 font-medium" data-i18n="laws_subheading">APCS చట్టం 1964 మరియు పిఎసిఎస్ మోడల్ బై-లాస్ క్రింద మీ చట్టబద్ధమైన హక్కులు</p>
+      </div>
+
+      <div class="mb-6">
+        <div class="relative">
+          <i class="fa-solid fa-magnifying-glass absolute left-4 top-4 text-slate-400 text-lg"></i>
+          <input type="text" id="laws-search-input" class="w-full bg-white border-2 border-slate-300 rounded-2xl pl-12 pr-4 py-3.5 text-base sm:text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm font-semibold" placeholder="చట్ట నిబంధనలను శోధించండి..." data-i18n="search_laws_placeholder">
+        </div>
+      </div>
+
+      <div id="laws-container"></div>
+    </section>
+
+    <!-- ================= TAB 4: CROP INSURANCE (PMFBY) ================= -->
+    <section id="tab-insurance" class="tab-panel hidden">
+      <div class="mb-6">
+        <h2 class="text-2xl sm:text-3xl font-black text-slate-900" data-i18n="insurance_heading">🌾 100% ఉచిత పంటల బీమా & పీఎంఎఫ్‌బీవై క్యాలిక్యులేటర్</h2>
+        <p class="text-sm sm:text-base text-slate-600 font-medium" data-i18n="insurance_subheading">పంటల బీమా మొత్తం, ప్రభుత్వ సబ్సిడీ మరియు 72 గంటల నష్ట పరిహార మార్గదర్శకాలు</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="bg-white rounded-3xl p-6 sm:p-7 shadow-lg border-2 border-teal-200">
+          <h3 class="text-xl font-black text-teal-950 mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-calculator text-teal-600 text-2xl"></i> పంటల బీమా కాలిక్యులేటర్ (Insurance Calculator)
+          </h3>
+
+          <form id="insurance-calc-form" class="space-y-4">
+            <div>
+              <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="form_label_state">రాష్ట్రం (State)</label>
+              <select id="ins-state-select" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-teal-500 font-bold">
+                <!-- Injected dynamically by app.js -->
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="calc_select_crop">సాగు చేసిన పంటను ఎంచుకోండి</label>
+              <select id="ins-crop-select" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-teal-500 font-bold">
+                <option value="paddy" data-i18n="calc_crop_paddy">వరి (Paddy)</option>
+                <option value="cotton" data-i18n="calc_crop_cotton">పత్తి (Cotton)</option>
+                <option value="groundnut" data-i18n="calc_crop_groundnut">వేరుశనగ (Groundnut)</option>
+                <option value="chillies" data-i18n="calc_crop_chillies">మిర్చి (Chillies)</option>
+                <option value="maize" data-i18n="calc_crop_maize">మొక్కజొన్న (Maize)</option>
+                <option value="pulses" data-i18n="calc_crop_pulses">పప్పుధాన్యాలు (Pulses)</option>
+                <option value="sugarcane" data-i18n="calc_crop_sugarcane">చెరకు (Sugarcane)</option>
+                <option value="mango" data-i18n="calc_crop_mango">మామిడి / ఉద్యానవన పంటలు (Mango)</option>
+              </select>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="calc_select_season">పంట కాలాన్ని ఎంచుకోండి</label>
+                <select id="ins-season-select" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-teal-500 font-bold">
+                  <option value="kharif" data-i18n="calc_season_kharif">ఖరీఫ్ కాలం (Kharif)</option>
+                  <option value="rabi" data-i18n="calc_season_rabi">రబీ కాలం (Rabi)</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="calc_acres_label">సాగు విస్తీర్ణం (ఎకరాల్లో)</label>
+                <input type="number" id="ins-acres-input" value="2.5" min="0.5" max="100" step="0.5" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-teal-500 font-bold">
+              </div>
+            </div>
+
+            <button type="submit" class="w-full py-4 bg-teal-600 hover:bg-teal-700 text-white font-black rounded-2xl text-base shadow-md transition" data-i18n="calc_btn">
+              బీమా రక్షణను లెక్కించండి
+            </button>
+          </form>
+
+          <div id="insurance-calc-results" class="hidden mt-6 pt-5 border-t border-slate-200 space-y-3.5 text-base animate-fade-in">
+            <div class="flex justify-between items-center p-3.5 bg-slate-50 rounded-2xl">
+              <span class="text-slate-700 font-bold" data-i18n="calc_result_sum_insured">మొత్తం పంట బీమా విలువ:</span>
+              <strong id="ins-res-sum" class="text-xl font-black text-slate-900">₹0</strong>
+            </div>
+            <div class="flex justify-between items-center p-3.5 bg-slate-50 rounded-2xl">
+              <span class="text-slate-700 font-bold" data-i18n="calc_result_standard_premium">సాధారణ PMFBY రైతు ప్రీమియం:</span>
+              <span id="ins-res-pmfby" class="font-bold text-slate-800">₹0</span>
+            </div>
+            <div class="flex justify-between items-center p-4 bg-emerald-50 rounded-2xl border-2 border-emerald-400">
+              <span class="text-emerald-950 font-black" data-i18n="calc_result_ap_payable">ఏపీ రైతు చెల్లించాల్సింది (ఇ-పంట):</span>
+              <span id="ins-res-ap-pay" class="font-black text-emerald-700 text-lg">₹0 (100% Free)</span>
+            </div>
+            <div class="flex justify-between items-center p-3.5 bg-amber-50 rounded-2xl border border-amber-300">
+              <span class="text-amber-950 font-black" data-i18n="calc_result_savings">రైతుకు 100% ఉచిత ప్రీమియం ఆదా:</span>
+              <strong id="ins-res-savings" class="text-amber-700 font-black text-lg">₹0</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-slate-950 via-slate-900 to-teal-950 text-white rounded-3xl p-6 sm:p-7 shadow-xl border-2 border-teal-500/50">
+          <h3 class="text-xl font-black text-apGold-400 mb-4 flex items-center gap-2" data-i18n="insurance_flow_title">
+            📋 72 గంటల్లో పంట నష్ట క్లెయిమ్ ప్రక్రియ
+          </h3>
+
+          <div class="space-y-4">
+            <div class="p-4 bg-white/10 rounded-2xl border border-white/20">
+              <strong class="text-teal-300 font-bold text-base block" data-i18n="flow_step1">1. పంట నష్టం సంభవించడం (వరదలు, తుఫాను, తెగుళ్లు)</strong>
+              <p class="text-sm text-slate-200 mt-1 font-medium" data-i18n="flow_step1_sub">72 గంటల్లోపు ఆర్బీకేలో గ్రామ వ్యవసాయ సహాయకుడికి (VAA) సమాచారం ఇవ్వాలి.</p>
+            </div>
+            <div class="p-4 bg-white/10 rounded-2xl border border-white/20">
+              <strong class="text-teal-300 font-bold text-base block" data-i18n="flow_step2">2. ఇ-పంట (e-Crop) బుకింగ్ ధృవీకరణ</strong>
+              <p class="text-sm text-slate-200 mt-1 font-medium" data-i18n="flow_step2_sub">ఆర్బీకే అధికారులు డిజిటల్ సర్వే నంబర్ మరియు పంట స్థితిని తనిఖీ చేస్తారు.</p>
+            </div>
+            <div class="p-4 bg-white/10 rounded-2xl border border-white/20">
+              <strong class="text-teal-300 font-bold text-base block" data-i18n="flow_step3">3. సంయుక్త సర్వే & పంట కోత ప్రయోగాలు (CCE)</strong>
+              <p class="text-sm text-slate-200 mt-1 font-medium" data-i18n="flow_step3_sub">బీమా కంపెనీ మరియు వ్యవసాయ శాఖ అధికారులు క్షేత్రస్థాయిలో నష్టాన్ని అంచనా వేస్తారు.</p>
+            </div>
+            <div class="p-4 bg-white/10 rounded-2xl border border-white/20">
+              <strong class="text-teal-300 font-bold text-base block" data-i18n="flow_step4">4. నేరుగా బ్యాంకు ఖాతాలో పరిహారం జమ (DBT)</strong>
+              <p class="text-sm text-slate-200 mt-1 font-medium" data-i18n="flow_step4_sub">పరిహారం మొత్తం ఆధార్ అనుసంధానమైన రైతు బ్యాంకు ఖాతాలో జమవుతుంది.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TAB 5: FINANCIAL LITERACY & 0% LOANS ================= -->
+    <section id="tab-finance" class="tab-panel hidden">
+      <div class="mb-6">
+        <h2 class="text-2xl sm:text-3xl font-black text-slate-900" data-i18n="finance_heading">💳 ఆర్థిక అక్షరాస్యత & పిఎసిఎస్ సున్నా వడ్డీ రుణాలు</h2>
+        <p class="text-sm sm:text-base text-slate-600 font-medium" data-i18n="finance_subheading">పారదర్శక రుణ లెక్కింపు మరియు ప్రభుత్వ రాయితీలతో రైతులకు సాధికారత</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="bg-white rounded-3xl p-6 sm:p-7 shadow-lg border-2 border-amber-200">
+          <h3 class="text-xl font-black text-amber-950 mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-hand-holding-dollar text-amber-600 text-2xl"></i> కేసీసీ & సున్నా వడ్డీ రుణ లెక్కింపు
+          </h3>
+
+          <form id="kcc-calc-form" class="space-y-4">
+            <div>
+              <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="kcc_loan_amount">పంట రుణం మొత్తం (₹)</label>
+              <input type="number" id="kcc-amount-input" value="75000" min="10000" max="300000" step="5000" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-amber-500 font-bold">
+            </div>
+
+            <div>
+              <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="kcc_loan_tenure">తిరిగి చెల్లించే వ్యవధి</label>
+              <select id="kcc-tenure-select" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-amber-500 font-bold">
+                <option value="12" data-i18n="kcc_tenure_12m">12 నెలల్లోపు (0% సున్నా వడ్డీ పథకం వర్తింపు)</option>
+                <option value="18" data-i18n="kcc_tenure_18m">18 నెలలు (సాధారణ బ్యాంకు రేటు)</option>
+              </select>
+            </div>
+
+            <button type="submit" class="w-full py-4 bg-amber-600 hover:bg-amber-700 text-white font-black rounded-2xl text-base shadow-md transition" data-i18n="kcc_calc_btn">
+              వడ్డీ & ఆదా లెక్కించండి
+            </button>
+          </form>
+
+          <div id="kcc-calc-results" class="hidden mt-6 pt-5 border-t border-slate-200 space-y-3.5 text-base animate-fade-in">
+            <div class="flex justify-between items-center p-3.5 bg-slate-50 rounded-2xl">
+              <span class="text-slate-700 font-bold" data-i18n="kcc_res_base">ప్రాథమిక బ్యాంకు వడ్డీ రేటు (7%):</span>
+              <strong id="kcc-res-base-rate" class="text-slate-900 text-lg">7.0%</strong>
+            </div>
+            <div class="flex justify-between items-center p-3.5 bg-slate-50 rounded-2xl">
+              <span class="text-slate-700 font-bold" data-i18n="kcc_res_central_sub">కేంద్ర సకాల చెల్లింపు రాయితీ (-3%):</span>
+              <span id="kcc-res-central-rebate" class="font-bold text-blue-700 text-lg">-3.0%</span>
+            </div>
+            <div class="flex justify-between items-center p-3.5 bg-slate-50 rounded-2xl">
+              <span class="text-slate-700 font-bold" data-i18n="kcc_res_ap_sub">ఏపీ వడ్డీ లేని రుణాల రీయింబర్స్‌మెంట్ (-4%):</span>
+              <span id="kcc-res-ap-rebate" class="font-bold text-emerald-700 text-lg">-4.0%</span>
+            </div>
+            <div class="flex justify-between items-center p-4 bg-emerald-50 rounded-2xl border-2 border-emerald-400">
+              <span class="text-emerald-950 font-black" data-i18n="kcc_res_effective">రైతు వాస్తవంగా చెల్లించాల్సిన నికర వడ్డీ:</span>
+              <strong id="kcc-res-effective-rate" class="font-black text-emerald-700 text-xl">0.0% (Zero Cost)</strong>
+            </div>
+            <div class="flex justify-between items-center p-3.5 bg-amber-50 rounded-2xl border border-amber-300">
+              <span class="text-amber-950 font-black" data-i18n="kcc_res_savings">ఈ రుణంపై రైతుకు లభించే మొత్తం ఆదా:</span>
+              <strong id="kcc-res-savings-total" class="text-amber-700 font-black text-xl">₹0</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl p-6 sm:p-7 shadow-lg border-2 border-slate-200 space-y-4">
+          <h3 class="text-xl font-black text-slate-900 flex items-center gap-2">
+            <i class="fa-solid fa-store text-emerald-600 text-2xl"></i> పిఎసిఎస్ బహుముఖ సేవలు (Model PACS Services)
+          </h3>
+          <p class="text-sm text-slate-700 font-medium">
+            కేంద్ర సహకార మంత్రిత్వ శాఖ కొత్త మోడల్ బై-లాస్ ప్రకారం మీ గ్రామ పిఎసిఎస్ సంఘం అందించే విస్తృత సేవలు:
+          </p>
+
+          <div class="grid grid-cols-2 gap-3.5 text-sm">
+            <div class="p-4 bg-emerald-50 rounded-2xl border border-emerald-200">
+              <i class="fa-solid fa-warehouse text-emerald-700 text-2xl mb-1.5 block"></i>
+              <strong class="text-slate-900 block text-base font-black" data-i18n="pacs_godowns_title">గ్రామ గోదాములు</strong>
+              <span class="text-slate-700 text-xs sm:text-sm font-medium">500-2000 MT ధాన్య నిల్వ & తాకట్టు రుణాలు</span>
+            </div>
+            <div class="p-4 bg-blue-50 rounded-2xl border border-blue-200">
+              <i class="fa-solid fa-tractor text-blue-700 text-2xl mb-1.5 block"></i>
+              <strong class="text-slate-900 block text-base font-black" data-i18n="pacs_custom_hiring_title">కస్టమ్ హైరింగ్</strong>
+              <span class="text-slate-700 text-xs sm:text-sm font-medium">డ్రోన్లు, హార్వెస్టర్లు, ట్రాక్టర్ల అద్దె</span>
+            </div>
+            <div class="p-4 bg-amber-50 rounded-2xl border border-amber-200">
+              <i class="fa-solid fa-pills text-amber-700 text-2xl mb-1.5 block"></i>
+              <strong class="text-slate-900 block text-base font-black" data-i18n="pacs_jan_aushadhi_title">జన్ ఔషధి కేంద్రాలు</strong>
+              <span class="text-slate-700 text-xs sm:text-sm font-medium">50-90% తక్కువ ధరకే నాణ్యమైన మందులు</span>
+            </div>
+            <div class="p-4 bg-purple-50 rounded-2xl border border-purple-200">
+              <i class="fa-solid fa-laptop text-purple-700 text-2xl mb-1.5 block"></i>
+              <strong class="text-slate-900 block text-base font-black" data-i18n="pacs_csc_title">కామన్ సర్వీస్ (CSC)</strong>
+              <span class="text-slate-700 text-xs sm:text-sm font-medium">కరెంట్ బిల్లులు, ఆధార్ & డిజిటల్ సేవలు</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TAB 6: GRIEVANCES (SAHAKARA SPANDANA) ================= -->
+    <section id="tab-grievance" class="tab-panel hidden">
+      <div class="mb-6">
+        <h2 class="text-2xl sm:text-3xl font-black text-slate-900" data-i18n="grievance_heading">📢 సహకార స్పందన (ఫిర్యాదుల విభాగం)</h2>
+        <p class="text-sm sm:text-base text-slate-600 font-medium" data-i18n="grievance_subheading">సహకార సమస్యలపై నేరుగా ఫిర్యాదు నమోదు & లైవ్ స్టేటస్ ట్రాకింగ్</p>
+      </div>
+
+      <div id="grievance-confirmation" class="hidden mb-6 p-6 bg-emerald-50 border-2 border-emerald-500 text-emerald-950 rounded-3xl shadow-xl animate-fade-in">
+        <div class="flex items-center gap-4">
+          <i class="fa-solid fa-circle-check text-4xl text-emerald-600"></i>
+          <div>
+            <h4 class="font-black text-lg">ఫిర్యాదు విజయవంతంగా నమోదైంది! (Grievance Submitted)</h4>
+            <p id="grv-confirm-msg" class="text-sm text-emerald-800 mt-1 font-semibold"></p>
+            <div class="mt-2.5 inline-block px-4 py-1.5 bg-emerald-700 text-white text-sm font-black rounded-xl">
+              TICKET ID: <span id="grv-confirm-ticket"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div class="lg:col-span-2 bg-white rounded-3xl p-6 sm:p-7 shadow-lg border-2 border-rose-100">
+          <h3 class="text-xl font-black text-rose-950 mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-pen-to-square text-rose-600"></i> <span data-i18n="grv_form_title">సహకార సంఘంపై ఫిర్యాదు నమోదు చేయండి</span>
+          </h3>
+
+          <form id="grievance-form" class="space-y-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="grv_name">రైతు / సభ్యుని పూర్తి పేరు</label>
+                <input type="text" id="grv-name-input" required class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-rose-500 font-bold" placeholder="ఉదా: కొండూరు శ్రీనివాస్">
+              </div>
+              <div>
+                <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="grv_phone">10 అంకెల మొబైల్ నంబర్</label>
+                <input type="tel" id="grv-phone-input" required pattern="[0-9]{10}" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-rose-500 font-bold" placeholder="9848012345">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="form_label_state">రాష్ట్రం (State)</label>
+                <select id="grv-state-select" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-rose-500 font-bold">
+                  <!-- States injected by app.js -->
+                </select>
+              </div>
+              <div>
+                <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="grv_district">జిల్లాను ఎంచుకోండి (District)</label>
+                <input type="text" id="grv-district-input" required class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-rose-500 font-bold" placeholder="ఉదా: గుంటూరు / Guntur">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="grv_mandal">మండలం పేరు</label>
+                <input type="text" id="grv-mandal-input" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-rose-500 font-bold" placeholder="ఉదా: తెనాలి">
+              </div>
+              <div>
+                <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="grv_pacs">పిఎసిఎస్ / గ్రామం పేరు</label>
+                <input type="text" id="grv-pacs-input" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-rose-500 font-bold" placeholder="ఉదా: కొలకలూరు పిఎసిఎస్">
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-sm font-bold text-slate-700 mb-1" data-i18n="grv_category">ఫిర్యాదు విభాగం</label>
+              <select id="grv-category-select" class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-rose-500 font-bold">
+                <option value="pacs_loan" data-i18n="grv_cat_loan">పిఎసిఎస్ పంట రుణం జాప్యం / తిరస్కరణ</option>
+                <option value="fertilizer_shortage" data-i18n="grv_cat_fertilizer">ఎరువులు, విత్తనాల కొరత లేదా అధిక ధరలు</option>
+                <option value="crop_insurance" data-i18n="grv_cat_insurance">ఉచిత పంట బీమా క్లెయిమ్ పెండింగ్</option>
+                <option value="membership_issue" data-i18n="grv_cat_membership">పిఎసిఎస్ సభ్యత్వం నిరాకరణ / హక్కుల ఉల్లంఘన</option>
+                <option value="election_governance" data-i18n="grv_cat_election">సంఘ ఎన్నికల అవకతవకలు / నిధుల దుర్వినియోగం</option>
+              </select>
+            </div>
+
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <label class="text-sm font-bold text-slate-700" data-i18n="grv_desc">సమస్య పూర్తి వివరణ</label>
+                <button type="button" id="grv-voice-btn" class="voice-mic-btn text-xs sm:text-sm bg-rose-100 hover:bg-rose-200 text-rose-800 font-black px-3.5 py-1.5 rounded-xl flex items-center gap-1.5 transition">
+                  <i class="fa-solid fa-microphone"></i> <span data-i18n="grv_voice_input">వాయిస్ ద్వారా నమోదు చేయండి</span>
+                </button>
+              </div>
+              <textarea id="grv-desc-input" rows="4" required class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-rose-500 font-medium" placeholder="మీ సమస్యను ఇక్కడ రాయండి లేదా పైన మైక్ నొక్కి మాట్లాడండి..."></textarea>
+            </div>
+
+            <button type="submit" id="grv-submit-btn" class="w-full py-4 bg-rose-600 hover:bg-rose-700 text-white font-black rounded-2xl text-base shadow-lg transition" data-i18n="grv_submit_btn">
+              జిల్లా సహకార అధికారికి (DCO) పంపండి
+            </button>
+          </form>
+        </div>
+
+        <div class="space-y-6">
+          <div class="bg-white rounded-3xl p-6 sm:p-7 shadow-lg border-2 border-slate-200">
+            <h4 class="text-lg font-black text-slate-900 mb-3 flex items-center gap-2" data-i18n="grv_track_title">
+              <i class="fa-solid fa-magnifying-glass text-emerald-600"></i> మీ ఫిర్యాదు స్టేటస్ తనిఖీ చేయండి
+            </h4>
+
+            <form id="grievance-track-form" class="space-y-3.5">
+              <input type="text" id="grv-ticket-input" required class="w-full bg-slate-50 border-2 border-slate-300 rounded-2xl p-3.5 text-base focus:outline-none focus:ring-2 focus:ring-emerald-500 font-bold" placeholder="AP-GRV-2026-1042" data-i18n="grv_ticket_placeholder">
+              <button type="submit" class="w-full py-3.5 bg-emerald-700 hover:bg-emerald-800 text-white font-black rounded-2xl text-base shadow transition" data-i18n="grv_track_btn">
+                స్టేటస్ చూడండి
+              </button>
+            </form>
+
+            <div id="grievance-track-result" class="hidden mt-4 pt-4 border-t border-slate-200 animate-fade-in"></div>
+          </div>
+
+          <div class="bg-gradient-to-br from-slate-950 to-slate-900 text-white rounded-3xl p-6 shadow-lg border border-slate-700">
+            <h4 class="text-sm font-black uppercase tracking-wider text-apGold-400 mb-3.5 flex items-center gap-2">
+              <i class="fa-solid fa-sitemap"></i> స్పందన పరిష్కార శ్రేణి (Escalation Matrix)
+            </h4>
+            <div class="space-y-3 text-xs sm:text-sm font-medium">
+              <div class="p-3 bg-white/5 rounded-2xl border border-white/10">
+                <span class="text-apGold-400 font-bold block">స్థాయి 1 (Level 1 - 48 Hours):</span>
+                <span class="text-slate-300">PACS Secretary / Village Agri Assistant (RSK)</span>
+              </div>
+              <div class="p-3 bg-white/5 rounded-2xl border border-white/10">
+                <span class="text-apGold-400 font-bold block">స్థాయి 2 (Level 2 - 7 Days):</span>
+                <span class="text-slate-300">District Cooperative Officer (DCO)</span>
+              </div>
+              <div class="p-3 bg-white/5 rounded-2xl border border-white/10">
+                <span class="text-apGold-400 font-bold block">స్థాయి 3 (Level 3 - Final):</span>
+                <span class="text-slate-300">Commissioner & Registrar of Cooperative Societies, AP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= HIDDEN PRINT SLIP CONTAINER ================= -->
+  <div id="print-slip-area" class="hidden">
+    <!-- Populated dynamically on print -->
+  </div>
+
+  <!-- ================= CONFETTI CANVAS ================= -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- ================= FLOATING AI VOICE ASSISTANT FAB ================= -->
+  <div class="floating-ai-fab">
+    <div class="fab-tooltip hidden md:block" data-i18n="fab_tooltip">
+      🎙️ ఏఐ వాయిస్ సహాయకుడు (మాట్లాడండి)
+    </div>
+    <button id="floating-ai-voice-btn" class="fab-main-btn" title="AI Voice Assistant">
+      <i class="fa-solid fa-microphone"></i>
+    </button>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-slate-900 text-slate-300 border-t border-slate-800 py-6 mt-12 text-xs">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <i class="fa-solid fa-scale-balanced text-emerald-500 text-base"></i>
+        <span>© 2026 Department of Cooperation & Agriculture, Government of Andhra Pradesh. All Rights Reserved.</span>
+      </div>
+      <div class="flex items-center gap-4 text-slate-400 font-medium">
+        <span class="flex items-center gap-1"><i class="fa-solid fa-language text-apGold-400"></i> Telugu / English / Hindi Speak Out</span>
+        <span>•</span>
+        <span class="flex items-center gap-1"><i class="fa-solid fa-microchip text-emerald-400"></i> AI Voice & Hardware Kiosk Ready</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/static/js/i18n.js"></script>
+  <script src="/static/js/voice.js"></script>
+  <script src="/static/js/chat.js"></script>
+  <script src="/static/js/app.js"></script>
+
+</body>
+</html>
