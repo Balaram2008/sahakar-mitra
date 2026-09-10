@@ -4,6 +4,7 @@
   "description": "Sahakara Mitra All-India Cooperative Governance & Schemes Web Portal",
   "main": "server.py",
   "scripts": {
+    "build": "echo Production build ready",
     "start": "python server.py",
     "test": "python test_server.py"
   },
