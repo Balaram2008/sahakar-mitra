@@ -893,5 +893,281 @@
     },
     "source_url": "https://en.wikipedia.org/wiki/Galina%20Antyufeyeva",
     "is_internet": true
+  },
+  {
+    "id": "internet-legality-of-cryptocurrency-by-count",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Legality of cryptocurrency by country or territory (Live Web Scheme)",
+      "te": "Legality of cryptocurrency by country or territory (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Legality of cryptocurrency by country or territory (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "The legal status of cryptocurrencies varies substantially from one jurisdiction to another, and is still undefined or changing in ...",
+      "te": "Legality of cryptocurrency by country or territory వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Legality of cryptocurrency by country or territory कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "The legal status of cryptocurrencies varies substantially from one jurisdiction to another, and is still undefined or changing in many of them. While in the majority of countries the usage of cryptocurrency is not in itself illegal, its status and usability as a means of payment (or a commodity) varies, with differing regulatory implications.\n\n...\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "The legal status of cryptocurrencies varies substantially from one jurisdiction to another, and is still undefined or changing in many of them. While in the majority of countries the usage of cryptocurrency is not in itself illegal, its status and usability as a means of payment (or a commodity) varies, with differing regulatory implications.\n\n...\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "The legal status of cryptocurrencies varies substantially from one jurisdiction to another, and is still undefined or changing in many of them. While in the majority of countries the usage of cryptocurrency is not in itself illegal, its status and usability as a means of payment (or a commodity) varies, with differing regulatory implications.\n\n...\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Legality of cryptocurrency by country or territory guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Legality of cryptocurrency by country or territory or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Legality of cryptocurrency by country or territory అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Legality of cryptocurrency by country or territory के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Legality%20of%20cryptocurrency%20by%20country%20or%20territory",
+    "is_internet": true
+  },
+  {
+    "id": "internet-1500s-decade",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "1500s (decade) (Live Web Scheme)",
+      "te": "1500s (decade) (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "1500s (decade) (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Live government agricultural welfare initiative for 1500s (decade)",
+      "te": "1500s (decade) వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "1500s (decade) कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "The 1500s ran from January 1, 1500, to December 31, 1509....\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "The 1500s ran from January 1, 1500, to December 31, 1509....\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "The 1500s ran from January 1, 1500, to December 31, 1509....\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under 1500s (decade) guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for 1500s (decade) or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "1500s (decade) అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "1500s (decade) के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/1500s%20%28decade%29",
+    "is_internet": true
+  },
+  {
+    "id": "internet-first-city-monument-bank",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "First City Monument Bank (Live Web Scheme)",
+      "te": "First City Monument Bank (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "First City Monument Bank (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "First City Monument Bank (FCMB), a member of FCMB Group Plc, is a financial services holding company headquartered in Lagos. FCMB ...",
+      "te": "First City Monument Bank వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "First City Monument Bank कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "First City Monument Bank (FCMB), a member of FCMB Group Plc, is a financial services holding company headquartered in Lagos. FCMB Group Plc has nine subsidiaries divided among three business groups: commercial and retail banking, investment banking, and asset and wealth management. As of December 2020, the group's total assets were valued at US$5 billion (NGN: 2 trillion)....\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "First City Monument Bank (FCMB), a member of FCMB Group Plc, is a financial services holding company headquartered in Lagos. FCMB Group Plc has nine subsidiaries divided among three business groups: commercial and retail banking, investment banking, and asset and wealth management. As of December 2020, the group's total assets were valued at US$5 billion (NGN: 2 trillion)....\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "First City Monument Bank (FCMB), a member of FCMB Group Plc, is a financial services holding company headquartered in Lagos. FCMB Group Plc has nine subsidiaries divided among three business groups: commercial and retail banking, investment banking, and asset and wealth management. As of December 2020, the group's total assets were valued at US$5 billion (NGN: 2 trillion)....\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under First City Monument Bank guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for First City Monument Bank or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "First City Monument Bank అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "First City Monument Bank के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/First%20City%20Monument%20Bank",
+    "is_internet": true
+  },
+  {
+    "id": "internet-roman-cities-in-portugal",
+    "state_id": "all",
+    "category": "internet_live",
+    "badge": "🌐 Live Internet Verified",
+    "icon": "fa-globe",
+    "color": "#0284c7",
+    "leader_name": {
+      "en": "Government Welfare Division",
+      "te": "ప్రభుత్వ సంక్షేమ విభాగం",
+      "hi": "सरकारी कल्याण विभाग"
+    },
+    "leader_image": "/static/images/pm_narendra_modi.jpg",
+    "title": {
+      "en": "Roman cities in Portugal (Live Web Scheme)",
+      "te": "Roman cities in Portugal (ఇంటర్నెట్ ప్రత్యక్ష పథకం)",
+      "hi": "Roman cities in Portugal (इंटरनेट लाइव योजना)"
+    },
+    "tagline": {
+      "en": "Leuca Cilpes Aravorum Calabriga Cobelcorum Centum Cellas Collipo Conímbriga Dipo Ebora Eburobrittium Egiptania Equabona Guimaranis...",
+      "te": "Roman cities in Portugal వ్యవసాయ మరియు సంక్షేమ పథకానికి సంబంధించిన ప్రత్యక్ష సమాచారం",
+      "hi": "Roman cities in Portugal कृषि एवं कल्याणकारी योजना से संबंधित लाइव जानकारी"
+    },
+    "authority": {
+      "en": "Ministry of Agriculture & Farmers Welfare / State Government",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ శాఖ / రాష్ట్ర ప్రభుత్వం",
+      "hi": "कृषि एवं किसान कल्याण मंत्रालय / राज्य सरकार"
+    },
+    "benefits": {
+      "en": "Leuca Cilpes Aravorum Calabriga Cobelcorum Centum Cellas Collipo Conímbriga Dipo Ebora Eburobrittium Egiptania Equabona Guimaranis Ipses Lacobriga Lamecum\n\nDirect financial, input, and technological support provided to eligible beneficiaries under official government guidelines.",
+      "te": "Leuca Cilpes Aravorum Calabriga Cobelcorum Centum Cellas Collipo Conímbriga Dipo Ebora Eburobrittium Egiptania Equabona Guimaranis Ipses Lacobriga Lamecum\n\nఅర్హులైన రైతులకు ప్రభుత్వ రాయితీ, సాంకేతిక పరికరాలు మరియు ఆర్థిక సాయం అందించబడుతుంది.",
+      "hi": "Leuca Cilpes Aravorum Calabriga Cobelcorum Centum Cellas Collipo Conímbriga Dipo Ebora Eburobrittium Egiptania Equabona Guimaranis Ipses Lacobriga Lamecum\n\nपात्र किसानों को सरकारी अनुदान, तकनीकी उपकरण एवं प्रत्यक्ष वित्तीय सहायता प्रदान की जाती है।"
+    },
+    "eligibility": {
+      "en": "Cultivating farmers, tenant agriculturalists, and eligible rural beneficiaries under Roman cities in Portugal guidelines.",
+      "te": "రైతులు, కౌలు రైతులు మరియు గ్రామీణ లబ్ధిదారులు ఈ పథకానికి దరఖాస్తు చేసుకోవచ్చు.",
+      "hi": "किसान, बटाईदार एवं ग्रामीण लाभार्थी इस योजना के पात्र हैं।"
+    },
+    "documents": {
+      "en": [
+        "Aadhaar Card",
+        "Land Record / Pattadar Passbook / 1B",
+        "Bank Account Passbook",
+        "Active Mobile Number",
+        "Passport Size Photograph"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "భూమి పట్టాదారు పాస్‌బుక్ / 1B",
+        "బ్యాంక్ ఖాతా పాస్‌బుక్",
+        "మొబైల్ నంబర్",
+        "పాస్‌పోర్ట్ సైజు ఫోటో"
+      ],
+      "hi": [
+        "आधार कार्ड",
+        "भूमि पट्टादार पासबुक / खतौनी",
+        "बैंक खाता पासबुक",
+        "मोबाइल नंबर",
+        "पासपोर्ट फोटो"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit the official portal for Roman cities in Portugal or apply through your nearest Common Service Centre (CSC) / Village Rythu Seva Kendra (RSK).",
+      "te": "Roman cities in Portugal అధికారిక పోర్టల్ లేదా మీ సమీపంలోని గ్రామ రైతు సేవా కేంద్రం (RSK) / CSC సెంటర్‌ను సంప్రదించండి.",
+      "hi": "Roman cities in Portugal के आधिकारिक पोर्टल अथवा नजदीकी ग्राम आरबीके (RSK) / सीएससी केंद्र पर संपर्क करें।"
+    },
+    "source_url": "https://en.wikipedia.org/wiki/Roman%20cities%20in%20Portugal",
+    "is_internet": true
   }
 ]
